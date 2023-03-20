@@ -1,4 +1,11 @@
-layout: post
-title: "FORMAL-QUAL"
+layout: post_markdown
 date: 2023-03-19 01:01:01 -0000
-categories: Qualifications Education
+title: Formal Qualifications
+description: How to use Jekyll tags on GitHub Pages blogs.
+tags:
+- Formal Education
+- All
+- Science
+- Business Analyst
+- BA
+---

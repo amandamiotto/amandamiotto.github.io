@@ -7,7 +7,7 @@ Tags for this site include {% site.tags %}
 	- Counts are separated from tags with ":::"
 	- Sortable tag-counts are seperated with "###"
 	- `site.tags` is a hashmap from tag to list of posts, use `size` to get number of posts.
--->
+
 {% capture count_tags_splittable_str %}
 {% for tag in site.tags %}
     {{ tag | last | size | prepend:"000000" | slice:-6,6 }}:::{{ tag | first }}
@@ -23,3 +23,4 @@ Tags for this site include {% site.tags %}
         <span class="fa fa-tag" aria-hidden="true"></span> {{ tag }} ({{ count }})
     </a>
 {% endfor %}
+-->

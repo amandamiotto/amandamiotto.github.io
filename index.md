@@ -1,5 +1,7 @@
 This page was last updated {{ site.datelastupdated }} .
 
+Tags for this site include {% site.tags %}
+
 <!-- Sort tags by number of posts
 	Sorting is done by creating sortable strings which have the counts prepended.
 	- Counts are separated from tags with ":::"

@@ -7,7 +7,7 @@ Here is a list of posts
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="ExploreFormats{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

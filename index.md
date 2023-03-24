@@ -7,7 +7,7 @@ Here is a list of posts
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href='ExploreFormats/{{ post.url }}'>{{ post.title }}</a>
+      <a href='{{site.url}}{{ post.url }}'>{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
@@ -16,6 +16,17 @@ Loop:
 {% for tag in post.tags %}
     {{ tag }}
 {% endfor %}
+
+
+{% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
 
 <!-- Sort tags by number of posts
 	Sorting is done by creating sortable strings which have the counts prepended.

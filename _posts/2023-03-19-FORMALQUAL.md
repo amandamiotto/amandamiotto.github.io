@@ -5,3 +5,8 @@ description: How to use Jekyll tags on GitHub Pages blogs.
 tags: Formal_Education All Science BA
 
 ---
+What tags are being used?
+
+Let's see.
+
+{{ post.tags }}

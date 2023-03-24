@@ -3,7 +3,7 @@ This page was last updated {{ site.datelastupdated }} .
 Tags for this site include {{ site.tags }}
 Tags for this page include {{ page.tags }}
 Here is a post:
-{% include _posts/2023-03-19-FORMALQUAL.md %}
+{% include 2023-03-19-FORMALQUAL.md %}
 
 Loop:
 {% for tag in post.tags %}

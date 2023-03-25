@@ -8,6 +8,7 @@ tags: Qualifications All
 | Degree  | Institute | Year Completed |
 |--------------------|--------|---------|
 {% for q in site.data.Qual %}
-|{{ q.name }}|{{ q.institute }}|{{ q.Completed }}|
+| {{ q.name }} | {{ q.institute }} | {{ q.Completed }} |
+|||
 {% endfor %}
 

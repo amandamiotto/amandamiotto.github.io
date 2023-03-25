@@ -12,3 +12,4 @@ What tags are being used?
 Let's see.
 
 {{ post.tags }}
+{% for tag in post.tags %} {{ tag[0] }} {% endfor %}

@@ -9,7 +9,7 @@ Here is a list of posts
     <li>
       <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
     </li>
-  {% include {{ post.name }} %}</br>
+{{ post.name }}</br>    
   
   {% endfor %}
 </ul>

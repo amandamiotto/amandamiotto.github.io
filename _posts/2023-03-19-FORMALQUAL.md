@@ -9,4 +9,8 @@ tags: Qualifications All
 |--------------------|--------|---------|
 | Bachelor of Science (Bioinformatics) | UniSQ | 2007 |
 
-{{ site.data.Qual }}
+
+
+{% for q in site.data.Qual %}
+{{ q.name }}
+{% endif %}

@@ -2,15 +2,10 @@
 layout: post_markdown
 date: 2023-03-19 01:01:01 -0000
 title: Formal Qualifications
-description: How to use Jekyll tags on GitHub Pages blogs.
+description: 
 tags: Qualifications All Science
 ---
+| Degree  | Institute | Year |
+|--------------------|--------|---------|
+| Bachelor of Science (Bioinformatics) | UniSQ | 2007 |
 
-
-What tags are being used?
-
-Let's see. {{ title }}  {{ colour1 }}
-
-{{ post.tags }}
-{% for tag in post.tags %} {{ tag }}{{ tag[0] }} {% endfor %}
-endofpage

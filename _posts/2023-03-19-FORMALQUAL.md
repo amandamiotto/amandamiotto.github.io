@@ -9,7 +9,7 @@ tags: Qualifications All Science
 
 What tags are being used?
 
-Let's see.
+Let's see. {{ title }}
 
 {{ post.tags }}
 {% for tag in post.tags %} {{ tag }}{{ tag[0] }} {% endfor %}

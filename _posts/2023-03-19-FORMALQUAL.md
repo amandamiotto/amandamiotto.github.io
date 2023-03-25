@@ -5,12 +5,9 @@ title: Formal Qualifications
 description: 
 tags: Qualifications All
 ---
-| Degree  | Institute | Year |
+| Degree  | Institute | Year Completed |
 |--------------------|--------|---------|
-| Bachelor of Science (Bioinformatics) | UniSQ | 2007 |
-
-
-
 {% for q in site.data.Qual %}
-|{{ q.name }}|{{ q.institute }}|{{ q.year }}|
+|{{ q.name }}|{{ q.institute }}|{{ q.Completed }}|
 {% endfor %}
+

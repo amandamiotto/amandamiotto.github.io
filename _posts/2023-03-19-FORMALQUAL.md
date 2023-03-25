@@ -13,4 +13,4 @@ tags: Qualifications All
 
 {% for q in site.data.Qual %}
 {{ q.name }}
-{% endif %}
+{% endfor %}

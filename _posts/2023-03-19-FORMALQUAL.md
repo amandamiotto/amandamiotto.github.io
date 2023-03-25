@@ -14,22 +14,14 @@ tags: Qualifications All
     <th>Year Completed</th>
   </tr>
 </thead>
-<tbody>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    
-    
-| Degree  | Institute | Year Completed |
-|--------------------|--------|---------|
+<tbody>    
 {% for q in site.data.Qual %}
-| {{ q.name }} | {{ q.institute }} | {{ q.Completed }} |
-|||
+      <tr>
+    <td>{{ q.name }}</td>
+    <td>{{ q.institute }}</td>
+    <td>{{ q.Completed }}</td>
+  </tr>
 {% endfor %}
 
+</tbody>
+  </table>

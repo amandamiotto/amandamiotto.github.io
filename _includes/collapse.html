@@ -1,19 +1,25 @@
 <script>
+
+  
 function hideTableLine(divname) {
   var x = document.getElementsByClassName(divname);
-  if (x.style.display === "none") {
-    x.style.display = "table-row";
-  } else {
-    x.style.display = "none";
+  array.forEach(function (item, index) {
+    if (item.style.display === "none") {
+      item.style.display = "table-row";
+    } else {
+      item.style.display = "none";
+    }
   }
 }   
   
-function hideBlockOfText(divname) {
+function hideBlockLine(divname) {
   var x = document.getElementsByClassName(divname);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+  array.forEach(function (item, index) {
+    if (item.style.display === "none") {
+      item.style.display = "block";
+    } else {
+      item.style.display = "none";
+    }
   }
-}  
+} 
 </script>

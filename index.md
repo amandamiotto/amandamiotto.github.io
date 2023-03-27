@@ -2,6 +2,7 @@
 {% include collapse.html %}
 
 <button onclick="myFunction('myDIV')">Click Me</button>
+<button onclick="myFunction('taggedDIV')">Tagged Click Me</button>
 
 <div id="myDIV">
   This is my DIV element.
@@ -22,7 +23,7 @@ Tags for this site include
 <tbody>    
 {% for t in site.data.Qual %}
     {% if t.Tags contains "Teaching" %}
-    <div id="myDIV">
+    <div id="taggedDIV">
     <tr>
     <td>{{ t.name }}</td>
     <td>{{ t.institute }}</td>

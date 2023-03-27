@@ -22,11 +22,13 @@ Tags for this site include
 <tbody>    
 {% for t in site.data.Qual %}
     {% if t.Tags contains "Teaching" %}
-    <tr id='myDIV'>
+    <div id="myDIV">
+    <tr>
     <td>{{ t.name }}</td>
     <td>{{ t.institute }}</td>
     <td>{{ t.Completed }}</td>
   </tr>
+    </div>
     {% endif %}
 {% endfor %}
 

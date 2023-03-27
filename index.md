@@ -14,7 +14,7 @@ All of QUal
 {{ site.data.Qual }}
 
 Qual 1
-{{ site.data.Qual[].Tags }}
+{{ alltags }}
 
 Try stack exchange example
 

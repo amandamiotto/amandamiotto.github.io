@@ -13,7 +13,7 @@
 
 Tags for this site include 
 
-
+{% if site.data.Qual.Tags contains "Teaching" %}
 <table>
 <thead>
   <tr>
@@ -35,7 +35,9 @@ Tags for this site include
 
 </tbody>
   </table>
-  
+{% endif %}
+
+
 <div id="taggedDIV">
   Does this hide?  Yes 
 </div>

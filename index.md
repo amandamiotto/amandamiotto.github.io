@@ -11,7 +11,7 @@
 Tags for this site include 
 {% for t in site.data.Qual %}
 {{ t }}
-{% end for %}
+{% endfor %}
 
 Here is a list of all data in qual
 {{ site.data.Qual }}

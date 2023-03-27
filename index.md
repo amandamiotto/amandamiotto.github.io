@@ -25,7 +25,7 @@ Tags for this site include
 <tbody>    
 {% for t in site.data.Qual %}
     {% if t.Tags contains "Teaching" %}
-    <tr>
+    <tr id="taggedDIV">
     <td>{{ t.name }}</td>
     <td>{{ t.institute }}</td>
     <td>{{ t.Completed }}</td>

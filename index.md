@@ -4,6 +4,13 @@
 
 <button onclick="myFunction('taggedDIV')">Tagged Click Me</button>
 
+
+  Does this hide? <div id='taggedDIV'> Yes </div>
+
+</tbody>
+  </table>
+
+
 <div id="myDIV">
   This is my DIV element.
 </div> 
@@ -23,8 +30,8 @@ Tags for this site include
 <tbody>    
 {% for t in site.data.Qual %}
     {% if t.Tags contains "Teaching" %}
-    <div id="taggedDIV">
-    <tr id="taggedDIV">
+    <div id='taggedDIV'>
+    <tr id='taggedDIV'>
     <td>{{ t.name }}</td>
     <td>{{ t.institute }}</td>
     <td>{{ t.Completed }}</td>
@@ -33,7 +40,3 @@ Tags for this site include
     {% endif %}
 {% endfor %}
   
-  Does this hide? <div id="taggedDIV"> Yes </div>
-
-</tbody>
-  </table>

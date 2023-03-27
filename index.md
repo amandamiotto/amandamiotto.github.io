@@ -1,12 +1,11 @@
 
 {% include collapse.html %}
 
-<button class="collapsible" id="yaml">Click here for the code.</button>
+<button onclick="myFunction('myDIV')">Click Me</button>
 
-<div class="content" id="yamldata" markdown="1">
-  CONTENT
-</div>
-
+<div id="myDIV">
+  This is my DIV element.
+</div> 
 
 
 Tags for this site include 

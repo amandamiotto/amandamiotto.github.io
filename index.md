@@ -1,7 +1,7 @@
 
 {% include collapse.html %}
 
-<button onclick="myFunction('myDIV')">Click Me</button>
+
 <button onclick="myFunction('taggedDIV')">Tagged Click Me</button>
 
 <div id="myDIV">

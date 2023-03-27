@@ -6,8 +6,8 @@
 
 
 Tags for this site include 
-{% for tg in site.data.Qual.Tags %}
-{{ tg }}
+{% for tg in site.data.Qual %}
+{{ tg.Tags }}
 {% endfor %}
 
 

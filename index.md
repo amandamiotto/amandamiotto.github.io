@@ -13,7 +13,7 @@ Tags for this site include
 
 {% for t in {{ site.data.Qual }} %}
 {{Tags.t}}
-{% endfor %}
+{% end for %}
 
 Here is a list of posts
 

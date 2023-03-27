@@ -12,8 +12,13 @@
 
 
 Tags for this site include 
+site.data.Qual.Tags
+
 
 {% if site.data.Qual.Tags contains "Teaching" %}
+Does it find teaching in all tags for Quals?
+
+{% endif %}
 <table>
 <thead>
   <tr>
@@ -35,7 +40,7 @@ Tags for this site include
 
 </tbody>
   </table>
-{% endif %}
+
 
 
 <div id="taggedDIV">

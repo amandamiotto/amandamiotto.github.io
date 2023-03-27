@@ -2,13 +2,14 @@
   
 function hideTableLine(divname) {
   var y = document.getElementsByClassName(divname);
-  y.forEach(function (item, index) {
+  for(var index=0;index < className.length;index++){
+    item=className[index].innerHTML
     if (item.style.display === "none") {
       item.style.display = "table-row";
     } else {
       item.style.display = "none";
     }
-  })
+  }
 }   
   
 function hideBlockLine(divname) {

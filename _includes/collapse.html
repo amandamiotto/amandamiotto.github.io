@@ -1,6 +1,6 @@
 <script>
 function hideTableLine(divname) {
-  var x = document.getElementById(divname);
+  var x = document.getElementsByClassName(divname);
   if (x.style.display === "none") {
     x.style.display = "table-row";
   } else {
@@ -9,7 +9,7 @@ function hideTableLine(divname) {
 }   
   
 function hideBlockOfText(divname) {
-  var x = document.getElementById(divname);
+  var x = document.getElementsByClassName(divname);
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {

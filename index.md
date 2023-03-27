@@ -2,14 +2,11 @@
 {% include collapse.html %}
 
 
-<button onclick="myFunction('taggedDIV')">Tagged Click Me</button>
+<button onclick='myFunction("taggedDIV")'>Tagged Click Me</button>
 
-
-  Does this hide? <div id='taggedDIV'> Yes </div>
-
-</tbody>
-  </table>
-
+<div id="taggedDIV">
+  Does this hide?  Yes 
+</div>
 
 <div id="myDIV">
   This is my DIV element.
@@ -39,4 +36,7 @@ Tags for this site include
     </div>
     {% endif %}
 {% endfor %}
+
+</tbody>
+  </table>
   

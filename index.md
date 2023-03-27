@@ -5,20 +5,15 @@
 <button onclick='hideTableLine("taggedDIV")'>Tagged Click Me</button>
 
 
-
-<div class="myDIV">
-  This is my DIV element.
-</div> 
-
-
 Tags for this site include 
-{{ site.data.Qual.Tags }}
+{{ site.data.Qual.Tags[1] }}
 
 
 {% if site.data.Qual.Tags contains "Teaching" %}
 Does it find teaching in all tags for Quals?
 
 {% endif %}
+
 <table>
 <thead>
   <tr>

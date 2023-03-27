@@ -7,14 +7,24 @@
 
 Tags for this site include 
 {% for tg in site.data.Qual %}
-{{ Taglist }}={{ tg.Tags }}
+{{ tg.Tags }}
 {% endfor %}
 
 All of QUal
 {{ site.data.Qual }}
 
 Qual 1
-{{ site.data.Qual[1].Tags }}
+{{ site.data.Qual[*].Tags }}
+
+Try stack exchange example
+
+{% for Tgs in site.data.Qual  %}
+  {% assign tags = tags | concat Tgs.Tags %}
+{% endfor %}
+
+{% assign all_tags = tags | uniq | sort %}
+
+All tags {{ all_tags }}
 
 {% if site.data.Qual.Tags contains "Teaching" %}
 Does it find teaching in all tags for Quals?

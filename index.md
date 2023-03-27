@@ -9,25 +9,26 @@
 
 
 Tags for this site include 
+
+
+<table>
+<thead>
+  <tr>
+    <th>Degree</th>
+    <th>Institute</th>
+    <th>Year Completed</th>
+  </tr>
+</thead>
+<tbody>    
 {% for t in site.data.Qual %}
-    {% for i in t.Tags %}
-    {% if i contains "Teaching" %}
-        {{ i }}
+    {% if t.Tags contains "Teaching" %}
+    <tr>
+    <td>{{ t.name }}</td>
+    <td>{{ t.institute }}</td>
+    <td>{{ t.Completed }}</td>
+  </tr>
     {% endif %}
-    {% endfor %}
 {% endfor %}
 
-Here is a list of all data in qual
-{{ site.data.Qual }}
-
-Here's the post tag loop
-
-{% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %} 
-  {{ post }}
-    {% endfor %}
-  </ul>
-{% endfor %}
-
+</tbody>
+  </table>

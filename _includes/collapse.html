@@ -3,7 +3,7 @@
 function hideTableLine(divname) {
   var className = document.getElementsByClassName(divname);
   for(var index=0;index < className.length;index++){
-    item=className[index].innerHTML
+    var item=className[index].innerHTML
     if (item.style.display === "none") {
       item.style.display = "table-row";
     } else {
@@ -12,14 +12,4 @@ function hideTableLine(divname) {
   }
 }   
   
-function hideBlockLine(divname) {
-  var z = document.getElementsByClassName(divname);
-  z.forEach(function (item, index) {
-    if (item.style.display === "none") {
-      item.style.display = "block";
-    } else {
-      item.style.display = "none";
-    }
-  })
-} 
 </script>

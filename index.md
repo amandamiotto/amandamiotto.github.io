@@ -7,14 +7,14 @@
 
 Tags for this site include 
 {% for tg in site.data.Qual %}
-{{ tg.Tags }}
+{{ Taglist }}={{ tg.Tags }}
 {% endfor %}
 
 All of QUal
 {{ site.data.Qual }}
 
 Qual 1
-{{ site.data.Qual[1] }}
+{{ site.data.Qual[1].Tags }}
 
 {% if site.data.Qual.Tags contains "Teaching" %}
 Does it find teaching in all tags for Quals?

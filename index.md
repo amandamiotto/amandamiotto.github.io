@@ -1,4 +1,6 @@
 
+{% include collapse.html }%
+
 <button class="collapsible" id="yaml">Click here for the code.</button>
 
 <div class="content" id="yamldata" markdown="1">

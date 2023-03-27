@@ -7,7 +7,7 @@
 
 Tags for this site include 
 {% for tg in site.data.Qual %}
-{% assign alltags = tg.Tags %}
+{% assign alltags = alltags | push tg.Tags %}
 {% endfor %}
 
 All of QUal

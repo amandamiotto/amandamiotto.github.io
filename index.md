@@ -10,6 +10,11 @@ Tags for this site include
 {{ tg.Tags }}
 {% endfor %}
 
+All of QUal
+{{ site.data.Qual }}
+
+Qual 1
+{{ site.data.Qual[1] }}
 
 {% if site.data.Qual.Tags contains "Teaching" %}
 Does it find teaching in all tags for Quals?

@@ -6,7 +6,9 @@
 
 
 Tags for this site include 
-{{ site.data.Qual.Tags[1] }}
+{% for tg in site.data.Qual.Tags %}
+{{ tg }}
+{% endfor %}
 
 
 {% if site.data.Qual.Tags contains "Teaching" %}

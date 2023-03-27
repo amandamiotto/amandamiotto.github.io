@@ -9,10 +9,12 @@
 
 
 Tags for this site include 
+{% for t in site.data.Qual %}
+{{ t }}
+{% end for %}
 
-
-Here is a list of posts
-
+Here is a list of all data in qual
+{{ site.data.Qual }}
 
 Here's the post tag loop
 

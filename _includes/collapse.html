@@ -1,7 +1,7 @@
 <script>
   
 function hideTableLine(divname) {
-  var y = document.getElementsByClassName(divname);
+  var className = document.getElementsByClassName(divname);
   for(var index=0;index < className.length;index++){
     item=className[index].innerHTML
     if (item.style.display === "none") {

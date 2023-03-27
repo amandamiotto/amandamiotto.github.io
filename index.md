@@ -18,13 +18,6 @@ Qual 1
 
 Try stack exchange example
 
-{% for Tgs in site.data.Qual  %}
-  {% assign tags = tags | concat Tgs.Tags %}
-{% endfor %}
-
-{% assign all_tags = tags | uniq | sort %}
-
-All tags {{ all_tags }}
 
 {% if site.data.Qual.Tags contains "Teaching" %}
 Does it find teaching in all tags for Quals?

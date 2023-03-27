@@ -10,7 +10,7 @@ Tags for this site include
 {% for tg in site.data.Qual %}
     {{ tg.Tags }}
     {% for individTags in tg.Tags %}
-        {% assign alltags = alltags | push individTags %}
+        {{ individTags }}
     {% endfor %}
 {% endfor %}
 

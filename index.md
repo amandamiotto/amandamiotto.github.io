@@ -1,4 +1,8 @@
-Tags for this site include {{ site.data.Qual.Tags }}
+Tags for this site include 
+
+{% for t in {{ site.data.Qual.Tags }} %}
+{{t}}
+{% endfor %}
 
 Here is a list of posts
 

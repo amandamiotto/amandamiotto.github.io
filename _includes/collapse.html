@@ -1,6 +1,6 @@
 <script>
-function myFunction() {
-  var x = document.getElementById("myDIV");
+function myFunction(divname) {
+  var x = document.getElementById(divname);
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -8,7 +8,7 @@ function myFunction() {
   }
 }  
 </script>
-<button onclick="myFunction()">Click Me</button>
+<button onclick="myFunction('myDIV')">Click Me</button>
 
 <div id="myDIV">
   This is my DIV element.

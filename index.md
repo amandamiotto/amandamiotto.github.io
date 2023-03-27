@@ -4,9 +4,7 @@
 
 <button onclick='myFunction("taggedDIV")'>Tagged Click Me</button>
 
-<div id="taggedDIV">
-  Does this hide?  Yes 
-</div>
+
 
 <div id="myDIV">
   This is my DIV element.
@@ -40,3 +38,6 @@ Tags for this site include
 </tbody>
   </table>
   
+<div id="taggedDIV">
+  Does this hide?  Yes 
+</div>

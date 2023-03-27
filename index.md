@@ -1,23 +1,7 @@
-This page was last updated {{ site.datelastupdated }} .
-
-Tags for this site include {{ site.tags }}
+Tags for this site include {{ site.data.Qual.Tags }}
 
 Here is a list of posts
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
-    </li>
-{{ post }}</br>    
-  
-  {% endfor %}
-</ul>
-
-Loop:
-{% for tag in post.tags %}
-    {{ tag[0] }}
-{% endfor %}
 
 Here's the post tag loop
 

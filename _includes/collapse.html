@@ -1,10 +1,19 @@
 <script>
-function myFunction(divname) {
+function hideTableLine(divname) {
+  var x = document.getElementById(divname);
+  if (x.style.display === "none") {
+    x.style.display = "table-row";
+  } else {
+    x.style.display = "none";
+  }
+}   
+  
+function hideBlockOfText(divname) {
   var x = document.getElementById(divname);
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }
-}   
+}  
 </script>

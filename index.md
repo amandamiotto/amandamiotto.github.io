@@ -24,7 +24,7 @@ Tags for this site include
 {% for t in site.data.Qual %}
     {% if t.Tags contains "Teaching" %}
     <div id="taggedDIV">
-    <tr>
+    <tr id="taggedDIV">
     <td>{{ t.name }}</td>
     <td>{{ t.institute }}</td>
     <td>{{ t.Completed }}</td>
@@ -32,6 +32,8 @@ Tags for this site include
     </div>
     {% endif %}
 {% endfor %}
+  
+  Does this hide? <div id="taggedDIV"> Yes </div>
 
 </tbody>
   </table>

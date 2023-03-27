@@ -10,7 +10,9 @@
 
 Tags for this site include 
 {% for t in site.data.Qual %}
-{{ t }}
+{% for i in t.Tags %}
+{{ i }}
+{% endfor %}
 {% endfor %}
 
 Here is a list of all data in qual

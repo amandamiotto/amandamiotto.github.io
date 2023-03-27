@@ -2,7 +2,7 @@
 {% include collapse.html %}
 
 
-<button onclick='myFunction("taggedDIV")'>Tagged Click Me</button>
+<button onclick='hideTableLine("taggedDIV")'>Tagged Click Me</button>
 
 
 

@@ -11,9 +11,9 @@
 
 Tags for this site include 
 
-{% for t in {{ site.data.Qual }} %}
+{% for t in site.data.Qual %}
 {{Tags.t}}
-{% end for %}
+{% endfor %}
 
 Here is a list of posts
 

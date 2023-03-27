@@ -3,11 +3,15 @@
 
 
 <button onclick='hideTableLine("taggedDIV")'>Tagged Click Me</button>
+{% assign alltags = "" | split: ',' %}
 
 
 Tags for this site include 
 {% for tg in site.data.Qual %}
-{% assign alltags = alltags | push tg.Tags %}
+    {{ tg.Tags }}
+    {% for individTags in tg.Tags %}
+        {% assign alltags = alltags | push individTags %}
+    {% endfor %}
 {% endfor %}
 
 All of QUal

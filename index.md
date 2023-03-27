@@ -6,7 +6,7 @@
 
 
 
-<div id="myDIV">
+<div class="myDIV">
   This is my DIV element.
 </div> 
 
@@ -30,7 +30,7 @@ Does it find teaching in all tags for Quals?
 <tbody>    
 {% for t in site.data.Qual %}
     {% if t.Tags contains "Teaching" %}
-    <tr id="taggedDIV">
+    <tr class="taggedDIV">
     <td>{{ t.name }}</td>
     <td>{{ t.institute }}</td>
     <td>{{ t.Completed }}</td>
@@ -43,6 +43,6 @@ Does it find teaching in all tags for Quals?
 
 
 
-<div id="taggedDIV">
+<div class="taggedDIV">
   Does this hide?  Yes 
 </div>

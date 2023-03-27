@@ -7,14 +7,14 @@
 
 Tags for this site include 
 {% for tg in site.data.Qual %}
-{{ tg.Tags }}
+{% assign alltags = tg.Tags %}
 {% endfor %}
 
 All of QUal
 {{ site.data.Qual }}
 
 Qual 1
-{{ site.data.Qual[*].Tags }}
+{{ site.data.Qual[].Tags }}
 
 Try stack exchange example
 

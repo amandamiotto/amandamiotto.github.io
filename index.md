@@ -12,7 +12,7 @@
 
 
 Tags for this site include 
-site.data.Qual.Tags
+{{ site.data.Qual.Tags }}
 
 
 {% if site.data.Qual.Tags contains "Teaching" %}

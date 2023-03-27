@@ -11,6 +11,7 @@ Tags for this site include
     {{ tg.Tags }}
     {% for individTags in tg.Tags %}
         {{ individTags }}
+        {% assign alltags = alltags | sort individTags %}
     {% endfor %}
 {% endfor %}
 

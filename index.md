@@ -3,7 +3,7 @@
 
 
 <button onclick='hideTableLine("taggedDIV")'>Tagged Click Me</button>
-{% assign alltags = "" | split: ',' %}
+{% assign alltags = [] %}
 
 
 Tags for this site include 

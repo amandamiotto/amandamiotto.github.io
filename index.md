@@ -5,7 +5,6 @@
 <button onclick='hideTableLine("taggedDIV")'>Tagged Click Me</button>
 {% assign alltags = [] %}
 
-
 Tags for this site include 
 {% for tg in site.data.Qual %}
     {{ tg.Tags }}

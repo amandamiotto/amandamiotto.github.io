@@ -4,13 +4,13 @@
 
 <button onclick='hideTableLine("taggedDIV")'>Tagged Click Me</button>
 {% assign alltags = [] %}
+{% inspect alltags %}
 
 Tags for this site include 
 {% for tg in site.data.Qual %}
     {{ tg.Tags }}
     {% for individTags in tg.Tags %}
         {{ individTags | inspect }}
-       <!-- {% assign alltags = alltags | push individTags %} -->
     {% endfor %}
 {% endfor %}
 

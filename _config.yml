@@ -1,9 +1,10 @@
-description: This is a template researchers can walk away with and create their own Portfolio.
-datelastupdated: Nov 2021
+datelastupdated: March 2023
 fullnameofperson: Amanda Miotto
 selfIdentification: eResearch Analyst and lover of Science and IT
-colour1: "#274c77"  # sidebar background 
-colour2: "#a3cef1"  # colour of name and desc
-colour3: "#a3cef1"  # colour of Menu links
-colour4: "#d4dfc7" # trying to be background colour - still experimenting 
-colour5: "#e7ecef" # menu link colour when hover
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: [The title of your site]
+description: [A short description of your site's purpose]
+show_downloads: ["false"]
+google_analytics: []

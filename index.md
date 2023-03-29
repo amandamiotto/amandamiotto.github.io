@@ -3,13 +3,12 @@
 
 
 <button onclick='hideTableLine("Teaching")'>Tagged Click Me</button>
-{% assign alltags = "" | split: "," | inspect %}
+{% assign alltags = "," | split: "," %}
 
 
 Tags for this site include 
 {% for tg in site.data.Qual %}
     {% for individTags in tg.Tags %}
-        {{ individTags }}
         {% assign alltags = alltags | push:individTags %}
     {% endfor %}
 {% endfor %}

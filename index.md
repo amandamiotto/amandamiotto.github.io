@@ -8,8 +8,8 @@
 
 Tags for this site include 
 {% for tg in site.data.Qual %}
-    {{ tg.Tags }}
     {% for individTags in tg.Tags %}
+        {{ individTags }}
         {% assign alltags = alltags | push:individTags %}
     {% endfor %}
 {% endfor %}

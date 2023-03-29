@@ -1,13 +1,17 @@
 <script>
   
 function hideTableLine(divname) {
-  var className = document.getElementsByClassName(divname);
-  for(var index=0;index < className.length;index++){
-    var item=className[index];
-    if (item.style.display === "none") {
-      item.style.display = "table-row";
-    } else {
-      item.style.display = "none";
+  if (divname=="All"){
+    var className = document.querySelectorAll(); 
+  } else {
+    var className = document.getElementsByClassName(divname);
+    for(var index=0;index < className.length;index++){
+      var item=className[index];
+      if (item.style.display === "none") {
+        item.style.display = "table-row";
+      } else {
+        item.style.display = "none";
+      }
     }
   }
 }   

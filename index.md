@@ -2,7 +2,7 @@
 {% include collapse.html %}
 
 
-<button onclick='hideTableLine("taggedDIV")'>Tagged Click Me</button>
+<button onclick='hideTableLine("Teaching")'>Tagged Click Me</button>
 {% assign alltags = "" | split: "," | inspect %}
 
 
@@ -14,13 +14,9 @@ Tags for this site include
     {% endfor %}
 {% endfor %}
 
-All of QUal
-{{ site.data.Qual }}
-
-Qual 1
+Qual 1 Alltags printed here
 {{ alltags }}
 
-Try stack exchange example
 
 
 {% if site.data.Qual.Tags contains "Teaching" %}
@@ -39,7 +35,7 @@ Does it find teaching in all tags for Quals?
 <tbody>    
 {% for t in site.data.Qual %}
     {% if t.Tags contains "Teaching" %}
-    <tr class="taggedDIV">
+    <tr class="Teaching" class="Communications">
     <td>{{ t.name }}</td>
     <td>{{ t.institute }}</td>
     <td>{{ t.Completed }}</td>

@@ -1,25 +1,6 @@
 
 {% include collapse.html %}
-
-
-<button onclick='hideTableLine("Teaching")'>Tagged Click Me</button>
-{% assign alltags = "," | split: "," %}
-
-
-Tags for this site include 
-{% for tg in site.data.Qual %}
-    {% for individTags in tg.Tags %}
-        {% assign alltags = alltags | push:individTags %}
-    {% endfor %}
-{% endfor %}
-
-{% assign alltags = alltags | sort | uniq %}
-
-Qual 1 Alltags printed here
-{{ alltags }}
-{% for each in alltags %}
-<button onclick='hideTableLine("{{each}}")'>{{each}}</button>
-{% endfor %}
+{% include buttoncreator.html %}
 
 
 {% if site.data.Qual.Tags contains "Teaching" %}

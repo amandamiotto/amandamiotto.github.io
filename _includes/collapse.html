@@ -1,10 +1,10 @@
 <script>
   
 function showAll() {
-  var className = document.querySelectorAll('*'); 
+  var className = document.querySelectorAll(element='table'); 
   for(var index=0;index < className.length;index++){
       var item=className[index];
-      <p>className[index]<p/>
+      <p>className[index].type<p/>
       item.style.display = "table-row";
   }
 } 

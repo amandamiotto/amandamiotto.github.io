@@ -35,7 +35,7 @@ Does it find teaching in all tags for Quals?
 <tbody>    
 {% for t in site.data.Qual %}
     {% if t.Tags contains "Teaching" %}
-    <tr class="Teaching" class="Communications">
+    <tr class="Teaching">
     <td>{{ t.name }}</td>
     <td>{{ t.institute }}</td>
     <td>{{ t.Completed }}</td>

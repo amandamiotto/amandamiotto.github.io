@@ -13,6 +13,8 @@ Tags for this site include
     {% endfor %}
 {% endfor %}
 
+{% assign alltags = alltags | sort | uniq %}
+
 Qual 1 Alltags printed here
 {{ alltags }}
 

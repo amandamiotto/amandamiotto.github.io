@@ -1,0 +1,18 @@
+{% include collapse.html %}
+
+
+{% assign alltags = "," | split: "," %}
+
+
+{% for tg in site.data.Qual %}
+    {% for individTags in tg.Tags %}
+        {% assign alltags = alltags | push:individTags %}
+    {% endfor %}
+{% endfor %}
+
+{% assign alltags = alltags | sort | uniq %}
+
+Please select a topic to filter:
+{% for each in alltags %}
+<button onclick='hideTableLine("{{each}}")'>{{each}}</button>
+{% endfor %}

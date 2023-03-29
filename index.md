@@ -2,7 +2,7 @@
 {% include collapse.html %}
 {% include buttoncreator.html %}
 {% assign Tblclass = "," | split: "," %}
-<button onclick='showAll("")'>Show all</button>
+<button onclick='showAll()'>Show all</button>
 
 
 {% for t in site.data.Qual %}

@@ -13,6 +13,6 @@
 {% assign alltags = alltags | sort | uniq %}
 
 Please select a topic to filter:
-{% for each in alltags %}
+{%- for each in alltags -%}
 <button onclick='hideTableLine("{{each}}")'>{{each}}</button>
 {% endfor %}

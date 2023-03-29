@@ -1,9 +1,15 @@
 <script>
   
+function showAll(divname) {
+  var className = document.querySelectorAll(); 
+  for(var index=0;index < className.length;index++){
+      var item=className[index];
+      console.log(item)
+      item.style.display = "table-row";
+  }
+} 
+  
 function hideTableLine(divname) {
-  if (divname=="All"){
-    var className = document.querySelectorAll(); 
-  } else {
     var className = document.getElementsByClassName(divname);
     for(var index=0;index < className.length;index++){
       var item=className[index];
@@ -13,7 +19,6 @@ function hideTableLine(divname) {
         item.style.display = "none";
       }
     }
-  }
 }   
   
 </script>

@@ -1,14 +1,15 @@
 
 {% include collapse.html %}
 {% include buttoncreator.html %}
+{% assign Tblclass = "," | split: "," %}
 
+{% for t in site.data.Qual %}
+   {% assign Tblclass= Tblclass | push: t.Tags %}
+{% endfor %}
 
-{% if site.data.Qual.Tags contains "Teaching" %}
-Does it find teaching in all tags for Quals?
+{% assign Tblclass= Tblclass | sort | uniq | join:" " %}
 
-{% endif %}
-
-<table>
+<table class="{{Tblclass}}">
 <thead>
   <tr>
     <th>Degree</th>
@@ -18,7 +19,6 @@ Does it find teaching in all tags for Quals?
 </thead>
 <tbody>    
 {% for t in site.data.Qual %}
-    {% if t.Tags contains "Teaching" %}
     <tr class="{{ t.Tags | join:" " }}">
     <td>{{ t.name }}</td>
     <td>{{ t.institute }}</td>

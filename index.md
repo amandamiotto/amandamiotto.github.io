@@ -24,7 +24,6 @@
     <td>{{ t.institute }}</td>
     <td>{{ t.Completed }}</td>
   </tr>
-    {% endif %}
 {% endfor %}
 
 </tbody>

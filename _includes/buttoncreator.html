@@ -12,7 +12,8 @@
 
 {% assign alltags = alltags | sort | uniq %}
 
-Please select a topic to filter:
+Please select a topic to filter: </br><centre>
 {%- for each in alltags -%}
 <button onclick='hideTableLine("{{each}}")'>{{each}}</button>
 {% endfor %}
+</centre>

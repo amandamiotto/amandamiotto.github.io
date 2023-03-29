@@ -9,7 +9,7 @@
 
 {% assign Tblclass= Tblclass | sort | uniq | join:" " %}
 
-<table class="{{Tblclass}}">
+<table>
 <thead>
   <tr>
     <th>Degree</th>

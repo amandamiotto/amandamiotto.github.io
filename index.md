@@ -22,7 +22,7 @@ Does it find teaching in all tags for Quals?
     <tr class="Teaching">
     <td>{{ t.name }}</td>
     <td>{{ t.institute }}</td>
-    <td>{{ t.Completed }}</td>
+    <td>{{ t.Completed }}{{ t.Tags }}</td>
   </tr>
     {% endif %}
 {% endfor %}

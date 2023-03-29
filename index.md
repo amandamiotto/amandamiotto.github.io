@@ -17,7 +17,9 @@ Tags for this site include
 
 Qual 1 Alltags printed here
 {{ alltags }}
-
+{% for each in alltags %}
+<button onclick='hideTableLine("{{each}}")'>{{each}}</button>
+{% endfor %}
 
 
 {% if site.data.Qual.Tags contains "Teaching" %}

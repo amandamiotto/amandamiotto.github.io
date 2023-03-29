@@ -48,6 +48,6 @@ Does it find teaching in all tags for Quals?
 
 
 
-<div class="taggedDIV">
+<div class="Teaching Communications">
   Does this hide?  Yes 
 </div>

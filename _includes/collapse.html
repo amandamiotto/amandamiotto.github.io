@@ -4,7 +4,7 @@ function showAll() {
   var TablesNames = document.querySelectorAll(element='table'); 
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
     for (var row=0;row < TablesNames[Tabindex].length;row++){
-      Tabindex.rows[row].style.display = "table-row";
+      TablesNames[Tabindex].rows[row].style.display = "table-row";
     }
   }
 } 

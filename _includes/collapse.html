@@ -9,6 +9,15 @@ function showAll() {
   }
 } 
   
+function hideAll() {
+  var TablesNames = document.querySelectorAll(element='table'); 
+  for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
+    for (var row=0;row < TablesNames[Tabindex].rows.length;row++){
+      TablesNames[Tabindex].rows[row].style.display = "none";
+    }
+  }
+} 
+  
 function hideTableLine(divname) {
     var className = document.getElementsByClassName(divname);
     for(var index=0;index < className.length;index++){

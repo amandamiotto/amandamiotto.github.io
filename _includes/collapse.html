@@ -3,8 +3,10 @@
 function showAll() {
   var className = document.querySelectorAll(element='table'); 
   for(var index=0;index < className.length;index++){
+    for (var i = 0, row; row = table.rows[i]; i++)
       var item=className[index];
-      item.style.display = "table-row";
+      index[i].style.display = "table-row";
+    }
   }
 } 
   

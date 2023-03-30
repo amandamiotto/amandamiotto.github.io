@@ -3,9 +3,8 @@
 function showAll() {
   var TablesNames = document.querySelectorAll(element='table'); 
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
-    for (var i = 0, row; row = Tabindex.rows[i]; i++){
-      var Tabl=Tabindex[i];
-      Tabl[i].style.display = "table-row";
+    for (var row=0; row = Tabindex.rows; row++){
+      row.style.display = "table-row";
     }
   }
 } 

@@ -1,5 +1,9 @@
 <script>
   
+// style="font-weight:800"
+  // style="color:#403e3e"
+  // to select not class document.querySelector("tr:not([class])")
+  
 function showAll() {
   var TablesNames = document.querySelectorAll(element='table'); 
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
@@ -18,7 +22,7 @@ function hideAll() {
   }
 } 
   
-function hideTableLine(divname) {
+function hideTableLine2(divname) {
     var className = document.getElementsByClassName(divname);
     for(var index=0;index < className.length;index++){
       var item=className[index];
@@ -29,5 +33,13 @@ function hideTableLine(divname) {
       }
     }
 }   
+  
+function hideTableLine(divname) {
+    var className = document.querySelector("tr:not(["divname"])");
+    for(var index=0;index < className.length;index++){
+      var item=className[index];
+      item.style.display="font-weight:800";
+    }
+}  
   
 </script>

@@ -28,7 +28,7 @@ function hideTableLine(divname) {
     var className = document.getElementsByClassName(divname);
     for(var index=0;index < className.length;index++){
       var item=className[index];
-      if (item.style.includes("font-weight:800"))
+      if (item.getAttribute("style")=="font-weight:800"))
       {
         item.style="";
       }else{

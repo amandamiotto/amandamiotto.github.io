@@ -28,12 +28,12 @@ function hideTableLine(divname) {
     var className = document.getElementsByClassName(divname);
     for(var index=0;index < className.length;index++){
       var item=className[index];
-      //if (item.style="font-weight:800")
-      //{
-      //  item.style="";
-      //}else{
+      if (item.style=="font-weight:800")
+      {
+        item.style="";
+      }else{
         item.style="font-weight:800";
-      //}
+      }
     }
 }  
   

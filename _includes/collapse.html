@@ -17,28 +17,23 @@ function hideAll() {
   var TablesNames = document.querySelectorAll(element='table'); 
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
     for (var row=0;row < TablesNames[Tabindex].rows.length;row++){
-      TablesNames[Tabindex].rows[row].style.display = "none";
+      //TablesNames[Tabindex].rows[row].style.display = "none";
+      TablesNames[Tabindex].rows[row].style = "";
     }
   }
 } 
-  
-function hideTableLine2(divname) {
-    var className = document.getElementsByClassName(divname);
-    for(var index=0;index < className.length;index++){
-      var item=className[index];
-      if (item.style.display === "none") {
-        item.style.display = "table-row";
-      } else {
-        item.style.display = "none";
-      }
-    }
-}   
+    
   
 function hideTableLine(divname) {
     var className = document.getElementsByClassName(divname);
     for(var index=0;index < className.length;index++){
       var item=className[index];
-      item.style="font-weight:800";
+      if (item.style="font-weight:800")
+      {
+        item.style="";
+      }else{
+        item.style="font-weight:800";
+      }
     }
 }  
   

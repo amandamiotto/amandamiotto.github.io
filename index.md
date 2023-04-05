@@ -1,6 +1,7 @@
 
 {% include collapse.html %}
 {% include buttoncreator.html %}
+{% include analytics.html %}
 {% assign Tblclass = "," | split: "," %}
 <center><button onclick='showAll()'>Show all</button>
 <button onclick='hideAll()'>Hide all</button></center>

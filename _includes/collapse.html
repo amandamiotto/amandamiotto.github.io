@@ -25,16 +25,22 @@ function hideAll() {
     
   
 function hideTableLine(divname) {
-    var className = document.getElementsByClassName(divname);
-    for(var index=0;index < className.length;index++){
+  allhighlighted=true;  
+  var className = document.getElementsByClassName(divname);
+  for(var index=0;index < className.length;index++){
       var item=className[index];
-      if (item.getAttribute("style")=="font-weight: 800;")
-      {
-        item.style=null;
-      }else{
+      // allhighlighted=true; for loop, if not ==, false, break
+      // if allhighlighted is true, for loop and shade all
+      if (item.getAttribute("style")==null){
         item.style="font-weight:800";
+        allhighlighted=false;
       }
-    }
+  }
+  if (allhighlighted==true){
+      for(var index=0;index < className.length;index++){
+          document.getElementsByClassName(divname)[index].style=null;
+      }
+  }
 }  
   
 </script>

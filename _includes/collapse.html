@@ -25,17 +25,19 @@ function hideAll() {
     
   
 function hideTableLine(divname) {
-  console.log("starting hideTableline")
+  console.log("starting hideTableline");
   allhighlighted=true;  
   var className = document.getElementsByClassName(divname);
-  console.log(classname)
+  console.log(className);
   for(var index=0;index < className.length;index++){
       var item=className[index];
-      // allhighlighted=true; for loop, if not ==, false, break
+    console.log(className);
+    // allhighlighted=true; for loop, if not ==, false, break
       // if allhighlighted is true, for loop and shade all
       if (!item.getAttribute("style")=="font-weight: 800;"){
         item.style="font-weight: 800;";
         allhighlighted=false;
+        console.log('added shade')
       }
   }
   //if (allhighlighted==true){

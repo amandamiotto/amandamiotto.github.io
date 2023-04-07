@@ -31,7 +31,7 @@ function hideTableLine(divname) {
       var item=className[index];
       // allhighlighted=true; for loop, if not ==, false, break
       // if allhighlighted is true, for loop and shade all
-      if (!item.getAttribute("style").includes("font-weight: 800;")){
+      if (!item.getAttribute("style")=="font-weight: 800;"){
         item.style="font-weight: 800;";
         allhighlighted=false;
       }

@@ -3,8 +3,8 @@
 {% include buttoncreator.html %}
 {% include analytics.html %}
 {% assign Tblclass = "," | split: "," %}
-<center><button onclick='showAll()'>Show all</button>
-<button onclick='hideAll()'>Hide all</button></center>
+<center>
+<button onclick='hideAll()'>Remove filters</button></center>
 
 
 {% for t in site.data.Qual %}

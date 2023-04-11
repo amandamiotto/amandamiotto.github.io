@@ -4,21 +4,13 @@
   // style="color:#403e3e"
   // to select not class document.querySelector("tr:not([class])")
   
-function showAll() {
-  var TablesNames = document.querySelectorAll(element='table'); 
-  for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
-    for (var row=0;row < TablesNames[Tabindex].rows.length;row++){
-      TablesNames[Tabindex].rows[row].style.display = "table-row";
-    }
-  }
-} 
   
 function hideAll() {
   var TablesNames = document.querySelectorAll(element='table'); 
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
     for (var row=0;row < TablesNames[Tabindex].rows.length;row++){
       //TablesNames[Tabindex].rows[row].style.display = "none";
-      TablesNames[Tabindex].rows[row].style = "";
+      TablesNames[Tabindex].rows[row].style = null;
     }
   }
 } 

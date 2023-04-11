@@ -41,11 +41,11 @@ function hideTableLine(divname) {
         console.log('added shade')
       }
   }
-  //if (allhighlighted==true){
-  //    for(var index=0;index < className.length;index++){
-  //        document.getElementsByClassName(divname)[index].style=null;
-  //    }
-  //}
+  if (allhighlighted==true){
+      for(var index=0;index < className.length;index++){
+          document.getElementsByClassName(divname)[index].style=null;
+      }
+  }
   allhighlighted="";
 }  
   

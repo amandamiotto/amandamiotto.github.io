@@ -33,8 +33,3 @@
 </tbody>
   </table>
 
-
-
-<div class="Teaching Communications">
-  Does this hide?  Yes 
-</div>

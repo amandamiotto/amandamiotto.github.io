@@ -24,7 +24,11 @@
 <tbody>    
 {% for t in site.data.Qual %}
     <tr class="{{ t.Tags | join:" " }}">
-    <td>{{ t.name }}</td>
+    <td>{{ t.name }}
+       {% if SubQuals %}
+            {{ SubQuals }}
+       {% endif %}
+       </td>
     <td>{{ t.institute }}</td>
     <td>{{ t.Completed }}</td>
   </tr>

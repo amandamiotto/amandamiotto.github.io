@@ -26,11 +26,11 @@
     <tr class="{{ t.Tags | join:" " }}">
     <td>{{ t.name }}
        {% if SubQuals %}
-       [[ expand ]]
+       <details><summary>See Details</summary>
          {% for SubQual in SubQuals %}
             {{ SubQual }}
          {% endfor %}
-       [[ /expand ]]
+       </details>
        {% endif %}
        </td>
     <td>{{ t.institute }}</td>

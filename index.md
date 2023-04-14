@@ -27,9 +27,8 @@
     <td>{{ t.name }}
        {% if t.SubQuals %}
        <details><summary>See Details</summary>
-          Is there subquals? yes
          {% for SubQual in t.SubQuals %}
-            {{ SubQual }}
+            - {{ SubQual }}<br>
          {% endfor %}
        </details>
        {% endif %}

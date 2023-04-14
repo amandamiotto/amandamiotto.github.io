@@ -17,21 +17,16 @@ function hideAll() {
     
   
 function hideTableLine(divname) {
-  console.log("starting hideTableline");
   allhighlighted=true;  
   var className = document.getElementsByClassName(divname);
-  console.log(className);
   for(var index=0;index < className.length;index++){
       var item=className[index];
-      console.log(item);
-      console.log(item.getAttribute("style"));
-    // allhighlighted=true; for loop, if not ==, false, break
+      // allhighlighted=true; for loop, if not ==, false, break
       // if allhighlighted is true, for loop and shade all
       if (item.getAttribute("style")!="font-weight: 800;"){
         item.style="font-weight: 800;";
         allhighlighted=false;
-        console.log('added shade')
-      }
+        }
   }
   if (allhighlighted==true){
       for(var index=0;index < className.length;index++){
@@ -40,5 +35,12 @@ function hideTableLine(divname) {
   }
   allhighlighted="";
 }  
+  
+function shadeAllElse (){
+  var allEls = document.getElementsByClassName(['All']);
+  for(var el=0; el < allEls.length; el++){
+          document.getElementsByClassName(['All'])[el].style=null;
+      }
+}
   
 </script>

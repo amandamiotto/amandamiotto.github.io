@@ -25,10 +25,10 @@
 {% for t in site.data.Qual %}
     <tr class="{{ t.Tags | join:" " }}">
     <td>{{ t.name }}
-       {% if SubQuals %}
+       {% if t.SubQuals %}
        <details><summary>See Details</summary>
           Is there subquals? yes
-         {% for SubQual in SubQuals %}
+         {% for SubQual in t.SubQuals %}
             {{ SubQual }}
          {% endfor %}
        </details>

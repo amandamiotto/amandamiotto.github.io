@@ -40,8 +40,8 @@ function hideTableLine(divname) {
 function shadeAllElse(){
   var allEls = document.getElementsByClassName(['All']);
   for(var el=0; el < allEls.length; el++){
-    if (el.getAttribute("style")!="font-weight: 800;"){
-        document.getElementsByClassName(['All'])[el].style="color:#403e3e";
+    if (allEls[el].getAttribute("style")!="font-weight: 800;"){
+        allEls[el].style="color:#403e3e";
         }
     }
 }

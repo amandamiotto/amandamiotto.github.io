@@ -34,13 +34,16 @@ function hideTableLine(divname) {
       }
   }
   allhighlighted="";
+  shadeAllElse();
 }  
   
-function shadeAllElse (){
+function shadeAllElse(){
   var allEls = document.getElementsByClassName(['All']);
   for(var el=0; el < allEls.length; el++){
-          document.getElementsByClassName(['All'])[el].style=null;
-      }
+    if (el.getAttribute("style")!="font-weight: 800;"){
+        document.getElementsByClassName(['All'])[el].style="color:#403e3e";
+        }
+    }
 }
   
 </script>

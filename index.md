@@ -63,8 +63,8 @@
        </details>
        {% endif %}
        </td>
-    <td>{{ t.Yrs }}</td>
     <td>{{ t.Institute }}</td>
+    <td>{{ t.Yrs }}</td>
   </tr>
 {% endfor %}
    </tbody>

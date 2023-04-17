@@ -13,6 +13,7 @@
 
 {% assign Tblclass= Tblclass | sort | uniq | join:" " %}
 
+## Formal Qualifications
 <table>
 <thead>
   <tr>
@@ -41,3 +42,30 @@
 </tbody>
   </table>
 
+## Employment History
+<table>
+<thead>
+  <tr>
+    <th>Role</th>
+    <th>Institute</th>
+    <th>Year</th>
+  </tr>
+</thead>
+<tbody>    
+{% for t in site.data.EmpHist %}
+    <tr class="{{ t.Tags | join:" " }}">
+    <td>{{ t.Role }}
+       {% if t.SubRoles %}
+       <details><summary>See Details</summary>
+         {% for SubRole in t.SubRoles %}
+            - {{ SubRole }}<br>
+         {% endfor %}
+       </details>
+       {% endif %}
+       </td>
+    <td>{{ t.Yrs }}</td>
+    <td>{{ t.Institute }}</td>
+  </tr>
+{% endfor %}
+   </tbody>
+  </table>

@@ -4,6 +4,11 @@ selfIdentification: eResearch Analyst and lover of Science and IT
 remote_theme: fculpo/jekyll-theme-pillar
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll
+- jekyll-gist
+- jekyll-sitemap
+- jekyll-seo-tag
+- rake
 title: [The title of your site]
 description: [A short description of your site's purpose]
 show_downloads: ["false"]

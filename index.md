@@ -2,9 +2,6 @@
 layout: default
 title: Home
 ---
-
-{% include head.html %}
-{% include sidebar.html %}
 {% include collapse.html %}
 {% include buttoncreator.html %}
 {% include analytics.html %}

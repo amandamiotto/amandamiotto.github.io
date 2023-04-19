@@ -1,7 +1,7 @@
 datelastupdated: March 2023
 fullnameofperson: Amanda Miotto
 selfIdentification: eResearch Analyst and lover of Science and IT
-remote_theme: poole/hyde
+remote_theme: https://github.com/poole/hyde
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: [The title of your site]

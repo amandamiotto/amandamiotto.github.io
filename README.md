@@ -6,3 +6,5 @@ This collection of skills happened for three reasons:
 3. I've found concepts/ideas/technology that has interested me and there was an opportunity to use it to benefit/improve a task.
 
 I also may implement this as a part 2 of https://amandamiotto.github.io/ResumeLesson/ in the future.
+
+Shoutout to https://github.com/sharu725/online-cv for the jekyll template with a side bar.

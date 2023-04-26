@@ -50,7 +50,8 @@
 - Institute: Griffith University
   Yrs: 2016-2017
   Role: eResearch Support Specialist
-  Responsibilties: |+ Supporting client needs for the platforms we had built internally. This included 
+  Responsibilties: |+ 
+    Supporting client needs for the platforms we had built internally. This included 
     - Tier 2 support and troubleshooting for clients
     - Helping clients pick a system best suited for their unique needs
     - Building custom scripts where needed
@@ -62,12 +63,14 @@
 - Institute: Griffith University
   Yrs: 2010-2016
   Role: Software Engineer
-  Responsibilties: For multiple projects across a number of disciplines, I largely worked on back end technologies such as Linux (Redhat, Centos and Ubuntu) Virtual Machines, High Performance Compute (HPC) Platforms, various SQL platforms, Python, R, PHP and Javascript to meet client needs. Further information is found in the Project section.
+  Responsibilties: |+
+    For multiple projects across a number of disciplines, I largely worked on back end technologies such as Linux (Redhat, Centos and Ubuntu) Virtual Machines, High Performance Compute (HPC) Platforms, various SQL platforms, Python, R, PHP and Javascript to meet client needs. Further information is found in the Project section.
   Tags: [Technical Skills,All]
 
 
 - Institute: Griffith University
   Yrs: 2008-2010
   Role: Bioinformatician
-  Responsibilities: This role included using R, SQL and Linux systems to code analysis tools for DNA research on Parkinson and Stem Cells. From writing scripts to implementing test versions of open source software, building databases and data cleaning, I worked across the whole data analysis pipeline.
+  Responsibilities: |+
+    This role included using R, SQL and Linux systems to code analysis tools for DNA research on Parkinson and Stem Cells. From writing scripts to implementing test versions of open source software, building databases and data cleaning, I worked across the whole data analysis pipeline.
   Tags: [Science,All]

@@ -1,6 +1,7 @@
 ---
 .sidebar {
     display: flex;
+    font-family: Helvetica;
 }
 
 .sidebar__sidebar {

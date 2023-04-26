@@ -65,6 +65,7 @@ title: Home
          {% endfor %}
        </details>
        {% endif %}
+       {{ t.Responsibilties }}
        </td>
     <td>{{ t.Institute }}</td>
     <td>{{ t.Yrs }}</td>

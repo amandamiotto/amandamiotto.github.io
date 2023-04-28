@@ -9,7 +9,7 @@ plugins:
 - jekyll-sitemap
 - jekyll-seo-tag
 - rake
-- jekyll-avatar
+- jekyll-analytics
 title: [The title of your site]
 
 # from theme

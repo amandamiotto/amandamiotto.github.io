@@ -1,19 +1,28 @@
 ---
-.sidebar {
-    display: flex;
-    font-family: Helvetica;
-}
 
-.sidebar__sidebar {
-    width: 30%;
-}
+  .sidebar {
+    display: flex;
+    justify-content: flex-start;    
+    background-color: #bbdefb;
+    font-family: Helvetica;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+  .sidebar__sidebar > div{
+    background: #ffecb3;
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+
 
 .sidebar__main {
-    /* Take the remaining width */
-    flex: 1;
-
-    /* Make it scrollable */
-    overflow: auto;
+    flex-grow:4;
+    align-self:auto;
 }
 
 .avatar {

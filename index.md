@@ -2,6 +2,10 @@
 layout: default
 title: Home
 ---
+
+<head>
+<link rel="stylesheet" href="assets/css/sidebar_resume.css">
+</head>
 {% include collapse.html %}
 {% include buttoncreator.html %}
 {% include analytics.html %}

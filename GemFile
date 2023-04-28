@@ -2,4 +2,4 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "jekyll-remote-theme" "jekyll" "jekyll-gist" "jekyll-sitemap" "jekyll-seo-tag" "rake" "jekyll-avatar"
+gem "jekyll-remote-theme" "jekyll" "jekyll-gist" "jekyll-sitemap" "jekyll-seo-tag" "rake" "jekyll-analytics"

@@ -2,14 +2,15 @@
 layout: default
 title: Home
 ---
-
-
+<div class="flex-container">
+   <div class="content">
+<!--{% include sidebarexample.html %}-->
 
 
 {% include collapse.html %}
 {% include buttoncreator.html %}
 {% include analytics.html %}
-<!--{% include sidebarexample.html %}-->
+
 {% assign Tblclass = "," | split: "," %}
 <center>
 <button onclick='hideAll()'>Remove filters</button></center>
@@ -78,4 +79,5 @@ title: Home
 {% endfor %}
    </tbody>
   </table>
-
+</div>
+</div>

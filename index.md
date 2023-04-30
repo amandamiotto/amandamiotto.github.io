@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div class="sidebar__main">
+
 {% include collapse.html %}
 {% include buttoncreator.html %}
 {% include analytics.html %}
@@ -18,7 +18,7 @@ title: Home
 {% endfor %}
 
 {% assign Tblclass= Tblclass | sort | uniq | join:" " %}
-</div>
+
 ## Formal Qualifications
 <table>
 <thead>

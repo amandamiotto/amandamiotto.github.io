@@ -3,10 +3,7 @@ layout: default
 title: Home
 ---
 
-<head>
-<link rel="stylesheet" href="assets/css/sidebar_resume.css">
-</head>
-<body>
+<div class="sidebar__main">
 {% include collapse.html %}
 {% include buttoncreator.html %}
 {% include analytics.html %}
@@ -21,7 +18,7 @@ title: Home
 {% endfor %}
 
 {% assign Tblclass= Tblclass | sort | uniq | join:" " %}
-
+</div>
 ## Formal Qualifications
 <table>
 <thead>
@@ -79,4 +76,4 @@ title: Home
 {% endfor %}
    </tbody>
   </table>
-</body>
+

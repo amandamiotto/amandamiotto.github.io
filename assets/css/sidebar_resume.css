@@ -1,7 +1,9 @@
 ---
 body {
-
+  display: flex;
+  background-color: #bbdefb;
 }
+
   .sidebar {
     display: flex;
     justify-content: flex-start;    
@@ -19,8 +21,6 @@ body {
     border-radius: 5px;
     padding: 8px;
   }
-
-
 
 .sidebar__main {
     flex-grow:4;

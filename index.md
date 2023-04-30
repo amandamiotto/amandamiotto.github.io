@@ -6,6 +6,7 @@ title: Home
 <head>
 <link rel="stylesheet" href="assets/css/sidebar_resume.css">
 </head>
+<body>
 {% include collapse.html %}
 {% include buttoncreator.html %}
 {% include analytics.html %}
@@ -78,3 +79,4 @@ title: Home
 {% endfor %}
    </tbody>
   </table>
+</body>

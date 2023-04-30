@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  height: 100%;
-  font: "Helvetica";
+  min-height: 100%;
+  font-family: "Helvetica", Sans-Serif;
 }
 
 .flex-container {
@@ -19,5 +19,4 @@ body {
   padding: 10px;
   -webkit-flex: 5;
   flex: 5;
-  height: 2000px;
 }

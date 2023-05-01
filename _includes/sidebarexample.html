@@ -1,5 +1,21 @@
 
-    <div class="sidenav">
-            <img class="avatar" src="{{ site.baseurl }}/assets/images/ProfilePhoto.JPG" alt="profile picture" />
+<div class="sidenav">
+   <img src="{{ site.baseurl }}/assets/images/ProfilePhoto.JPG" alt="profile picture" />
 
+        
+   {% if sidebar.linkedin %}
+      <a href="https://linkedin.com/in/{{ site.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+   {% endif %}
+        
+   {% if sidebar.github %}
+      <a href="http://github.com/{{ site.github }}" target="_blank">{{ sidebar.github }}</a>
+   {% endif %}
+    
+   {% if sidebar.twitter %}
+      <a href="https://twitter.com/{{ site.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
+   {% endif %}
+        
+   {% if sidebar.email %}
+      <a href="mailto:{{ site.email }}">{{ sidebar.email }}</a>
+   {% endif %}
     </div>

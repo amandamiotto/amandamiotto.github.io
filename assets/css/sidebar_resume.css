@@ -21,3 +21,6 @@ body {
   -webkit-flex: 5;
   flex: 5;
 }
+img {
+  max-width:100%;
+}

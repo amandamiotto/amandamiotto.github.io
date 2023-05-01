@@ -3,19 +3,19 @@
    <img src="{{ site.baseurl }}/assets/images/ProfilePhoto.JPG" alt="profile picture" />
 
         
-   {% if sidebar.linkedin %}
+   {% if site.linkedin %}
       <a href="https://linkedin.com/in/{{ site.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
    {% endif %}
         
-   {% if sidebar.github %}
+   {% if site.github %}
       <a href="http://github.com/{{ site.github }}" target="_blank">{{ sidebar.github }}</a>
    {% endif %}
     
-   {% if sidebar.twitter %}
+   {% if site.twitter %}
       <a href="https://twitter.com/{{ site.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
    {% endif %}
         
-   {% if sidebar.email %}
+   {% if site.email %}
       <a href="mailto:{{ site.email }}">{{ sidebar.email }}</a>
    {% endif %}
     </div>

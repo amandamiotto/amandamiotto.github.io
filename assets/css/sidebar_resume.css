@@ -15,13 +15,13 @@ body {
   font-family: "Helvetica", Sans-Serif;
 }
 .sidenav {
-  background-color: '#A2A7A5';
+  background-color: #A2A7A5;
   -webkit-flex: 1;
   flex: 1;
   align: center;
 }
 .content {
-  background-color: '#E2DADB';
+  background-color: #E2DADB;
   padding: 10px;
   -webkit-flex: 5;
   flex: 5;

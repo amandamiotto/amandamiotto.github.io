@@ -23,4 +23,7 @@ body {
 }
 img {
   max-width:90%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }

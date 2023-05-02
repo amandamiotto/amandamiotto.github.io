@@ -21,6 +21,7 @@ body {
   align: center;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .content {
   background-color: #E2DADB;

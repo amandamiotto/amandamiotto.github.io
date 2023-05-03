@@ -13,6 +13,7 @@ body {
   display: flex;
   min-height: 100%;
   font-family: "Helvetica", Sans-Serif;
+  flex-direction: row;
 }
 .sidenav {
   background-color: #A2A7A5;

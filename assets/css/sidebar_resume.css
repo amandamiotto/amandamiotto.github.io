@@ -18,7 +18,7 @@ body {
 .sidenav {
   background-color: #A2A7A5;
   -webkit-flex: 1;
-  flex: 1;
+  flex-grow: 1;
   align: center;
   align-items: center;
   justify-content: center;
@@ -28,7 +28,7 @@ body {
   background-color: #E2DADB;
   padding: 10px;
   -webkit-flex: 5;
-  flex: 5;
+  flex-grow: 5;
 }
 img {
   max-width:90%;

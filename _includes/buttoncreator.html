@@ -3,7 +3,6 @@
 
 {% assign alltags = "," | split: "," %}
 
-
 {% for tg in site.data.Qual %}
     {% for individTags in tg.Tags %}
         {% assign alltags = alltags | push:individTags %}

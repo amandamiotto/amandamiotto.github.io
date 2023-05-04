@@ -3,16 +3,21 @@ layout: default
 title: Home
 ---
 <div class="flex-container">
+   
+ <div class="sidenav">
+   {% include sidebarexample.html %}
+   {% include buttoncreator.html %}
+   {% assign Tblclass = "," | split: "," %}
+   <center>
+   <button onclick='hideAll()'>Remove filters</button></center>
+
+</div>
    <div class="content">
 
 
 {% include collapse.html %}
-{% include buttoncreator.html %}
 {% include analytics.html %}
 
-{% assign Tblclass = "," | split: "," %}
-<center>
-<button onclick='hideAll()'>Remove filters</button></center>
 
 
 {% for t in site.data.Qual %}
@@ -78,7 +83,4 @@ title: Home
 {% endfor %}
    </tbody>
   </table>
-</div>
- <div class="sidenav">
-   {% include sidebarexample.html %}
 </div>

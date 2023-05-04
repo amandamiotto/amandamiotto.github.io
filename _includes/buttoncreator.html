@@ -11,8 +11,7 @@
 
 {% assign alltags = alltags | sort | uniq %}
 
-<p>Please select a topic to filter: </p><centre>
+<p>Filter by skill subset: </p><centre>
 {%- for each in alltags -%}
 <button onclick='hideTableLine("{{each}}")'>{{each}}</button>
-{% endfor %}
 </centre>

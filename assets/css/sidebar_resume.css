@@ -14,8 +14,8 @@ body {
   min-height: 100%;
   font-family: "Helvetica", Sans-Serif;
   flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
+  /*justify-content: center;
+  align-items: stretch;*/
   margin: auto;
 }
 .sidenav {

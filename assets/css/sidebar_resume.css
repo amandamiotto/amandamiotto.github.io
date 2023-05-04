@@ -15,6 +15,7 @@ body {
   flex-direction: row;
 }
 .sidenav {
+  order: 2;
   background-color: #A2A7A5;
   -webkit-flex: 1;
   flex-grow: 1;
@@ -24,6 +25,7 @@ body {
   text-align: center;
 }
 .content {
+  order: 1;
   background-color: #E2DADB;
   padding: 10px;
   -webkit-flex: 5;
@@ -41,5 +43,12 @@ img {
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
+  }
+  
+.sidenav {
+  order: 1;
+  }
+.content {
+  order: 2;
   }
 }

@@ -9,7 +9,6 @@ body {
 }
 
 .flex-container {
-  display: -webkit-flex;
   display: flex;
   min-height: 100%;
   font-family: "Helvetica", Sans-Serif;

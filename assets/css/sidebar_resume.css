@@ -22,6 +22,7 @@ body {
   align: center;
   align-items: center;
   text-align: center;
+  padding: 20px;
 }
 .content {
   order: 1;
@@ -32,9 +33,7 @@ body {
 img {
   max-width:80%;
   display: flex;
-  flex-flow: row nowrap;
   align-items: center;
-  justify-content: center;
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */

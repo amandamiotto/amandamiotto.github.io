@@ -40,7 +40,7 @@ img {
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
+@media only screen and (max-device-width: 480px){
   .flex-container {
     flex-direction: column;
     flex-wrap: wrap

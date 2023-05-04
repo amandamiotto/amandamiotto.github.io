@@ -24,8 +24,8 @@ body {
   flex-grow: 1;
   /* align: center; */
   text-align: center;
-  /* padding: 20px; */
-  margin: auto;
+  padding: 20px; 
+  /* margin: auto; */
 }
 .content {
   order: 1;

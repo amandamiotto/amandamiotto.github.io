@@ -2,6 +2,7 @@
 Or you can go a dark olive 0E3B43 and tan 65532F as well as the two below
 */
 
+
 body {
   margin: 0;
   min-height: 100%;
@@ -14,15 +15,17 @@ body {
   font-family: "Helvetica", Sans-Serif;
   flex-direction: row;
   justify-content: center;
+  align-items: stretch;
+  margin: auto;
 }
 .sidenav {
   order: 2;
   background-color: #A2A7A5;
   flex-grow: 1;
   align: center;
-  align-items: center;
   text-align: center;
-  padding: 20px;
+  /* padding: 20px; */
+  margin: auto;
 }
 .content {
   order: 1;
@@ -33,7 +36,6 @@ body {
 img {
   max-width:80%;
   display: flex;
-  align-items: center;
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */

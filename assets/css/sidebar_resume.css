@@ -15,8 +15,8 @@ body {
   font-family: "Helvetica", Sans-Serif;
   flex-direction: row;
   /*justify-content: center;
-  align-items: stretch;*/
-  margin: auto;
+  align-items: stretch;
+  margin: auto;*/
 }
 .sidenav {
   order: 2;
@@ -25,7 +25,7 @@ body {
   /* align: center; */
   text-align: center;
   padding: 20px; 
-  margin: auto;
+  /* margin: auto; */
 }
 .content {
   order: 1;

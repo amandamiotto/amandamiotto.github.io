@@ -17,7 +17,6 @@ body {
 .sidenav {
   order: 2;
   background-color: #A2A7A5;
-  -webkit-flex: 1;
   flex-grow: 1;
   align: center;
   align-items: center;
@@ -27,12 +26,11 @@ body {
 .content {
   order: 1;
   background-color: #E2DADB;
-  padding: 10px;
-  -webkit-flex: 5;
+  padding: 30px;
   flex-grow: 5;
 }
 img {
-  max-width:90%;
+  max-width:80%;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;

@@ -22,7 +22,7 @@ body {
   order: 2;
   background-color: #A2A7A5;
   flex-grow: 1;
-  align: center;
+  /* align: center; */
   text-align: center;
   /* padding: 20px; */
   margin: auto;

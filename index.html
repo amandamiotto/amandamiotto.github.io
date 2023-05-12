@@ -17,7 +17,7 @@ title: Home
 
 {% include collapse.html %}
 {% include analytics.html %}
-{% include mainsection.html %}
+
 
 
 {% for t in site.data.Qual %}
@@ -26,6 +26,6 @@ title: Home
 
 {% assign Tblclass= Tblclass | sort | uniq | join:" " %}
 
-
+{% include mainsection.html %}
 
 </div>

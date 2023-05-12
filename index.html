@@ -13,16 +13,74 @@ title: Home
 
 </div>
    <div class="content">
-      
+
+
+{% include collapse.html %}
+{% include analytics.html %}
+
+
+
 {% for t in site.data.Qual %}
    {% assign Tblclass= Tblclass | push: t.Tags %}
 {% endfor %}
 
 {% assign Tblclass= Tblclass | sort | uniq | join:" " %}
 
-{% include collapse.html %}
-{% include analytics.html %}
-<!--{% include mainsection.html %)-->
-      
+## Formal Qualifications
+<table>
+<thead>
+  <tr>
+    <th>Degree</th>
+    <th>Institute</th>
+    <th>Year Completed</th>
+  </tr>
+</thead>
+<tbody>    
+{% for t in site.data.Qual %}
+    <tr class="{{ t.Tags | join:" " }}">
+    <td>{{ t.name }}
+       {% if t.SubQuals %}
+       <details><summary>See Details</summary>
+         {% for SubQual in t.SubQuals %}
+            - {{ SubQual }}<br>
+         {% endfor %}
+       </details>
+       {% endif %}
+       </td>
+    <td>{{ t.institute }}</td>
+    <td>{{ t.Completed }}</td>
+  </tr>
+{% endfor %}
+
+</tbody>
+  </table>
+
+## Employment History
+<table>
+<thead>
+  <tr>
+    <th>Role</th>
+    <th>Institute</th>
+    <th>Year</th>
+  </tr>
+</thead>
+<tbody>    
+{% for t in site.data.EmpHist %}
+    <tr class="{{ t.Tags | join:" " }}">
+    <td>{{ t.Role }}
+       {% if t.SubRoles %}
+       <details><summary>See Details</summary>
+         {% for SubRole in t.SubRoles %}
+            - {{ SubRole }}<br>
+         {% endfor %}
+       </details>
+       {% endif %}
+       {{ t.Responsibilties }}
+       </td>
+    <td>{{ t.Institute }}</td>
+    <td>{{ t.Yrs }}</td>
+  </tr>
+{% endfor %}
+   </tbody>
+  </table>
 </div>
-   </div>

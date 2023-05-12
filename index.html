@@ -13,7 +13,12 @@ title: Home
 
 </div>
    <div class="content">
+      
+{% for t in site.data.Qual %}
+   {% assign Tblclass= Tblclass | push: t.Tags %}
+{% endfor %}
 
+{% assign Tblclass= Tblclass | sort | uniq | join:" " %}
 
 {% include collapse.html %}
 {% include analytics.html %}

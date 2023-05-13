@@ -5,7 +5,9 @@
 
 {% for tg in site.data.Qual %}
     {% for individTags in tg.Tags %}
-        {% assign alltags = alltags | push:individTags %}
+        {% if individTags != "All" %}
+            {% assign alltags = alltags | push:individTags %}
+        {% endif %}
     {% endfor %}
 {% endfor %}
 

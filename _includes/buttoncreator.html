@@ -14,14 +14,10 @@
 {% assign alltags = alltags | sort | uniq %}
 
 <p>Filter by skill subset: </p><centre>
-<!-- {% for each in alltags %}
-<button onclick='hideTableLine("{{each}}")'>{{each}}</button>
-{% endfor %}
- -->
 
 {% for each in alltags %}
     <label class="toggle">
-    <input class="toggle-checkbox" type="checkbox"  onchange='hideTableLine("{{each}}")'>
+    <input class="toggle-checkbox" type="checkbox" value='True' onchange='hideTableLine("{{each}}")'>
     <div class="toggle-switch"></div>
     <span class="toggle-label">{{each}}</span>
     </label>

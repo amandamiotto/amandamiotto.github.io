@@ -1,7 +1,38 @@
 
 
 
-<h2> Formal Qualifications </h2>
+<h3> Formal Qualifications </h3>
+
+<table>
+<thead>
+  <tr>
+    <th>Degree</th>
+    <th>Institute</th>
+    <th>Year Completed</th>
+  </tr>
+</thead>
+<tbody>    
+{% for t in site.data.LargeQual %}
+    <tr class="{{ t.Tags | join:" " }}">
+    <td>{{ t.name }}
+       {% if t.SubQuals %}
+       <details><summary>See Details</summary>
+         {% for SubQual in t.SubQuals %}
+            - {{ SubQual }}<br>
+         {% endfor %}
+       </details>
+       {% endif %}
+       </td>
+    <td>{{ t.institute }}</td>
+    <td>{{ t.Completed }}</td>
+  </tr>
+{% endfor %}
+
+</tbody>
+  </table>
+<br>
+<h3> Certifications and Short Courses </h3>
+
 <table>
 <thead>
   <tr>
@@ -30,7 +61,7 @@
 </tbody>
   </table>
 
-## Employment History
+<h3> Employment History </h3>
 <table>
 <thead>
   <tr>

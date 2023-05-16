@@ -17,9 +17,10 @@
 
 {% for each in alltags %}
     <label class="toggle">
-    <input class="toggle-checkbox" type="checkbox" value='True' onchange='hideTableLine("{{each}}")'>
+    <input name='TopicToggle' class="toggle-checkbox" type="checkbox" value='True' onchange='hideTableLine("{{each}}")'>
     <div class="toggle-switch"></div>
     <span class="toggle-label">{{each}}</span>
     </label>
-    </centre>
+ 
 {% endfor %}
+</centre>

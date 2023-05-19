@@ -3,6 +3,11 @@
 
 {% assign alltags = "," | split: "," %}
 
+{% assign selectedTag = selectedTag | push "first" %}
+{% assign selectedTag = selectedTag | push "second" %}
+
+{{ selectedTag }}
+
 {% for tg in site.data.Qual %}
     {% for individTags in tg.Tags %}
         {% if individTags != "All" %}

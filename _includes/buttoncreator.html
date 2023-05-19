@@ -6,7 +6,7 @@
 {% assign selectedTag = selectedTag | push: "first" %}
 {% assign selectedTag = selectedTag | push: "second" %}
 
-{{ selectedTag }}
+this is selectedTag {{ selectedTag }}
 
 {% for tg in site.data.Qual %}
     {% for individTags in tg.Tags %}

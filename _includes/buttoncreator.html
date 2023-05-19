@@ -7,6 +7,10 @@
 {% assign selectedTag = selectedTag | push:"second" %}
 
 this is selectedTag {{ selectedTag }}
+{% for st in selectedTag %}
+{{ st }}
+    {% endfor %}
+
 
 {% for tg in site.data.Qual %}
     {% for individTags in tg.Tags %}

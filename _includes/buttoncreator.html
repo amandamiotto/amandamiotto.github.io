@@ -6,7 +6,13 @@
 {% assign selectedTag = selectedTag | push:"first" %}
 {% assign selectedTag = selectedTag | push:"second" %}
 
-this is selectedTag {{ selectedTag }}
+this is selectedTag {{ selectedTag }} pre pop
+trying filer
+{% assign selectedTag = selectedTag | where:!"second" %}
+
+trying map
+{% assign selectedTag = selectedTag | map:"first" %}
+
 {% for st in selectedTag %}
 {{ st }}
     {% endfor %}

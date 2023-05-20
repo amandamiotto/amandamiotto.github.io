@@ -10,7 +10,7 @@ this is selectedTag {{ selectedTag }} pre pop
 trying filer
 
 trying map
-{% assign selectedTag = selectedTag | map:"first" %}
+{% assign selectedTag = selectedTag | where_exp:"item", "item != 'first'" %}
 
 {% for st in selectedTag %}
 {{ st }}

@@ -1,9 +1,26 @@
+
+
+{% assign selectedTag = "," | split: "," %}
+
+This is how you add something
+{% assign selectedTag = selectedTag | push:"first" %}
+{% assign selectedTag = selectedTag | push:"second" %}
+<!--
+This is how you remove something:
+{% assign selectedTag = selectedTag | where_exp:"item", "item != 'first'" %}
+
+{% for st in selectedTag %}
+{{ st }}
+    {% endfor %}
+-->
+
+
 <script>
   
 // style="font-weight:800"
   // style="color:#403e3e"
   // to select not class document.querySelector("tr:not([class])")
-  
+console.log(selectedTag);  
   
 function hideAll() {
   var TablesNames = document.querySelectorAll(element='table'); 

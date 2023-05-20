@@ -26,7 +26,7 @@ function hideTableLine(divname) {
   }else{
     selectedtopics.push(divname);  
   }
-  for(eachtopic in selectedtopics){
+  for(eachtopic of selectedtopics){
     var className = document.getElementsByClassName(eachtopic);
     for(var index=0;index < className.length;index++){
         var item=className[index];

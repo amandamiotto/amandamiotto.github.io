@@ -1,11 +1,11 @@
 
-
+<!--
 {% assign selectedTag = "," | split: "," %}
 
 This is how you add something
 {% assign selectedTag = selectedTag | push:"first" %}
 {% assign selectedTag = selectedTag | push:"second" %}
-<!--
+
 This is how you remove something:
 {% assign selectedTag = selectedTag | where_exp:"item", "item != 'first'" %}
 
@@ -20,8 +20,8 @@ This is how you remove something:
 // style="font-weight:800"
   // style="color:#403e3e"
   // to select not class document.querySelector("tr:not([class])")
-console.log(selectedTag);  
-  
+ 
+var testvar = 1;  
 function hideAll() {
   var TablesNames = document.querySelectorAll(element='table'); 
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
@@ -30,8 +30,10 @@ function hideAll() {
       TablesNames[Tabindex].rows[row].style = null;
     }
   }
+testvar=testvar+1;    
 } 
     
+console.log(testvar);     
   
 function hideTableLine(divname) {
   allhighlighted=true;  

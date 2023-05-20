@@ -6,7 +6,7 @@
   // style="color:#403e3e"
   // to select not class document.querySelector("tr:not([class])")
  
-var testvar = 1;  
+var selectedtopics = [];  
 function hideAll() {
   var TablesNames = document.querySelectorAll(element='table'); 
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
@@ -15,12 +15,31 @@ function hideAll() {
       TablesNames[Tabindex].rows[row].style = null;
     }
   }
-testvar=testvar+1;    
+selectedtopics = [];   
 } 
     
-console.log(testvar);     
-  
+
 function hideTableLine(divname) {
+  shadeAllElse();
+  if selectedtopics.includes(divname){
+    selectedtopics.pop(divname);  
+  }else{
+    selectedtopics.push(divname);  
+  }
+  for(eachtopic in selectedtopics){
+    
+    var className = document.getElementsByClassName(eachtopic);
+    for(var index=0;index < className.length;index++){
+        var item=className[index];
+        item.style="font-weight: 800;";
+        }
+  }
+allEls[el].style="color:#403e3e";
+}  
+  
+  
+  
+function hideTableLine2(divname) {
   allhighlighted=true;  
   var className = document.getElementsByClassName(divname);
   for(var index=0;index < className.length;index++){
@@ -42,6 +61,13 @@ function hideTableLine(divname) {
 }  
   
 function shadeAllElse(){
+  var allEls = document.getElementsByClassName(['All']);
+  for(var el=0; el < allEls.length; el++){
+        allEls[el].style="color:#403e3e";
+    }
+}
+  
+function shadeAllElse2(){
   var allEls = document.getElementsByClassName(['All']);
   for(var el=0; el < allEls.length; el++){
     if (allEls[el].getAttribute("style")!="font-weight: 800;"){

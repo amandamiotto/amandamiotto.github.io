@@ -7,6 +7,7 @@
   // to select not class document.querySelector("tr:not([class])")
  
 var selectedtopics = [];  
+  
 function hideAll() {
   var TablesNames = document.querySelectorAll(element='table'); 
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
@@ -15,7 +16,12 @@ function hideAll() {
       TablesNames[Tabindex].rows[row].style = null;
     }
   }
-selectedtopics = [];   
+  const togswitch = Array.from(document.getElementsByClassName("toggle-checkbox"));
+  togswitch.forEach(ts => {
+    ts.checked=false;
+  });
+selectedtopics = [];
+  
 } 
     
 
@@ -37,27 +43,6 @@ function hideTableLine(divname) {
   
   
   
-function hideTableLine2(divname) {
-  allhighlighted=true;  
-  var className = document.getElementsByClassName(divname);
-  for(var index=0;index < className.length;index++){
-      var item=className[index];
-      // allhighlighted=true; for loop, if not ==, false, break
-      // if allhighlighted is true, for loop and shade all
-      if (item.getAttribute("style")!="font-weight: 800;"){
-        item.style="font-weight: 800;";
-        allhighlighted=false;
-        }
-  }
-  if (allhighlighted==true){
-      for(var index=0;index < className.length;index++){
-          document.getElementsByClassName(divname)[index].style=null;
-      }
-  }
-  allhighlighted="";
-  shadeAllElse();
-}  
-  
 function shadeAllElse(){
   var allEls = document.getElementsByClassName(['All']);
   for(var el=0; el < allEls.length; el++){
@@ -65,13 +50,6 @@ function shadeAllElse(){
     }
 }
   
-function shadeAllElse2(){
-  var allEls = document.getElementsByClassName(['All']);
-  for(var el=0; el < allEls.length; el++){
-    if (allEls[el].getAttribute("style")!="font-weight: 800;"){
-        allEls[el].style="color:#403e3e";
-        }
-    }
-}
+
   
 </script>

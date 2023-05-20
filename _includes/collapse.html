@@ -21,13 +21,12 @@ selectedtopics = [];
 
 function hideTableLine(divname) {
   shadeAllElse();
-  if selectedtopics.includes(divname){
+  if (selectedtopics.includes(divname)){
     selectedtopics.pop(divname);  
   }else{
     selectedtopics.push(divname);  
   }
   for(eachtopic in selectedtopics){
-    
     var className = document.getElementsByClassName(eachtopic);
     for(var index=0;index < className.length;index++){
         var item=className[index];

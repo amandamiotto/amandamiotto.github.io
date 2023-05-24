@@ -1,6 +1,7 @@
 
 
-- Institute: Griffith University
+- id: EH1
+  Institute: Griffith University
   Yrs: 2022-Present
   Role: eResearch Analyst
   Responsibilties: |+
@@ -13,7 +14,8 @@
     - Guiding researchers on data sensitivity, reproducible research and data management"
   Tags: [Business Analyst, Teaching, Communications, Community Work,All]
   
-- Institute: Griffith University
+- id: EH2
+  Institute: Griffith University
   Yrs: March-Nov 2020
   Responsibilities: |+
     Due to the onset of COVID lockdowns soon after starting this role, a large part of this role was leading the team in adapting to this new environment. This included working through challenges around a sudden shift to WFH, onboarding new staff remotely, ensuring skills and knowledge was shared in preparation of high staff unavailability due to sickness, as well as advocating for my team to ensure new working conditions were safe and suitable for our needs.
@@ -25,14 +27,16 @@
   Role: Acting Manager (eResearch Advisory)
   Tags: [Business Analyst, Soft Skills, All]
   
-- Institute: Griffith University
+- id: EH3
+  Institute: Griffith University
   Yrs: Oct-Dec 2022
   Responsibilties: This role covered handover between previous and next manager, ensuring continuity of service, onboarding new staff, filling needs in committees, ensuring documentation for projects was up to date, working with national and international partners, as well as covering standard managerial tasks. Also included was writing for successful government grants in the data management space.
   Role: Acting Manager (eResearch Advisory)
   Tags: [Business Analyst, Soft Skills, All]
 
 
-- Institute: QCIF (Secondment from Griffith Uni)
+- id: EH4
+  Institute: QCIF (Secondment from Griffith Uni)
   Yrs: 2018-2022
   Role: eResearch Analyst
   Responsibilties: |+
@@ -47,7 +51,8 @@
     - Organing and at times leading the local Research Bazaar (TODO) conference. Further information on my role here (TODO)
   Tags: [Business Analyst, Teaching, Communications, Community Work,All]
 
-- Institute: Griffith University
+- id: EH5
+  Institute: Griffith University
   Yrs: 2016-2017
   Role: eResearch Support Specialist
   Responsibilties: |+ 
@@ -60,7 +65,8 @@
   Tags: [Technical Skills, Communications,All]
   
 
-- Institute: Griffith University
+- id: EH6
+  Institute: Griffith University
   Yrs: 2010-2016
   Role: Software Engineer
   Responsibilties: |+
@@ -68,7 +74,8 @@
   Tags: [Technical Skills,All]
 
 
-- Institute: Griffith University
+- id: EH7
+  Institute: Griffith University
   Yrs: 2008-2010
   Role: Bioinformatician
   Responsibilities: |+

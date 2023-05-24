@@ -1,4 +1,11 @@
-- name: Bachelor of Science (Bioinformatics)
+- id: LQ1
+  name: Bachelor of Science (Bioinformatics)
   institute: UniSQ
   Completed: 2007
   Tags: [Qualifications,Science,All] 
+
+- id: LQ2
+  name: Diploma of Business (Leadership)
+  institute: TafeQLD
+  Completed: 2023-ongoing
+  Tags: [Qualifications,Soft Skills, Business Analyst,All] 

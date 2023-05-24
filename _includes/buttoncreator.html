@@ -14,7 +14,7 @@
 {% assign alltags = alltags | sort | uniq %}
 
 <p>Filter by skill subset: </p><centre>
-
+<left>
 {% for each in alltags %}
     <label class="toggle">
     <input name='TopicToggle' class="toggle-checkbox" type="checkbox" value='True' onchange='hideTableLine("{{each}}")'>
@@ -23,4 +23,4 @@
     </label>
  
 {% endfor %}
-</centre>
+</left>

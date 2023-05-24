@@ -1,40 +1,56 @@
-- name: Bachelor of Science (Bioinformatics)
-  institute: UniSQ
-  Completed: 2007
-  Tags: [Qualifications,Science,All] 
 
-- name: Instructor Certification
+- id: Ql1
+  name: Instructor Certification
   institute: The Carpentries
+  desc: To learn how to teach beginner level data science courses 
+  url: https://carpentries.org/become-instructor/
   Completed: 2015
   Tags: [Qualifications,Teaching,Community Work, Communications,All]
   
-- name: High Performance Computing (HPC) training for Researchers
+- id: Ql2
+  name: High Performance Computing (HPC) training for Researchers
+  desc: Learn how to utilize a High Performance Compute Cluster, including using containers on a cluster for more reproducible work
+  url: https://pawsey.org.au/supercomputing/training/
   institute: Pawsey Institute
   Completed: 2017
   Tags: [Qualifications,Technical Skills,All]
 
-- name: Agile Business Analysis (AgileBA®) Foundation Course 
-  institute: DDLS
+- id: Ql3
+  name: Agile Business Analysis (AgileBA®) Foundation Course 
+  url: https://www.lumifywork.com/en-au/courses/agile-business-analysis-agileba-foundation/
+  institute: DDLS (now Lumify)
   Completed: 2018
   Tags: [Qualifications,Business Analysis,All]
 
-- name: Top Rope Climbing
+- id: Ql4
+  name: Top Rope Rock Climbing
   institute: Professional Association of Climbing Instructors
+  desc: Certification for Rec Top Rope Rock Climbing
+  url: http://www.paci.com.au/Downloads/D-PACIRecTop-rope.pdf
   Completed: 2018
-  SubQuals: [Apply Climbing Skills On Natural Surfaces Ca(Sisocln302a),Apply Single Pitch Abseiling Skills On Natural Surfaces Ca (Sisoabn303a),Demonstrate Abseiling Skills On Natural Surfaces Ca (Sisoabn201a), Emonstrate Top Rope Climbing Skills On Natural Surfaces Ca (Sisocln201a), Establish Belays For Climbing On Natural Surfaces Ca (Sisocln303a),Establish Ropes For Single Pitch Abseiling On Natural Surfaces Ca (Sisoabn304a), Perform Vertical Rescues Ca (Sisovtr301a) ]
+  #SubQuals: [Apply Climbing Skills On Natural Surfaces Ca(Sisocln302a),Apply Single Pitch Abseiling Skills On Natural Surfaces Ca (Sisoabn303a),Demonstrate Abseiling Skills On Natural Surfaces Ca (Sisoabn201a), Emonstrate Top Rope Climbing Skills On Natural Surfaces Ca (Sisocln201a), Establish Belays For Climbing On Natural Surfaces Ca (Sisocln303a),Establish Ropes For Single Pitch Abseiling On Natural Surfaces Ca (Sisoabn304a), Perform Vertical Rescues Ca (Sisovtr301a) ]
   Tags: [Qualifications,All] 
 
-- name: Managing at Griffith
+- id: Ql5
+  name: Managing at Griffith
+  desc: Topics include: Management & Leadership, Managing High Performance teams, Managing Change, Managing Difficult Situations & Managing the Team Environment. 
+  url: https://www.credly.com/org/griffith-university/badge/managing-at-griffith
   institute: Griffith University
   Completed: 2019
   Tags: [Qualifications,Soft Skills,All]
   
-- name: Leading in the Digital Age
+- id: Ql6
+  name: Leading in the Digital Age
+  desc: Focuses on how to make sense of disruptive digital change and encourage a culture that embraces it
+  url: https://mbs.edu/news/melbourne-business-school-launches-first-online-program-on-digital-disruption
   institute: Melbourne Business School
   Completed: 2019
   Tags: [Qualifications,Soft Skills, All]
 
-- name: Board Readiness Program
+- id: Ql7
+  name: Board Readiness Program
+  desc: Designed for female leaders from STEM disciplines to develop the skills, confidence and connections to take the next step towards taking your seat at the Board table.
+  url: https://wit.org.au/careers/board-readiness/
   institute: Women in Tech
   Completed: 2019
   Tags: [Qualifications,Soft Skills, Business Analysis, Communications, All]

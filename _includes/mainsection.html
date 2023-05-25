@@ -23,7 +23,7 @@
 <tbody>    
 {% for t in site.data.Qual %}
     <tr class="{{ t.Tags | join:" " }}">
-    <td>[{{ t.name }}](t.url)
+    <td><a href="{{t.url}}">{{ t.name }}</a>
        {% if t.SubQuals %}
        <details><summary>See Details</summary>
          {% for SubQual in t.SubQuals %}

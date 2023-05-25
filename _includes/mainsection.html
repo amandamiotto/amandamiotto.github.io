@@ -4,7 +4,7 @@
 <h3> Formal Qualifications </h3>
 {% for t in site.data.LargeQual %}
 <div class="{{ t.Tags | join:" " }}" id="t.id">
-{{ t.name }}
+{{ t.name }}<br>
 <em>{{ t.Completed }} -{{ t.institute }}</em>
 </div>
 {% endfor %}

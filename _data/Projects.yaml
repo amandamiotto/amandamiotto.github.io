@@ -1,7 +1,35 @@
 - id: Pj1
   ProjName: Research Data Management Culture Scan
-  Group: All of University
+  Group: 
+  Year: 2022
   ProjDesc: As part of a National Research Data Management Framework project by ARDC, we conducted an university-wide scan of all academics and the culture around research data management.
   Outcome: Report on our current state of Research Data Management Culture, highlighting trends and evidence based potential actions to lead to improvements
-  MyRole: ['Involvement in national conversations to build the [framework draft](https://ardc.edu.au/wp-content/uploads/2022/09/03-Culture-Change.pdf) in the space of Culture, Coordinating all research support groups for interactive input, feedback and findings throughout the project']
-  Tags:
+  MyRole: ['Took part in national committee to build the [framework draft](https://ardc.edu.au/wp-content/uploads/2022/09/03-Culture-Change.pdf) in the space of Culture', 'Coordinating with all research support groups for interactive input, feedback and findings throughout the project','Building a framework to cover aims, values and experiences of both the researchers individually and the institution as a whole to highlight requirements and gaps','Creating survey and interview questions, conducting and analysing results','Authoring the final report and recommendations for actions']
+  Tags: [Communications, Soft Skills]
+  
+- id: Pj2
+  ProjName: Microscopy Replacement Project
+  Year: 2018-2020
+  Group: 
+  ProjDesc:  A replacement was needed for our Microscopy archival service as the previous system was out of date and no longer met requirements.
+  Outcome: An archival system for microscopy images was replaced, and an analytical suite was included, leveraging internal compute hardware.
+  MyRole: ['Gathered updated requirements','Conducted Market Scan','Facilitated procurement','Wrote Solution Architecture and underwent SA board approval','Worked with Cybersecurity to ensure system met with standards','Facilitated vendor access for installation and upgrades','Wrote beginner level documentation','Worked with research groups to onboard and clear roadbumps for individual labs','Programmatically exported cherrypicked images from previous system using Python, SQL and Bash']
+  Tags: [Business Analysis, Science, Technical Skills]
+
+- id: Pj3
+  ProjName: Compounds Australia  - CASMaP Project
+  Group: Compounds Australia (CA), Griffith Institute for Drug Discovery (GRIDD)
+  Year: 2017-2020
+  ProjDesc: CA needed to aquire a full automated system to run their laboratory equipment and manage physical samples of compounds from clients. While they had a system in place, the system was outdated and no longer met requirements. Additionally, CA were buying new lab equipment that needed installation and integration into these systems.
+  Outcome: A vendor solution was sourced. Hardware was installed into lab.
+  MyRole: ['Mapped processes, gathered requirements and conducted market scan', 'Assisted with Procurement as technical expertise','Facilitated lab hardware installation and integration into local back up and SQL systems','Mapped physical network integrations and liased with network team to install']
+  Tags: [Business Analysis, Science, Technical Skills]
+  
+- id: Pj3
+  ProjName: Compounds Australia - CASMaP Project
+  Group:
+  Year:
+  ProjDesc: 
+  Outcome: 
+  MyRole: []
+  Tags: []

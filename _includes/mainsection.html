@@ -2,6 +2,13 @@
 
 
 <h3> Formal Qualifications </h3>
+{% for t in site.data.LargeQual %}
+<div class="{{ t.Tags | join:" " }}" id="t.id">
+<h4>{{ t.name }}</h4>
+<h5>{{ t.Completed }} -{{ t.institute }} </h5>
+</div>
+{% endfor %}
+
 
 <table>
 <thead>

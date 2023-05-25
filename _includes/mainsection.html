@@ -5,7 +5,7 @@
 {% for t in site.data.LargeQual %}
 <div class="{{ t.Tags | join:" " }}" id="t.id">
 <h4>{{ t.name }}</h4>
-<h5>{{ t.Completed }} -{{ t.institute }} </h5>
+<em>{{ t.Completed }} -{{ t.institute }}</em>
 </div>
 {% endfor %}
 

@@ -1,7 +1,7 @@
 
 <h2>Education</h2>
 
-<h3> Formal Qualifications </h3>
+<h3> Formal Qualifications </h3><br>
 {% for t in site.data.LargeQual %}
 <div class="{{ t.Tags | join:" " }}" id="t.id">
 <h5>{{ t.name }}<br></h5>
@@ -23,7 +23,7 @@
 <tbody>    
 {% for t in site.data.Qual %}
     <tr class="{{ t.Tags | join:" " }}">
-    <td>{{ t.name }}
+    <td>[{{ t.name }}](t.url)
        {% if t.SubQuals %}
        <details><summary>See Details</summary>
          {% for SubQual in t.SubQuals %}

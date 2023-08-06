@@ -2,12 +2,26 @@
 <h2>Education</h2>
 
 <h3> Formal Qualifications </h3><br>
+<table style="width: 100%;">
+<thead>
+  <tr>
+    <th>Degree</th>
+    <th>Institute</th>
+    <th>Year Completed</th>
+  </tr>
+</thead>
+<tbody>    
 {% for t in site.data.LargeQual %}
-<div class="{{ t.Tags | join:" " }}" id="t.id">
-<h5>{{ t.name }}<br></h5>
-<em>{{ t.Completed }} - {{ t.institute }}</em>
-</div>
+    <tr class="{{ t.Tags | join:" " }}">
+    <td>{{ t.name }}
+       </td>
+    <td>{{ t.institute }}</td>
+    <td>{{ t.Completed }}</td>
+  </tr>
 {% endfor %}
+</tbody>
+  </table>
+
 
 <br>
 <h3> Certifications and Short Courses </h3>

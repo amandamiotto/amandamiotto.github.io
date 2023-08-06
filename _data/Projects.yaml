@@ -5,7 +5,7 @@
   ProjDesc: As part of a National Research Data Management Framework project by ARDC, we conducted an university-wide scan of all academics and the culture around research data management.
   Outcome: Report on our current state of Research Data Management Culture, highlighting trends and evidence based potential actions to lead to improvements
   MyRole: ['Took part in national committee to build the <a href="https://ardc.edu.au/wp-content/uploads/2022/09/03-Culture-Change.pdf">framework draft</a> in the space of Culture', 'Coordinating with all research support groups for interactive input, feedback and findings throughout the project','Building a framework to cover aims, values and experiences of both the researchers individually and the institution as a whole to highlight requirements and gaps','Creating survey and interview questions, conducting and analysing results','Authoring the final report and recommendations for actions']
-  Tags: [Communications, Soft Skills]
+  Tags: [Business Analysis, Communications, Soft Skills]
   
 - id: Pj2
   ProjName: Microscopy Replacement Project
@@ -50,7 +50,7 @@
   ProjDesc: Search engine for researchers to browse or search the ‘Open’ Compound Collections via a web portal. 
   Outcome: Successful platform built, used until rebuild in 2023
   MyRole: ["Coded the scientific workflow that searches a chemical via its 3D structure"]
-  Tags: [Technical Skills]
+  Tags: [Technical Skills, Science]
   
 - id: Pj7
   ProjName: The Prosecution Project

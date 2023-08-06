@@ -20,19 +20,18 @@ body {
 }
 .content {
   order: 1;
+  flex-grow: 5;
   background-color: #E2DADB;
   padding: 30px;
-  flex-grow: 5;
+
 }
 .sidenav {
   order: 2;
-  background-color: #A2A7A5;
   flex-grow: 1;
+  background-color: #A2A7A5;
   justify-content: center;
-  /* align: center; */
   text-align: center;
   padding: 20px; 
-  /* margin: auto; */
 }
 img {
   /*max-width:80%;

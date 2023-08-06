@@ -78,23 +78,25 @@
 <div class="{{ t.Tags | join:" " }}">
   <h4>{{ t.ProjName }}</h4><br>
   <div style="text-align: right;" >
-    {{ t.Year }} -
     {% if t.Group %}
-      {{ t.Group }}
-    {% endif %}<br>
+      {{ t.Group }} - 
+    {% endif %}
+  {{ t.Year }}
+  <br>
   </div>
   <b>Project Description:</b>
   <br>
   {{ t.ProjDesc }}
   <br><br>
-  <b> Project Outcome:</b>b>
+  <b> Project Outcome:</b>
   <br>
   {{ t.Outcome }}
   <br><br>
-  <b>My Role in Project:</b>b>
+  <b>My Role in Project:</b>
   <br>
   {% for SubRole in t.MyRole %}
             - {{ SubRole }}<br>
   {% endfor %}
 </div>
+<br>
 {% endfor %}

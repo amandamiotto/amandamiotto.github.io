@@ -41,13 +41,31 @@
   ProjDesc: Creation of a user-facing web portal to submit jobs to High Performance Computing systems, both internal and leveraging cloud infrastructure. 
   Outcome: While internal portal worked as intended, project was cancelled due to unable to balance cybersecurity concerns across HPCs in different universities. Ultimately, this need was met with <a href="https://docs.sylabs.io/guides/3.5/user-guide/introduction.html">Singularity</a> which we opted for instead.
   MyRole: ['Software Development of portal, using Python, PHP, HTML on a Linux server','Engagement with researchers to understand usage scenarios','Highlighted issues that arose during project and resolution where possible']
+  Tags: [Technical Skills, Soft Skills]
+
+- id: Pj6
+  ProjName: Casper Portal
+  Group: <a href="https://www.griffith.edu.au/griffith-sciences/compounds-australia">Compounds Australia (CA), Griffith Institute for Drug Discovery (GRIDD)</a>
+  Year: 2016
+  ProjDesc: Search engine for researchers to browse or search the ‘Open’ Compound Collections via a web portal. 
+  Outcome: Successful platform built, used until rebuild in 2023
+  MyRole: ["Coded the scientific workflow that searches a chemical via its 3D structure"]
+  Tags: [Technical Skills]
+  
+- id: Pj7
+  ProjName: The Prosecution Project
+  Group: Griffith Criminology Institute
+  Year: 2014-2015
+  ProjDesc: The digitization of historic court cases to assist in discovery and searching. Provided imaging and transcription tools to accentuate details in photos for handwriting analysis.
+  Outcome: Successful <a href="https://prosecutionproject.griffith.edu.au/">platform built, used until upgrade and rebuild in 2019</a>
+  MyRole: ["Developed PHP and Javascript code for Wordpress customizations"]
   Tags: [Technical Skills]
 
-- id: Pj5
-  ProjName: 
-  Group: 
-  Year: 
-  ProjDesc: 
-  Outcome: 
-  MyRole: []
-  Tags: []
+- id: Pj8
+  ProjName: 1000 Voices
+  Group: Research Centre for Clinical and Community Practice
+  Year: 2014-2015
+  ProjDesc: The 1000 Voices project aims to collect, display, and analyse 1000+ life stories from people with disabilities from around the world.
+  Outcome: Platform was built and was used until funded project ended.
+  MyRole: ["Working with PHP and Wordpress, developed a multimedia blog that included a wide range of accessibility customizations to provide ease of use for the audience"]
+  Tags: [Technical Skills]

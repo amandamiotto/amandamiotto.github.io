@@ -85,12 +85,12 @@
 {% endfor %}
    </tbody>
   </table>
-
+<br><br>
 <h2>Projects</h2>
-
+<br>
 {% for t in site.data.Projects %}
 <div class="{{ t.Tags | join:" " }}">
-  <h4>{{ t.ProjName }}</h4><br>
+  <h4>{{ t.ProjName }}</h4>
   <div style="text-align: right;" >
     {% if t.Group %}
       {{ t.Group }} - 
@@ -112,5 +112,6 @@
             - {{ SubRole }}<br>
   {% endfor %}
 </div>
+<br>
 <br>
 {% endfor %}

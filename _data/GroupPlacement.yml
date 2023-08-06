@@ -1,12 +1,12 @@
 
 - id: GP1
   Institute: Genomics Institute (Now based at IHBI - QUT)
-  Yrs: 2012-2014
+  Year: 2012-2014
   Desc: Combination of Bioinformatics work such as R, support for Microscopes and other hardware, storage and client/technical liaison.
 
 - id: GP2
   Institute: National Centre for Adult Stem Cell Research- Wells Lab ( Now based at UniMelb )
-  Yrs: 2008-2011
+  Year: 2008-2011
   Desc: Bioinformatics focused on genomics, using a variety of technologies such as R, Bash, SQL and Python to analyse, visualize, document data as well as in depth technical support for researchers.
 
   

@@ -72,17 +72,17 @@
 
 {% for t in site.data.Projects %}
 <div class="{{ t.Tags | join:" " }}">
-  <h4>{{ t.ProjName }}</h4>
+  <h4>{{ t.ProjName }}</h4><br>
   {{ t.Year }} -
   {% if t.Group %}
     {{ t.Group }}
-  {% endif %}
+  {% endif %}<br>
   Project Description:
   {{ t.ProjDesc }}
-  <br>
+  <br><br>
   Project Outcome:
   {{ t.Outcome }}
-  <br>
+  <br><br>
   My Role in Project:
   <br>
   {% for SubRole in t.MyRole %}

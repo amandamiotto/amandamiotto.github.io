@@ -26,9 +26,11 @@
     <td><a href="{{t.url}}">{{ t.name }}</a>
        {% if t.SubQuals %}
        <details><summary>See Details</summary>
+         <ul>
          {% for SubQual in t.SubQuals %}
-            - {{ SubQual }}<br>
+            <li>{{ SubQual }}</li>
          {% endfor %}
+         </ul>
        </details>
        {% endif %}
        </td>
@@ -54,9 +56,11 @@
     <td>{{ t.Role }}
        {% if t.SubRoles %}
        <details><summary>See Details</summary>
+         <ul>
          {% for SubRole in t.SubRoles %}
-            - {{ SubRole }}<br>
+            <li>{{ SubRole }}</li>
          {% endfor %}
+         </ul>
        </details>
        {% endif %}
      <!--  {{ t.Responsibilties }} -->

@@ -93,7 +93,7 @@
 <h2>Projects</h2>
 <br>
 {% for t in site.data.Projects %}
-<div class="{{ t.Tags | join:" " }}">
+<div class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
   <h4>{{ t.ProjName }}</h4>
   <div style="text-align: right;" >
     {% if t.Group %}
@@ -115,6 +115,25 @@
   {% for SubRole in t.MyRole %}
             - {{ SubRole }}<br>
   {% endfor %}
+</div>
+<br>
+<br>
+{% endfor %}
+<br><br>
+<hr style="width:70%;text-align:center;border-color:light-grey;background-color:light-grey;">
+<br><br>
+<h2>Group Placement</h2>
+<br>
+{% for t in site.data.GroupPlacement %}
+<div class="{{ t.Tags | join:" " }}">
+  <h4>{{ t.Institute }}</h4>
+  <div style="text-align: right;" >
+  {{ t.Year }}
+  <br>
+  </div>
+  <br><br>
+  {{ t.Desc }}
+  <br><br>
 </div>
 <br>
 <br>

@@ -18,6 +18,12 @@ body {
   align-items: stretch;
   margin: auto;*/
 }
+.content {
+  order: 1;
+  background-color: #E2DADB;
+  padding: 30px;
+  flex-grow: 5;
+}
 .sidenav {
   order: 2;
   background-color: #A2A7A5;
@@ -27,12 +33,6 @@ body {
   text-align: center;
   padding: 20px; 
   /* margin: auto; */
-}
-.content {
-  order: 1;
-  background-color: #E2DADB;
-  padding: 30px;
-  flex-grow: 5;
 }
 img {
   /*max-width:80%;
@@ -45,7 +45,7 @@ img {
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media only screen and (max-device-width: 480px){
+@media all and (max-width: 480px){
   .flex-container {
     flex-direction: column;
     flex-wrap: wrap

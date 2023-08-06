@@ -8,9 +8,6 @@ body {
   margin: auto;
   font-family: "Helvetica", Sans-Serif;
 }
-.ralign {
-  position: right;
-}
 
 .flex-container {
   display: flex;

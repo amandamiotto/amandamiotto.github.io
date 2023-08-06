@@ -77,7 +77,7 @@
 {% for t in site.data.Projects %}
 <div class="{{ t.Tags | join:" " }}">
   <h4>{{ t.ProjName }}</h4><br>
-  <div class=ralign >
+  <div style="align: right;" >
     {{ t.Year }} -
     {% if t.Group %}
       {{ t.Group }}

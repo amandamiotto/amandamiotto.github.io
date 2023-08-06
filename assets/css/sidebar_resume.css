@@ -20,14 +20,14 @@ body {
 }
 .content {
   order: 1;
-  flex-grow: 5;
+  flex: 5;
   background-color: #E2DADB;
   padding: 30px;
 
 }
 .sidenav {
   order: 2;
-  flex-grow: 1;
+  flex: 1;
   background-color: #A2A7A5;
   justify-content: center;
   text-align: center;

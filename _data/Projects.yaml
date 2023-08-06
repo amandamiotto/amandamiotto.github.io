@@ -4,7 +4,7 @@
   Year: 2022
   ProjDesc: As part of a National Research Data Management Framework project by ARDC, we conducted an university-wide scan of all academics and the culture around research data management.
   Outcome: Report on our current state of Research Data Management Culture, highlighting trends and evidence based potential actions to lead to improvements
-  MyRole: ['Took part in national committee to build the [framework draft](https://ardc.edu.au/wp-content/uploads/2022/09/03-Culture-Change.pdf) in the space of Culture', 'Coordinating with all research support groups for interactive input, feedback and findings throughout the project','Building a framework to cover aims, values and experiences of both the researchers individually and the institution as a whole to highlight requirements and gaps','Creating survey and interview questions, conducting and analysing results','Authoring the final report and recommendations for actions']
+  MyRole: ['Took part in national committee to build the <a href="https://ardc.edu.au/wp-content/uploads/2022/09/03-Culture-Change.pdf>framework draft</a> in the space of Culture', 'Coordinating with all research support groups for interactive input, feedback and findings throughout the project','Building a framework to cover aims, values and experiences of both the researchers individually and the institution as a whole to highlight requirements and gaps','Creating survey and interview questions, conducting and analysing results','Authoring the final report and recommendations for actions']
   Tags: [Communications, Soft Skills]
   
 - id: Pj2
@@ -18,17 +18,35 @@
 
 - id: Pj3
   ProjName: Compounds Australia  - CASMaP Project
-  Group: Compounds Australia (CA), Griffith Institute for Drug Discovery (GRIDD)
+  Group: <a href="https://www.griffith.edu.au/griffith-sciences/compounds-australia">Compounds Australia (CA), Griffith Institute for Drug Discovery (GRIDD)</a>
   Year: 2017-2020
   ProjDesc: CA needed to aquire a full automated system to run their laboratory equipment and manage physical samples of compounds from clients. While they had a system in place, the system was outdated and no longer met requirements. Additionally, CA were buying new lab equipment that needed installation and integration into these systems.
   Outcome: A vendor solution was sourced. Hardware was installed into lab.
   MyRole: ['Mapped processes, gathered requirements and conducted market scan', 'Assisted with Procurement as technical expertise','Facilitated lab hardware installation and integration into local back up and SQL systems','Mapped physical network integrations and liased with network team to install']
   Tags: [Business Analysis, Science, Technical Skills]
+
+- id: Pj4
+  ProjName: Open Heart Project
+  Group: Engineering at Griffith University and UQ,<br>partnered with Innovative Cardiovascular Engineering and Technology Laboratory <br>at Prince Charles Hospital
+  Year: 2017-2018
+  ProjDesc: Built a platform to foster international collaboration in the field of mechanical circulatory support by developing open source 3D printable heart pumps with testing data. 
+  Outcome:  Platform was built on Atlassian Bitbucket and Confluence systems, with <a href="https://onlinelibrary.wiley.com/doi/10.1111/aor.13361">publication of an invited editorial</a>
+  MyRole: ["Collected Requirements and designed a solution using Git and Bitbucket","Facilitated discussions with Intellectual Property Specialist on appropriate licencing for 3D printed objects and associated data", "Worked with client and Atlassian to apply and be approved for their Open Source Cloud subscription","Organized and taught Intro to Git workshop for users","Worked with Research Lead to run <a href='https://medium.com/read-write-participate/artificial-hearts-mechanical-circulatory-support-and-open-source-355410b7c3bb'>project in Mozilla 2018 Global Sprint</a>","Submitted project for <a href='https://www.healthhack.com.au/health-hack-stories'>HealthHack 2018</a>","Technical lead for Industry Affiliates Program students for two cohorts"]
+  Tags: [Business Analysis, Science, Technical Skills, Communications, Teaching, Community Work, Soft Skills]
   
-- id: Pj3
-  ProjName: Compounds Australia - CASMaP Project
-  Group:
-  Year:
+- id: Pj5
+  ProjName: High Performance Cluster (HPC) Portal
+  Group: 
+  Year: 2016
+  ProjDesc: Creation of a user-facing web portal to submit jobs to High Performance Computing systems, both internal and leveraging cloud infrastructure. 
+  Outcome: While internal portal worked as intended, project was cancelled due to unable to balance cybersecurity concerns across HPCs in different universities. Ultimately, this need was met with <a href="https://docs.sylabs.io/guides/3.5/user-guide/introduction.html">Singularity</a> which we opted for instead.
+  MyRole: ['Software Development of portal, using Python, PHP, HTML on a Linux server','Engagement with researchers to understand usage scenarios','Highlighted issues that arose during project and resolution where possible']
+  Tags: [Technical Skills]
+
+- id: Pj5
+  ProjName: 
+  Group: 
+  Year: 
   ProjDesc: 
   Outcome: 
   MyRole: []

@@ -12,7 +12,7 @@
     <li>Upskilling researchers in the data science space</li>
     <li>Assisting with grant writing and providing guidance on technical needs and costs</li>
     <li>Guiding researchers on data sensitivity, reproducible research and data management</li>
-    </ul>"
+    </ul>
   Tags: [Business Analyst, Teaching, Communications, Community Work,All]
   
 - id: EH2
@@ -37,13 +37,13 @@
   Responsibilties: |+
     To support researchers, this role was a mix of technical work, analysis of client needs and teaching/mentoring. (https://www.qcif.edu.au/about-us/who-we-are/)[QCIF] is a on-for-profit organization, with Qld Universities as members, elevated by government funding. QCIF would provide hardware and platforms for researchers, largely free of charge, and in more recent years, offered data science education and support.
     My role included 
-    - Reaching out and liaising with researchers
-    - Matching researchers with offered platforms and services
-    - Offering customized technical support, balancing the clients technical skills and where needed, coding or building solutions
-    - Working with other analysts across the state and nationally across multiple tasks and projects to be stronger together
-    - Writing, teaching and improving multiple data science courses (TODO)
-    - Running 'Hacky Hours' at Griffith university (mentoring and helping researchers with their data science code), assisting others to build Hacky Hours at their own institutes (TODO inlcude link)
-    - Organing and at times leading the local Research Bazaar (TODO) conference. Further information on my role here (TODO)
+    <ul><li>Reaching out and liaising with researchers</li>
+    <li>Matching researchers with offered platforms and services</li>
+    <li>Offering customized technical support, balancing the clients technical skills and where needed, coding or building solutions</li>
+    <li>Working with other analysts across the state and nationally across multiple tasks and projects to be stronger together</li>
+    <li>Writing, teaching and improving multiple data science courses (TODO)</li>
+    <li>Running 'Hacky Hours' at Griffith university (mentoring and helping researchers with their data science code), assisting others to build Hacky Hours at their own institutes (TODO inlcude link)</li>
+    <li>Organing and at times leading the local Research Bazaar (TODO) conference. Further information on my role here (TODO)</li></ul>
   Tags: [Business Analyst, Teaching, Communications, Community Work,All]
 
 - id: EH5
@@ -52,11 +52,11 @@
   Role: eResearch Support Specialist
   Responsibilties: |+ 
     Supporting client needs for the platforms we had built internally. This included 
-    - Tier 2 support and troubleshooting for clients
-    - Helping clients pick a system best suited for their unique needs
-    - Building custom scripts where needed
-    - Improving internal documentation and procedures
-    This work branched into my later community and teaching work.
+    <ul><li>Tier 2 support and troubleshooting for clients</li>
+    <li>Helping clients pick a system best suited for their unique needs</li>
+    <li>Building custom scripts where needed</li>
+    <li>Improving internal documentation and procedures</li>
+    This work branched into my later community and teaching work.</li></ul>
   Tags: [Technical Skills, Communications,All]
   
 

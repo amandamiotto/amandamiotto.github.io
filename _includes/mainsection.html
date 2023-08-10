@@ -69,10 +69,11 @@
 <tbody>    
 {% for t in site.data.EmpHist %}
     <tr class="{{ t.Tags | join:" " }}">
-    <td>{{ t.Role }}<br><h5>
-       <details><summary>See Details</summary>
+    <td>{{ t.Role }}<br><i>
+       <!-- <details><summary>Responsibilities</summary> -->
        {{ t.Responsibilties }} 
-       </details></h5>h5>
+       <!-- </details>-->
+       </i>
        </td>
     <td>{{ t.Institute }}</td>
     <td>{{ t.Yrs }}</td>

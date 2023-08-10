@@ -70,16 +70,10 @@
 {% for t in site.data.EmpHist %}
     <tr class="{{ t.Tags | join:" " }}">
     <td>{{ t.Role }}
-       {% if t.SubRoles %}
        <details><summary>See Details</summary>
-         <ul>
-         {% for SubRole in t.SubRoles %}
-            <li>{{ SubRole }}</li>
-         {% endfor %}
-         </ul>
+       {{ t.Responsibilties }} 
        </details>
        {% endif %}
-       {{ t.Responsibilties }} 
        </td>
     <td>{{ t.Institute }}</td>
     <td>{{ t.Yrs }}</td>

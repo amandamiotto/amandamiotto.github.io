@@ -55,12 +55,12 @@
 </tbody>
   </table>
 <br>
-<hr style="width:70%;text-align:top;border-color:light-grey;background-color:light-grey;">
+<hr style="width:70%;text-align:center;border-color:light-grey;background-color:light-grey;">
 <br>
 <h2> Employment History </h2>
 <table style="width: 100%;">
 <thead>
-  <tr style="text-align: left;">
+  <tr style="text-align: left; vertical-align: top;">
     <th style="width:60%">Role</th>
     <th style="width:5%">  </th>
     <th style="width:25%">Institute</th>
@@ -87,14 +87,21 @@
 <br>
 {% for t in site.data.Projects %}
 <div class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
-  <h4>{{ t.ProjName }}</h4>
-  <div style="text-align: right;" >
+  <table style="width: 100%;">
+      <tr style="text-align: left; vertical-align: top;">
+      <td>
+        <h4>{{ t.ProjName }}</h4>
+      </td>
+    
+    <td style="text-align: right;" >
     {% if t.Group %}
       {{ t.Group }} - 
     {% endif %}
   {{ t.Year }}
+  </td></tr>
+  </table>
   <br>
-  </div>
+  
   <b>Project Description:</b>
   <br>
   {{ t.ProjDesc }}

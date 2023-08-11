@@ -36,7 +36,7 @@
 </thead>
 <tbody>    
 {% for t in site.data.Qual %}
-    <tr class="{{ t.Tags | join:" " }}">
+    <tr class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
     <td><a href="{{t.url}}">{{ t.name }}</a>
        {% if t.SubQuals %}
        <details><summary>See Details</summary>
@@ -69,7 +69,7 @@
 </thead>
 <tbody>    
 {% for t in site.data.EmpHist %}
-    <tr class="{{ t.Tags | join:" " }}">
+    <tr class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
     <td><b>{{ t.Role }}</b><br><br><i>
        {{ t.Responsibilties }} <br>
        </i>
@@ -125,7 +125,7 @@
 <h2>Group Placement</h2>
 <br>
 {% for t in site.data.GroupPlacement %}
-<div class="{{ t.Tags | join:" " }}">
+<div class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
   <h4>{{ t.Institute }}</h4>
   <div style="text-align: right; vertical-align: top;" >
   {{ t.Year }}

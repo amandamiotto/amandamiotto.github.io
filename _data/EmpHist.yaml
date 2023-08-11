@@ -75,7 +75,7 @@
   Yrs: 2010-2016
   Role: Software Engineer
   Responsibilties: For multiple projects across a number of disciplines, I largely worked on back end technologies such as Linux (Redhat, Centos and Ubuntu) Virtual Machines, High Performance Compute (HPC) Platforms, various SQL platforms, Python, R, PHP and Javascript to meet client needs. Further information is found in the Project section.
-  Tags: [Technical Skills,All]
+  Tags: [Technical Skills, All]
 
 
 - id: EH7
@@ -83,4 +83,5 @@
   Yrs: 2008-2010
   Role: Bioinformatician
   Responsibilities: This role included using R, SQL and Linux systems to code analysis tools for DNA research on Parkinson and Stem Cells. From writing scripts to implementing test versions of open source software, building databases and data cleaning, I worked across the whole data analysis pipeline.
-  Tags: [Science,All]
+  Tags: [Science, All]
+

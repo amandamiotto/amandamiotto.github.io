@@ -1,6 +1,6 @@
 - id: Pj1
   ProjName: Research Data Management Culture Scan
-  Group: 
+  Group: Griffith Uni
   Year: 2022
   ProjDesc: As part of a National Research Data Management Framework project by ARDC, we conducted an university-wide scan of all academics and the culture around research data management.
   Outcome: Report on our current state of Research Data Management Culture, highlighting trends and evidence based potential actions to lead to improvements
@@ -10,7 +10,7 @@
 - id: Pj2
   ProjName: Microscopy Replacement Project
   Year: 2018-2020
-  Group: 
+  Group: Griffith Uni
   ProjDesc:  A replacement was needed for our Microscopy archival service as the previous system was out of date and no longer met requirements.
   Outcome: An archival system for microscopy images was replaced, and an analytical suite was included, leveraging internal compute hardware.
   MyRole: ['Gathered updated requirements','Conducted Market Scan','Facilitated procurement','Wrote Solution Architecture and underwent SA board approval','Worked with Cybersecurity to ensure system met with standards','Facilitated vendor access for installation and upgrades','Wrote beginner level documentation','Worked with research groups to onboard and clear roadbumps for individual labs','Programmatically exported cherrypicked images from previous system using Python, SQL and Bash']
@@ -36,10 +36,10 @@
   
 - id: Pj5
   ProjName: High Performance Cluster (HPC) Portal
-  Group: 
+  Group: Griffith Uni
   Year: 2016
   ProjDesc: Creation of a user-facing web portal to submit jobs to High Performance Computing systems, both internal and leveraging cloud infrastructure. 
-  Outcome: While internal portal worked as intended, project was cancelled due to unable to balance cybersecurity concerns across HPCs in different universities. Ultimately, this need was met with <a href="https://docs.sylabs.io/guides/3.5/user-guide/introduction.html">Singularity</a> which we opted for instead.
+  Outcome: While internal portal worked as intended, project was cancelled due to unable to balance cybersecurity concerns across HPCs in different universities. Ultimately, this need was met with <a href="https://docs.sylabs.io/guides/3.5/user-guide/introduction.html">Singularity</a> which we opted for.
   MyRole: ['Software Development of portal, using Python, PHP, HTML on a Linux server','Engagement with researchers to understand usage scenarios','Highlighted issues that arose during project and resolution where possible']
   Tags: [Technical Skills, Soft Skills]
 

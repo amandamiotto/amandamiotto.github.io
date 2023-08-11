@@ -55,7 +55,7 @@
 </tbody>
   </table>
 <br>
-<hr style="width:70%;text-align:center;border-color:light-grey;background-color:light-grey;">
+<hr style="width:70%;text-align:top;border-color:light-grey;background-color:light-grey;">
 <br>
 <h2> Employment History </h2>
 <table style="width: 100%;">
@@ -69,10 +69,10 @@
 <tbody>    
 {% for t in site.data.EmpHist %}
     <tr class="{{ t.Tags | join:" " }}">
-    <td>{{ t.Role }}<br><br><i>
+    <td><b>{{ t.Role }}</b><br><br><i>
        {{ t.Responsibilties }} 
        </i>
-       </td>
+       </td><br>
     <td>{{ t.Institute }}</td>
     <td>{{ t.Yrs }}</td>
   </tr>

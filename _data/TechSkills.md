@@ -15,3 +15,9 @@
 
 - lang: Git and Github/Gitlab/Bitbucket
   context: General programming use, 3D printable models, Training Researchers, Github pages 
+
+- lang: High Performance Compute
+  context: Platforms include PBS, Torque, SLURM, Singularity - Comfortable with general use and debugging, Training Researchers
+
+- lang: Cloud Compute
+  context: General usage of Openstack (via <a href="https://ardc.edu.au/services/ardc-nectar-research-cloud/">Nectar</a>) including troubleshooting client issues on Nectar, basic experience with Azure blob storage

@@ -74,6 +74,7 @@
        {{ t.Responsibilties }} <br>
        </i>
        </td>
+    <td></td>
     <td>{{ t.Institute }}</td>
     <td>{{ t.Yrs }}</td>
   </tr>
@@ -88,11 +89,10 @@
 {% for t in site.data.Projects %}
 <div class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
   <table style="width: 100%;">
-      <tr style="text-align: left; vertical-align: top;">
-      <td>
+      <tr style="text-align: left; ">
+      <td style="vertical-align: top;">
         <h4>{{ t.ProjName }}</h4>
       </td>
-    
     <td style="text-align: right;" >
     {% if t.Group %}
       {{ t.Group }} - 

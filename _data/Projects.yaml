@@ -39,7 +39,7 @@
   Group: Griffith Uni
   Year: 2016
   ProjDesc: Creation of a user-facing web portal to submit jobs to High Performance Computing systems, both internal and leveraging cloud infrastructure. 
-  Outcome: While internal portal worked as intended, project was cancelled due to unable to balance cybersecurity concerns across HPCs in different universities. Ultimately, this need was met with <a href="https://docs.sylabs.io/guides/3.5/user-guide/introduction.html">Singularity</a> which we opted for.
+  Outcome: While internal portal worked as intended, project was cancelled due to technical differences between universities. Later, this need was met with <a href="https://docs.sylabs.io/guides/3.5/user-guide/introduction.html">Singularity</a> which we opted for.
   MyRole: ['Software Development of portal, using Python, PHP, HTML on a Linux server','Engagement with researchers to understand usage scenarios','Highlighted issues that arose during project and resolution where possible']
   Tags: [Technical Skills, Soft Skills]
 

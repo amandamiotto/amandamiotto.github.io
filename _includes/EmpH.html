@@ -1,0 +1,25 @@
+<h2> Employment History </h2>
+<table style="width: 100%;text-align: left;">
+<thead>
+  <tr style="text-align:left; vertical-align: top;">
+    <th style="width:60%">Role</th>
+    <th style="width:5%">  </th>
+    <th style="width:25%">Institute</th>
+    <th style="width:10%">Year</th>
+  </tr>
+</thead>
+<br>
+<tbody>    
+{% for t in site.data.EmpHist %}
+    <tr class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
+    <td><b>{{ t.Role }}</b><br><br><i>
+       {{ t.Responsibilties }} <br>
+       </i>
+       </td>
+    <td></td>
+    <td style="vertical-align: top;">{{ t.Institute }}</td>
+    <td style="vertical-align: top;">{{ t.Yrs }}</td>
+  </tr>
+{% endfor %}
+   </tbody>
+  </table>

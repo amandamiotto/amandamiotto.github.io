@@ -1,0 +1,20 @@
+<h3> Formal Qualifications </h3><br>
+<table style="width: 100%;">
+<thead>
+  <tr style="text-align: left;">
+    <th style="width:60%">Degree</th>
+    <th style="width:30%">Institute</th>
+    <th style="width:10%">Year Completed</th>
+  </tr>
+</thead>
+<tbody>    
+{% for t in site.data.LargeQual %}
+    <tr class="{{ t.Tags | join:" " }}">
+    <td>{{ t.name }}
+       </td>
+    <td>{{ t.institute }}</td>
+    <td>{{ t.Completed }}</td>
+  </tr>
+{% endfor %}
+</tbody>
+  </table>

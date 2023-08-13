@@ -1,0 +1,36 @@
+<h2>Projects</h2>
+<br>
+{% for t in site.data.Projects %}
+<div class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
+  <table style="width: 100%;">
+      <tr style="text-align: left; ">
+      <td style="vertical-align: top;">
+        <h4>{{ t.ProjName }}</h4>
+      </td>
+    <td style="text-align: right;" >
+    {% if t.Group %}
+      {{ t.Group }} - 
+    {% endif %}
+  {{ t.Year }}
+  </td></tr>
+  </table>
+  <br>
+  
+  <b>Project Description:</b>
+  <br>
+  {{ t.ProjDesc }}
+  <br><br>
+  <b> Project Outcome:</b>
+  <br>
+  {{ t.Outcome }}
+  <br><br>
+  <b>My Role in Project:</b>
+  <br>
+  {% for SubRole in t.MyRole %}
+            - {{ SubRole }}<br>
+  {% endfor %}
+</div>
+<br>
+<br>
+{% endfor %}
+<br>

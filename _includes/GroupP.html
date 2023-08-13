@@ -1,0 +1,15 @@
+<h2>Group Placement</h2>
+<br>
+{% for t in site.data.GroupPlacement %}
+<div class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
+  <h4>{{ t.Institute }}</h4>
+  <div style="text-align: right; vertical-align: top;" >
+  {{ t.Year }}
+  <br>
+  </div>
+  {{ t.Desc }}
+  <br>
+</div>
+<br>
+<br>
+{% endfor %}

@@ -1,140 +1,20 @@
 
 <h2>Education</h2>
 
-<h3> Formal Qualifications </h3><br>
-<table style="width: 100%;">
-<thead>
-  <tr style="text-align: left;">
-    <th style="width:60%">Degree</th>
-    <th style="width:30%">Institute</th>
-    <th style="width:10%">Year Completed</th>
-  </tr>
-</thead>
-<tbody>    
-{% for t in site.data.LargeQual %}
-    <tr class="{{ t.Tags | join:" " }}">
-    <td>{{ t.name }}
-       </td>
-    <td>{{ t.institute }}</td>
-    <td>{{ t.Completed }}</td>
-  </tr>
-{% endfor %}
-</tbody>
-  </table>
+{% include FormQual.html %}
 
 
 <br>
-<h3> Certifications and Short Courses </h3>
-
-<table style="width: 100%;">
-<thead>
-  <tr style="text-align: left;">
-    <th style="width:60%">Course</th>
-    <th style="width:30%">Institute</th>
-    <th style="width:10%">Year Completed</th>
-  </tr>
-</thead>
-<tbody>    
-{% for t in site.data.Qual %}
-    <tr class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
-    <td><a href="{{t.url}}">{{ t.name }}</a>
-       {% if t.SubQuals %}
-       <details><summary>See Details</summary>
-         <ul>
-         {% for SubQual in t.SubQuals %}
-            <li>{{ SubQual }}</li>
-         {% endfor %}
-         </ul>
-       </details>
-       {% endif %}
-       </td>
-    <td>{{ t.institute }}</td>
-    <td>{{ t.Completed }}</td>
-  </tr>
-{% endfor %}
-</tbody>
-  </table>
+{% include Certs.html %}
 <br>
 <hr style="width:70%;text-align:center;border-color:light-grey;background-color:light-grey;">
 <br>
-<h2> Employment History </h2>
-<table style="width: 100%;text-align: left;">
-<thead>
-  <tr style="text-align:left; vertical-align: top;">
-    <th style="width:60%">Role</th>
-    <th style="width:5%">  </th>
-    <th style="width:25%">Institute</th>
-    <th style="width:10%">Year</th>
-  </tr>
-</thead>
-<br>
-<tbody>    
-{% for t in site.data.EmpHist %}
-    <tr class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
-    <td><b>{{ t.Role }}</b><br><br><i>
-       {{ t.Responsibilties }} <br>
-       </i>
-       </td>
-    <td></td>
-    <td style="vertical-align: top;">{{ t.Institute }}</td>
-    <td style="vertical-align: top;">{{ t.Yrs }}</td>
-  </tr>
-{% endfor %}
-   </tbody>
-  </table>
+{% include EmpH.html %}
 <br>
 <hr style="width:70%;text-align:center;border-color:light-grey;background-color:light-grey;">
 <br>
-<h2>Projects</h2>
+{% include Proj.html %}
 <br>
-{% for t in site.data.Projects %}
-<div class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
-  <table style="width: 100%;">
-      <tr style="text-align: left; ">
-      <td style="vertical-align: top;">
-        <h4>{{ t.ProjName }}</h4>
-      </td>
-    <td style="text-align: right;" >
-    {% if t.Group %}
-      {{ t.Group }} - 
-    {% endif %}
-  {{ t.Year }}
-  </td></tr>
-  </table>
-  <br>
-  
-  <b>Project Description:</b>
-  <br>
-  {{ t.ProjDesc }}
-  <br><br>
-  <b> Project Outcome:</b>
-  <br>
-  {{ t.Outcome }}
-  <br><br>
-  <b>My Role in Project:</b>
-  <br>
-  {% for SubRole in t.MyRole %}
-            - {{ SubRole }}<br>
-  {% endfor %}
-</div>
-<br>
-<br>
-{% endfor %}
-<br><br>
 <hr style="width:70%;text-align:center;border-color:light-grey;background-color:light-grey;">
 <br><br>
-<h2>Group Placement</h2>
-<br>
-{% for t in site.data.GroupPlacement %}
-<div class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
-  <h4>{{ t.Institute }}</h4>
-  <div style="text-align: right; vertical-align: top;" >
-  {{ t.Year }}
-  <br>
-  </div>
-  {{ t.Desc }}
-  <br>
-</div>
-<br>
-<br>
-{% endfor %}
+{% include GroupP.html %}

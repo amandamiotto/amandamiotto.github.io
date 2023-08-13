@@ -1,0 +1,30 @@
+<h3> Certifications and Short Courses </h3>
+
+<table style="width: 100%;">
+<thead>
+  <tr style="text-align: left;">
+    <th style="width:60%">Course</th>
+    <th style="width:30%">Institute</th>
+    <th style="width:10%">Year Completed</th>
+  </tr>
+</thead>
+<tbody>    
+{% for t in site.data.Qual %}
+    <tr class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
+    <td><a href="{{t.url}}">{{ t.name }}</a>
+       {% if t.SubQuals %}
+       <details><summary>See Details</summary>
+         <ul>
+         {% for SubQual in t.SubQuals %}
+            <li>{{ SubQual }}</li>
+         {% endfor %}
+         </ul>
+       </details>
+       {% endif %}
+       </td>
+    <td>{{ t.institute }}</td>
+    <td>{{ t.Completed }}</td>
+  </tr>
+{% endfor %}
+</tbody>
+  </table>

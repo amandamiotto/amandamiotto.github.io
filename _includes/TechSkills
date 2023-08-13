@@ -1,0 +1,6 @@
+<h2>Technical Skills</h2>
+<br>
+{% for t in site.data.TechSkills.lang %}
+{{ t }}
+{% endfor %}
+<br>

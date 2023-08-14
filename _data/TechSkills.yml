@@ -13,10 +13,10 @@
 - lang: Linux/Bash Scripting
   context: General CLI skills on Ubuntu, RHEL, Centos. Training Researchers
 
-- lang: Git and Github/Gitlab/Bitbucket
+- skill: Git and Github/Gitlab/Bitbucket
   context: General programming use, 3D printable models, Training Researchers, Github pages 
 
-- lang: High Performance Compute
+- skill: High Performance Compute
   context: Platforms include PBS, Torque, SLURM, Singularity - Comfortable with general use and debugging, Training Researchers
 
 - skill: Cloud Compute

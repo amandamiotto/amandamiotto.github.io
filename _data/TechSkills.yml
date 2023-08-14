@@ -20,8 +20,10 @@
   context: Platforms include PBS, Torque, SLURM, Singularity - Comfortable with general use and debugging, Training Researchers
 
 - skill: Cloud Compute
-  context: General usage of Openstack (via <a href="https://ardc.edu.au/services/ardc-nectar-research-cloud/">Nectar</a>) including troubleshooting client issues on Nectar, basic experience with Azure blob storage
+  context: General use of Openstack (via <a href="https://ardc.edu.au/services/ardc-nectar-research-cloud/">Nectar</a>) including troubleshooting client issues on Nectar, basic experience with Azure blob storage
 
 - skill: Microsoft 365
   context: On top of normal usage, experience with Microsoft Power Automate, Sharepoint and PowerBI
   
+- skill: Atlassian
+  context: General use of Confluence, Bitbucket and Jira

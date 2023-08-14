@@ -1,0 +1,17 @@
+- id: g1
+  GrantName: 2022 Health Group Seed Grant Scheme
+  GrantDesc: To extend and certify an existing prototype neural network (DeepSlope) which rapidly and accurately makes orthopedic measurements
+  MyRole: Chief Investigator
+  tags: [Science]
+
+- id: g2
+  GrantName: 2022 ARDC Institutional Underpinnings Extension Program
+  GrantDesc: To build a framework of Research Data Management Training that any university can leverage and customize as they need
+  MyRole: Codeveloper
+  tags: [Business Analysis]
+
+- id: g3
+  GrantName: 2021 Health Group New Researcher Grant Scheme
+  GrantDesc: Artificial intelligence to accelerate clinical image-based diagnostics used in treating anterior cruciate ligament rupture
+  MyRole: Associate Investigator
+  tags: []

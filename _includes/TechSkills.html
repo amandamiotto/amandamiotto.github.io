@@ -1,9 +1,14 @@
 <h2>Technical Skills</h2>
 <br>
+<b>Languages</b>
+<br>
+<ul>
 {% for t in site.data.TechSkills %}
-{{ t.lang }}
-<br>
-{{ t.skill }}
-<br>
+  <li>{{ t.lang }} - {{ t.context }}</li>
 {% endfor %}
+</ul>
 <br>
+<b>Platforms and Technologies</b>
+<br>
+{% for t in site.data.TechSkills %}
+{% endfor %}

@@ -2,11 +2,16 @@
 <br>
 <b>Languages</b>
 <br>
-<ul>
-{% for t in site.data.TechSkills %}
-  |<li>{{ t.lang }} | {{ t.context }}</li>|
-{% endfor %}
-</ul>
+<table style="width: 100%;text-align: left;">
+  <ul>
+  {% for t in site.data.TechSkills %}
+    <tr class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
+      <td><li>{{ t.lang }} </li></td>
+      <td>{{ t.context }}</td>
+    </tr>
+  {% endfor %}
+  </ul>
+</table>
 <br>
 <b>Platforms and Technologies</b>
 <br>

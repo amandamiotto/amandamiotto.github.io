@@ -1,0 +1,48 @@
+- Id: Talk1
+  Title: The Impostor Syndrome...And why you may feel like you are a fake
+  Url: https://resbaz.github.io/resbaz2022qld/schedule/#session-1012
+  Place: Research Bazaar Qld
+  Year: 2022
+  Category: Impostor Syndrome
+  Tag: 
+
+- Id: Talk2
+  Title: Impostor Syndrome
+  Url: https://www.meetup.com/brisbane-tech-newbies/events/265080896/
+  Place: Meetup - Brisbane Tech Newbies
+  Year: 2019
+  Category: Impostor Syndrome
+  Tag:
+
+
+- Id: Talk3
+  Title: We’re stronger together: Launching an Australasian ResBaz Network
+  Url: https://conference.eresearch.edu.au/2022-conference/2022-program/
+  Place: eResearch Australasia Conference
+  Year: 2022
+  Category: Research Bazaar
+  Tag:
+
+- Id: Talk4
+  Title: Concept mapping across Reproducible Research, Data Management and Sensitive data
+  Url: https://conference.eresearch.edu.au/events/concept-mapping-across-reproducible-research-data-management-and-sensitive-data/
+  Place:  eResearch Australasia Conference
+  Year: 2021
+  Category: Reproducible Research
+  Tag:
+
+- Id: Talk5
+  Title: 8 Reproducible Research things. Practical workshop to get people along the Reproducibility path
+  Url: https://conference.eresearch.edu.au/wp-content/uploads/2019/10/2019-eResearch_-29-_8-Reproducible-Research-things.pdf
+  Place:  eResearch Australasia Conference
+  Year: 2019
+  Category: Reproducible Research
+  Tag:
+
+- Id: Talk6
+  Title: Engaging Researchers in eResearch 
+  Url: https://conference.eresearch.edu.au/wp-content/uploads/2019/08/2019_eResearch_123_Engaging-Researchers-in-eResearch.pdf
+  Place:  eResearch Australasia Conference
+  Year: 2019
+  Category: Engagement
+  Tag:

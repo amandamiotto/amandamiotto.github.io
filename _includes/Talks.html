@@ -1,11 +1,38 @@
+<script>
+$(document).ready(function(){
 
-<div class="datatable-begin"></div>
+    $('table.display').DataTable( {
+        paging: true,
+        stateSave: true,
+        searching: true
+    }
+        );
+});
+</script>
 
-Food    | Description                           | Category | Sample type
-------- | ------------------------------------- | -------- | -----------
-Apples  | A small, somewhat round ...           | Fruit    | Fuji
-Bananas | A long and curved, often-yellow ...   | Fruit    | Snow
-Kiwis   | A small, hairy-skinned sweet ...      | Fruit    | Golden
-Oranges | A spherical, orange-colored sweet ... | Fruit    | Navel
-
-<div class="datatable-end"></div>
+<table id="sampleTable" class="display">
+   <thead>
+      <tr>
+         <th>Parameter</th>
+         <th>Description</th>
+         <th>Type</th>
+         <th>Default Value</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Parameter 1</td>
+         <td>Sample description
+         </td>
+         <td>Sample type</td>
+         <td>Sample default value</td>
+      </tr>
+      <tr>
+         <td>Parameter 2</td>
+         <td>Sample description
+         </td>
+         <td>Sample type</td>
+         <td>Sample default value</td>
+      </tr>
+   </tbody>
+</table>

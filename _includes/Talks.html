@@ -18,9 +18,9 @@ $(document).ready(function(){
       </tr>
    </thead>
    <tbody>
-       {% for t in site.data.talks %}
+       {% for row in site.data.talks %}
       <tr>
-         <td>{{ t.title }}</td>
+         <td>{{ row["title"] }}</td>
          <td>Sample description
          </td>
          <td>Sample type</td>

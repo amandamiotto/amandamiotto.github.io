@@ -20,11 +20,10 @@ $(document).ready(function(){
    <tbody>
        {% for row in site.data.talks %}
       <tr>
-         <td>{{ row["Title"] }}</td>
-         <td>Sample description
-         </td>
-         <td>Sample type</td>
-         <td>Sample default value</td>
+         <td><a href='{{ row["URL"] }}'>{{ row["Title"] }}</a></td>
+         <td>{{ row["Location"] }}</td>
+         <td>{{ row["Year"] }}</td>
+         <td>{{ row["Topic"] }}</td>
       </tr>
        {% endfor %}
    </tbody>

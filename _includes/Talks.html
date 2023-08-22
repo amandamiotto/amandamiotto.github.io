@@ -2,14 +2,13 @@
 $(document).ready(function(){
 
     $('table.display').DataTable( {
-        searching: true,
         ordering: true
     }
         );
 });
 </script>
 
-<table id="sampleTable" class="display">
+<table id="TalkTable" class="display">
    <thead>
       <tr>
          <th>Parameter</th>
@@ -36,13 +35,3 @@ $(document).ready(function(){
    </tbody>
 </table>
 
-<div class="datatable-begin"></div>
-
-Food    | Description                           | Category | Sample type
-------- | ------------------------------------- | -------- | -----------
-Apples  | A small, somewhat round ...           | Fruit    | Fuji
-Bananas | A long and curved, often-yellow ...   | Fruit    | Snow
-Kiwis   | A small, hairy-skinned sweet ...      | Fruit    | Golden
-Oranges | A spherical, orange-colored sweet ... | Fruit    | Navel
-
-<div class="datatable-end"></div>

@@ -18,20 +18,15 @@ $(document).ready(function(){
       </tr>
    </thead>
    <tbody>
+       {% for t in site.data.talks %}
       <tr>
-         <td>Parameter 1</td>
+         <td>{{ t.title }}</td>
          <td>Sample description
          </td>
          <td>Sample type</td>
          <td>Sample default value</td>
       </tr>
-      <tr>
-         <td>Parameter 2</td>
-         <td>Sample description
-         </td>
-         <td>Sample type</td>
-         <td>Sample default value</td>
-      </tr>
+       {% endfor %}
    </tbody>
 </table>
 

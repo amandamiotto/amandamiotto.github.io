@@ -1,7 +1,7 @@
 datelastupdated: March 2023
 fullnameofperson: Amanda Miotto
 selfIdentification: Problem solver in the data & tech space, who enjoys sharing knowledge
-#remote_theme: https://github.com/sharu725/online-cv
+
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 - jekyll
@@ -13,15 +13,10 @@ plugins:
 - datatable
 title: [The title of your site]
 
-jekyll_analytics:
-  GoogleAnalytics:          
-    id: G-3ZRKRRS1WT 
-
 linkedin: amanda-miotto-94b8ba13/
 github: amandamiotto
 twitter: amandamiottogu
-email: 
 
-Colour1bg: "#E2DADB"
-Colour2sdbr: "#A2A7A5"
-Colour3accent:
+
+Colour1bg: "#e2dadb"
+Colour2sdbr: "#a2a7a5"

@@ -21,14 +21,14 @@ body {
 .content {
   order: 1;
   flex: 5;
-  background-color: "#e2dadb";
+  background-color: #e2dadb;
   padding: 30px;
 
 }
 .sidenav {
   order: 2;
   flex: 1;
-  background-color: "{{ site.colour1bg }}";
+  background-color: #a2a7a5;
   justify-content: center;
   text-align: center;
   padding: 20px; 

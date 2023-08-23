@@ -12,11 +12,8 @@ plugins:
 - jekyll-analytics
 - datatable
 title: [The title of your site]
-
+colour1bg: "#e2dadb"
+colour2sdbr: "#a2a7a5"
 linkedin: amanda-miotto-94b8ba13/
 github: amandamiotto
 twitter: amandamiottogu
-
-
-Colour1bg: "#e2dadb"
-Colour2sdbr: "#a2a7a5"

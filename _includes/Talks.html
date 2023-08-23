@@ -20,7 +20,11 @@ $(document).ready(function(){
    <tbody>
        {% for row in site.data.talks %}
       <tr>
+        {% if row["URL"] %}
          <td><a href='{{ row["URL"] }}'>{{ row["Title"] }}</a></td>
+        {% else %}
+         <td>{{ row["Title"] }}</td>
+        {% endif %}
          <td>{{ row["Location"] }}</td>
          <td>{{ row["Year"] }}</td>
          <td>{{ row["Topic"] }}</td>

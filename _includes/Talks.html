@@ -24,7 +24,8 @@ $(document).ready(function(){
    </thead>
    <tbody>
        {% for row in site.data.talks %}
-      <tr>
+      <div id="row["talkId"]">
+        <tr>
         {% if row["URL"] %}
          <td><a href='{{ row["URL"] }}'>{{ row["Title"] }}</a></td>
         {% else %}
@@ -33,7 +34,7 @@ $(document).ready(function(){
          <td>{{ row["Location"] }}</td>
          <td>{{ row["Year"] }}</td>
          <td>{{ row["Topic"] }}</td>
-      </tr>
+      </tr></div>
        {% endfor %}
    </tbody>
 </table>

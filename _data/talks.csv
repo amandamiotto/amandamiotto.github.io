@@ -1,18 +1,18 @@
-Title,Location,Year,URL,Topic
-"Communicating with non-experts: Storytelling, programming metaphors and why you should give me all your minions",Data Science Bris Meetup,2019,https://www.meetup.com/en-AU/brisbane-data-science-meetup/events/mzskfqyzcbnb/, Communication
-Impostor Syndrome,Tech Newbies Meetup,2019,https://www.meetup.com/brisbane-tech-newbies/events/265080896/, Impostor Syndrome
-Impostor Syndrome,Data Science Bris Meetup,2020,https://www.meetup.com/en-AU/brisbane-data-science-meetup/events/mzskfqybccbmb/, Impostor Syndrome
-Help me write this talk - Data Science Pathways,Data Science Bris Meetup,2021,https://www.meetup.com/en-AU/brisbane-data-science-meetup/events/sqbdfsycckblb/, Communication
-8 Reproducible Research things- Practical workshop to get people along the Reproducibility path,eResearch Australasia,2019,https://conference.eresearch.edu.au/wp-content/uploads/2019/10/2019-eResearch_-29-_8-Reproducible-Research-things.pdf, Reproducible Research
-Impostor Syndrome,Research Bazaar Qld,2022,http://web.archive.org/web/20230321192724/https://resbaz.github.io/resbaz2022qld/schedule/#session-1012, Impostor Syndrome
-Hacky Hours – Communities to learn and build data science,Winter School in Math and Computational Biology (UQ),2019,,Communities
-Data Storytelling- Creating and Highlighting Research Impact, THETA Conference,2019,https://az659834.vo.msecnd.net/eventsairseasiaprod/production-leishman-public/c296fc7c7353402585a5981d859b58a3,Communication
-Collaborative Repository for 3D Printable Designs - The Open Heart Project ,THETA Conference,2019,https://az659834.vo.msecnd.net/eventsairseasiaprod/production-leishman-public/c296fc7c7353402585a5981d859b58a3,Technical
-Birds of a Feather for Research Software Engineers: Recognition and Career Development for Researchers who Code,eResearch Australasia Conference,2018,https://conference.eresearch.edu.au/bof-for-rses-recognition-and-career-development-for-researchers-who-code/,Communities
-Open Heart Project: Collaborative platform for mechanical hearts,eResearch Australasia Conference,2018,,Technical
-Snapshot of eResearch Life, Computational Biology Group (COMBINE) at UQ, 2018,,Communities
-Appreciating the ‘Method to the madness’ in Research- Optimizing the Madness via eResearch Technology,eResearch Australasia Conference,2017,https://webcache.googleusercontent.com/search?q=cache:7fDHun9awMIJ:https://conference.eresearch.edu.au/2017/09/appreciating-the-method-to-the-madness-in-research-optimizing-the-madness-via-eresearch-technology/&cd=10&hl=en&ct=clnk&gl=au&client=ubuntu-chr,Technology
-Hacky Hour: Can they strengthen our research community?,eResearch Australasia Conference,2016,,Communities
-Birds of a Feather: Optical Microscopy Image Management, eResearch Australasia Conference,2012,,Technology
-We’re stronger together: Launching an Australasian ResBaz Network,eResearch Australasia Conference,2022,https://conference.eresearch.edu.au/were-stronger-together-launching-an-australasian-resbaz-network/,Communities
-"Concept mapping across Reproducible Research, Data Management and Sensitive data",eResearch Australasia Conference,2021,https://conference.eresearch.edu.au/events/concept-mapping-across-reproducible-research-data-management-and-sensitive-data/,Reproducible Research
+talkId,Title,Location,Year,URL,Topic
+talk1,"Communicating with non-experts: Storytelling, programming metaphors and why you should give me all your minions",Data Science Bris Meetup,2019,https://www.meetup.com/en-AU/brisbane-data-science-meetup/events/mzskfqyzcbnb/, Communication
+talk2,Impostor Syndrome,Tech Newbies Meetup,2019,https://www.meetup.com/brisbane-tech-newbies/events/265080896/, Impostor Syndrome
+talk3,Impostor Syndrome,Data Science Bris Meetup,2020,https://www.meetup.com/en-AU/brisbane-data-science-meetup/events/mzskfqybccbmb/, Impostor Syndrome
+talk4,Help me write this talk - Data Science Pathways,Data Science Bris Meetup,2021,https://www.meetup.com/en-AU/brisbane-data-science-meetup/events/sqbdfsycckblb/, Communication
+talk5,8 Reproducible Research things- Practical workshop to get people along the Reproducibility path,eResearch Australasia,2019,https://conference.eresearch.edu.au/wp-content/uploads/2019/10/2019-eResearch_-29-_8-Reproducible-Research-things.pdf, Reproducible Research
+talk6,Impostor Syndrome,Research Bazaar Qld,2022,http://web.archive.org/web/20230321192724/https://resbaz.github.io/resbaz2022qld/schedule/#session-1012, Impostor Syndrome
+talk7,Hacky Hours – Communities to learn and build data science,Winter School in Math and Computational Biology (UQ),2019,,Communities
+talk8,Data Storytelling- Creating and Highlighting Research Impact, THETA Conference,2019,https://az659834.vo.msecnd.net/eventsairseasiaprod/production-leishman-public/c296fc7c7353402585a5981d859b58a3,Communication
+talk9,Collaborative Repository for 3D Printable Designs - The Open Heart Project ,THETA Conference,2019,https://az659834.vo.msecnd.net/eventsairseasiaprod/production-leishman-public/c296fc7c7353402585a5981d859b58a3,Technical
+talk10,Birds of a Feather for Research Software Engineers: Recognition and Career Development for Researchers who Code,eResearch Australasia Conference,2018,https://conference.eresearch.edu.au/bof-for-rses-recognition-and-career-development-for-researchers-who-code/,Communities
+talk11,Open Heart Project: Collaborative platform for mechanical hearts,eResearch Australasia Conference,2018,,Technical
+talk12,Snapshot of eResearch Life, Computational Biology Group (COMBINE) at UQ, 2018,,Communities
+talk13,Appreciating the ‘Method to the madness’ in Research- Optimizing the Madness via eResearch Technology,eResearch Australasia Conference,2017,https://webcache.googleusercontent.com/search?q=cache:7fDHun9awMIJ:https://conference.eresearch.edu.au/2017/09/appreciating-the-method-to-the-madness-in-research-optimizing-the-madness-via-eresearch-technology/&cd=10&hl=en&ct=clnk&gl=au&client=ubuntu-chr,Technology
+talk14,Hacky Hour: Can they strengthen our research community?,eResearch Australasia Conference,2016,,Communities
+talk15,Birds of a Feather: Optical Microscopy Image Management, eResearch Australasia Conference,2012,,Technology
+talk16,We’re stronger together: Launching an Australasian ResBaz Network,eResearch Australasia Conference,2022,https://conference.eresearch.edu.au/were-stronger-together-launching-an-australasian-resbaz-network/,Communities
+talk17,"Concept mapping across Reproducible Research, Data Management and Sensitive data",eResearch Australasia Conference,2021,https://conference.eresearch.edu.au/events/concept-mapping-across-reproducible-research-data-management-and-sensitive-data/,Reproducible Research

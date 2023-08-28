@@ -1,27 +1,27 @@
 - id: WW1
   WorkshopName: Data Storytelling
-  Desc:
-  URL:
-  WherenWhen:
-  Tags: []
+  Desc: A practical workshop focusing on "How to convey the impact of your research to the world". We talk about building blocks of knowledge and expert bias, using visualisations to highlight points and how to get your audience to "feel" the impact of your project. This workshop has been debuted at the THETA conference, and multiple other universities have since used our workshop material.
+  URL: https://griffithunilibrary.github.io/data-storytelling/
+  WherenWhen: Taught across Griffith university and all Qld Universities from 2019-2022
+  Tags: [Communication]
 
 - id: WW2
-  WorkshopName: Reproducible Research
-  Desc:
-  URL:
-  WherenWhen:
+  WorkshopName: 9 Reproducible Research Things
+  Desc: Reproducible Research focuses on the ability to recreate the result of analysis from the raw data- is there enough details saved to ensure this is possible? Adapting concepts from IT for the research space, this is a practical workshop to walk away with 9 ways to make your research more reproducible. 
+  URL: https://guereslib.github.io/Reproducible-Research-Things/
+  WherenWhen: Invited hostings at the <a href='https://aas.eventsair.com/reproduce-workshop/'>Re:Produce conference 2019</a> and the <a href='https://ladal.edu.au/opening.html'>UQ linguistics</a> group. This workshop has been hosted from 2021 at Griffith university and all Qld universities via QCIF.
   Tags: []
 
 - id: WW3
-  WorkshopName: Make an online CV
-  Desc:
-  URL:
-  WherenWhen:
-  Tags: []
+  WorkshopName: Make an Online CV
+  Desc: Aimed at researchers who were not IT based, this was a walk through of how you can use Jekyll and Github pages to make a basic online resume. The CV you are reading now may be used at a later date for an update to that workshop.
+  URL: https://github.com/amandamiotto/ResumeLesson/
+  WherenWhen: Research Bazaar Conference 2021
+  Tags: [Communication]
 
 - id: WW4
   WorkshopName: Intro to HPC for Griffith University
-  Desc:
+  Desc: A workshop to teach researchers without an IT background how to use the High Performance Compute system at Griffith University. Since been rewritten by other staff.
   URL:
-  WherenWhen:
-  Tags: []
+  WherenWhen: Griffith Uni in 2018-2019
+  Tags: [Technical]

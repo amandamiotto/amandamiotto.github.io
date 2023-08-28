@@ -25,7 +25,7 @@ $(document).ready(function(){
    <tbody>
        {% for row in site.data.talks %}
       <div id='{{ row["talkId"] }}'>
-        <tr>
+        <tr id='{{ row["talkId"] }}'>
         {% if row["URL"] %}
          <td><a href='{{ row["URL"] }}'>{{ row["Title"] }}</a></td>
         {% else %}

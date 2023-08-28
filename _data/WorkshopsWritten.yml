@@ -1,0 +1,27 @@
+- id: WW1
+  WorkshopName: Data Storytelling
+  Desc:
+  URL:
+  WherenWhen:
+  Tags: []
+
+- id: WW2
+  WorkshopName: Reproducible Research
+  Desc:
+  URL:
+  WherenWhen:
+  Tags: []
+
+- id: WW3
+  WorkshopName: Make an online CV
+  Desc:
+  URL:
+  WherenWhen:
+  Tags: []
+
+- id: WW4
+  WorkshopName: Intro to HPC for Griffith University
+  Desc:
+  URL:
+  WherenWhen:
+  Tags: []

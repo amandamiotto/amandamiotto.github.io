@@ -11,9 +11,12 @@ plugins:
 - rake
 - jekyll-analytics
 - datatable
-title: [The title of your site]
-colour1bg: "#d9d375"
-colour2sdbr: "#a2a7a5"
+title: [CV of Amanda Miotto]
+colour1bg: "#FFCCC9"
+colour2sdbr: "#2B4141"
+colour3Misc: "#702632"
+textColouroverCol1: black
+textColouroverCol2: white
 linkedin: amanda-miotto-94b8ba13/
 github: amandamiotto
 twitter: amandamiottogu

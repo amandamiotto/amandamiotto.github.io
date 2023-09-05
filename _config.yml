@@ -12,9 +12,10 @@ plugins:
 - jekyll-analytics
 - datatable
 title: [CV of Amanda Miotto]
-colour1bg: "#E0F2E9"
-colour2sdbr: "#2B4141"
-colour3Misc: "#702632"
+colour1bg: "#E0F2E9" #light honeydue
+colour2sdbr: "#2B4141"  # Dark Slate Grey
+colour3Misc: "#702632"  # Wine
+colour4Misc: "#F7A072" # atomic tangerine
 textColouroverCol1: black
 textColouroverCol2: white
 linkedin: amanda-miotto-94b8ba13/

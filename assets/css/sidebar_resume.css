@@ -27,7 +27,7 @@ body {
 .sidenav {
   order: 2;
   flex: 1;
-  background-color: #a2a7a5;
+  background-color: {{ site.colour2sdbr }};
   justify-content: center;
   text-align: center;
   padding: 20px; 

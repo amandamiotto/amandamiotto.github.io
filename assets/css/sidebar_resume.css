@@ -37,6 +37,9 @@ body {
 .bi{
   fill: {{ site.colour4Misc }};
 }
+.checkbox{
+  background-color:{{ site.colour4Misc }};
+}
 img {
   /*max-width:80%;
   display: flex;

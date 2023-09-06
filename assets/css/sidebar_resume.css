@@ -60,7 +60,13 @@ button {
   text-decoration: none;
   display: inline-block;
 }
-/* Responsive layout - makes a one column layout instead of a two-column layout */
+hr{
+  width:70%;
+  text-align:center;
+  border-color: {{ site.colour5Misc }};
+  background-color: {{ site.colour5Misc }};
+}
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media all and (max-width: 480px){
   .flex-container {
     flex-direction: column;

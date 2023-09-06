@@ -34,6 +34,9 @@ body {
   text-align: center;
   padding: 20px; 
 }
+.bi{
+  fill: {{ site.colour4Misc }};
+}
 img {
   /*max-width:80%;
   display: flex;

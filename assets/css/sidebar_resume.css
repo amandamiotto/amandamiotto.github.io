@@ -51,9 +51,14 @@ img {
   width: 50%;
 }
 button {
-  background-color: {{ site.colour5Misc }}; 
+  background-color: {{ site.colour4Misc }}; 
   border: none;
-  color: {{ site.textColouroverCol5 }};
+  color: {{ site.textColouroverCol4 }};
+  border-radius: 12px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media all and (max-width: 480px){

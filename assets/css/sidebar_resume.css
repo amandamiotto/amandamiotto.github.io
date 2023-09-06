@@ -37,7 +37,7 @@ body {
 .bi{
   fill: {{ site.colour4Misc }};
 }
-toggle{
+toggle {
   background-color:{{ site.colour4Misc }};
   color:{{ site.colour5Misc }};
 }
@@ -60,7 +60,7 @@ button {
   text-decoration: none;
   display: inline-block;
 }
-hr{
+hr {
   width:70%;
   text-align:center;
   border-color: {{ site.colour5Misc }};

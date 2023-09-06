@@ -50,7 +50,7 @@ img {
   margin-right: auto;
   width: 50%;
 }
-.button {
+button {
   background-color: {{ site.colour5Misc }}; 
   border: none;
   color: {{ site.textColouroverCol5 }};

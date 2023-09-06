@@ -18,6 +18,8 @@ colour3Misc: "#702632"  # Wine
 colour4Misc: "#F7A072" # atomic tangerine
 textColouroverCol1: black
 textColouroverCol2: white
+textColouroverCol3: black
+textColouroverCol4: white
 linkedin: amanda-miotto-94b8ba13/
 github: amandamiotto
 twitter: amandamiottogu

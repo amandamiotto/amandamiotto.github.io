@@ -37,7 +37,7 @@ body {
 .bi{
   fill: {{ site.colour4Misc }};
 }
-.toggle-checkbox{
+toggle{
   background-color:{{ site.colour4Misc }};
   color:{{ site.colour5Misc }};
 }

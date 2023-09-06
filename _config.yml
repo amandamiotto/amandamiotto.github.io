@@ -16,10 +16,12 @@ colour1bg: "#E0F2E9" #light honeydue
 colour2sdbr: "#2B4141"  # Dark Slate Grey
 colour3Misc: "#702632"  # Wine
 colour4Misc: "#F7A072" # atomic tangerine
+colour5Misc: "#2B0504" # black bean
 textColouroverCol1: black
 textColouroverCol2: white
 textColouroverCol3: black
 textColouroverCol4: white
+textColouroverCol5: white
 linkedin: amanda-miotto-94b8ba13/
 github: amandamiotto
 twitter: amandamiottogu

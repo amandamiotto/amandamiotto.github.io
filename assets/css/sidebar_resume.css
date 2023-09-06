@@ -21,6 +21,7 @@ body {
   order: 1;
   flex: 5;
   background-color: {{ site.colour1bg }};
+  color: {{ site.textColouroverCol1 }};
   padding: 30px;
 
 }
@@ -28,6 +29,7 @@ body {
   order: 2;
   flex: 1;
   background-color: {{ site.colour2sdbr }};
+  color: {{ site.textColouroverCol2 }};
   justify-content: center;
   text-align: center;
   padding: 20px; 

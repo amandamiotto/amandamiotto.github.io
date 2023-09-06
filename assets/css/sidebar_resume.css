@@ -55,7 +55,7 @@ button {
   border: none;
   color: {{ site.textColouroverCol4 }};
   border-radius: 12px;
-  padding: 15px 32px;
+  padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;

@@ -1,0 +1,15 @@
+<h2>Successful Grants</h2>
+<br>
+{% for t in site.data.grants %}
+<div class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
+  <h4>{{ t.GrantName }}</h4>
+  <div style="text-align: right; vertical-align: top;" >
+  Role: {{ t.MyRole }}
+  <br>
+  </div>
+  {{ t.GrantDesc }}
+  <br>
+</div>
+<br>
+<br>
+{% endfor %}

@@ -7,8 +7,9 @@
 <thead>
   <tr style="text-align:left; vertical-align: top;">
     <th style="width:20%">Workshop Title</th>
+    <th style="width:2%">  </th>
+    <th style="width:55%">Content</th>
     <th style="width:3%">  </th>
-    <th style="width:57%">Content</th>
     <th style="width:20%">Hosted</th>
   </tr>
 </thead>
@@ -19,6 +20,7 @@
     <td><a href="{{ t.URL }}"><b>{{ t.WorkshopName }}</b></a></td>
     <td></td>
     <td style="vertical-align: top;">{{ t.Desc }}</td>
+    <td></td>
     <td style="vertical-align: top;">{{ t.WherenWhen }}</td>
   </tr>
 {% endfor %}
@@ -28,3 +30,31 @@
 <br>
 
 <h3>Workshops I've Taught</h3>
+<br>
+As well as teaching all the above workshops, I have experience teaching the following:
+
+<table style="width: 100%;text-align: left;">
+<thead>
+  <tr style="text-align:left; vertical-align: top;">
+    <th style="width:20%">Workshop Title</th>
+    <th style="width:2%">  </th>
+    <th style="width:55%">Content</th>
+    <th style="width:3%">  </th>
+    <th style="width:20%">Hosted</th>
+  </tr>
+</thead>
+<br>
+<tbody>    
+{% for t in site.data.WorkshopsTaught %}
+    <tr class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
+    <td><a href="{{ t.URL }}"><b>{{ t.WorkshopName }}</b></a></td>
+    <td></td>
+    <td style="vertical-align: top;">{{ t.Desc }}</td>
+    <td></td>
+    <td style="vertical-align: top;">{{ t.WherenWhen }}</td>
+  </tr>
+{% endfor %}
+   </tbody>
+  </table>
+<br>
+<br>

@@ -9,6 +9,31 @@
   </div>
   {{ t.Desc }}
   <br>
+Aknowledged in papers:
+<table style="width: 100%;text-align: left;">
+<!--thead>
+  <tr style="text-align:left; vertical-align: top;">
+    <th style="width:20%">Workshop Title</th>
+    <th style="width:2%">  </th>
+    <th style="width:55%">Content</th>
+    <th style="width:3%">  </th>
+    <th style="width:20%">Hosted</th>
+  </tr>
+</thead-->
+<br>
+<tbody>    
+{% for p in t.id %}
+    <tr class="{{ t.Tags | join:" " }}" >
+    <td><a href="{{ p.url }}"><b>{{ p.title }}</b></a></td>
+    <td></td>
+    <td style="vertical-align: top;">{{ p.authors }}</td>
+    <td></td>
+    <td style="vertical-align: top;">{{ p.year }} - {{ p.where }}</td>
+  </tr>
+{% endfor %}
+   </tbody>
+  </table>
+
 </div>
 <br>
 <br>

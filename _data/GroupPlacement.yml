@@ -11,21 +11,21 @@
   		year: December 5, 2013
   		where: The American Journal of Human Genetics
   		url: https://www.cell.com/ajhg/pdf/S0002-9297(13)00519-3.pdf
-  	id: pubA2
+    id: pubA2
   		type: Thanks and Acknowledgement
   		title: A Phenomic Scan of the Norfolk Island Genetic Isolate Identifies a Major Pleiotropic Effect Locus Associated with Metabolic and Renal Disorder Markers
   		authors: Miles C. Benton,Rodney A. Lea,Donia Macartney-Coxson,Michelle Hanna,David A. Eccles,Melanie A. Carless,Geoffrey K. Chambers,Claire Bellis,Harald H. Goring,Joanne E. Curran,Jacquie L. Harper,Gregory Gibson,John Blangero,Lyn R. Griffiths 
   		year: 2015
   		where: PLOS Genetics
   		url: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005593
-  	id: pubA3
+    id: pubA3
   		type: Thanks and Acknowledgement
   		title: Serum bilirubin concentration is modified by UGT1A1 Haplotypes and influences risk of type-2 diabetes in the Norfolk Island Genetic Isolate.
   		authors: Benton, M.C., Lea, R.A., Macartney, D.P., Bellis, C., Curran, J.E., Hanna, M., Eccles, D., Chambers, G.K., Blangero, J., & Griffiths, L.R.
   		year: 2015
   		where: BMC Genetics
   		url: https://bmcgenomdata.biomedcentral.com/articles/10.1186/s12863-015-0291-z
-  	id: pubA4
+    id: pubA4
   		type: Thanks and Acknowledgement
   		title: Identifying Envirogenomic Signatures for Predicting the Clinical Outcomes of Crohns Disease
   		authors: Nasir, Bushra Farah (Thesis)

@@ -5,33 +5,33 @@
   Desc: Combination of Bioinformatics work such as R, support for Microscopes and other hardware, storage and client/technical liaison.
   Examples:
     id: pubA1
-  		type: Thanks and Acknowledgement
-  		title: Mapping eQTLs in the Norfolk Island Genetic Isolate Identifies Candidate Genes for CVD Risk Traits
-  		authors: Miles C. Benton, Rod A. Lea, Donia Macartney-Coxson, Melanie A. Carless, Harald H. Goring, Claire Bellis, Michelle Hanna, David Eccles, Geoffrey K. Chambers,Joanne E. Curran, Jacquie L. Harper, John Blangero, and Lyn R. Griffiths
-  		year: 2013
-  		where: The American Journal of Human Genetics
-  		url: https://www.cell.com/ajhg/pdf/S0002-9297(13)00519-3.pdf
+      type: Thanks and Acknowledgement
+      title: Mapping eQTLs in the Norfolk Island Genetic Isolate Identifies Candidate Genes for CVD Risk Traits
+      authors: Miles C. Benton, Rod A. Lea, Donia Macartney-Coxson, Melanie A. Carless, Harald H. Goring, Claire Bellis, Michelle Hanna, David Eccles, Geoffrey K. Chambers,Joanne E. Curran, Jacquie L. Harper, John Blangero, and Lyn R. Griffiths
+      year: 2013
+      where: The American Journal of Human Genetics
+      url: https://www.cell.com/ajhg/pdf/S0002-9297(13)00519-3.pdf
     id: pubA2
-  		type: Thanks and Acknowledgement
-  		title: A Phenomic Scan of the Norfolk Island Genetic Isolate Identifies a Major Pleiotropic Effect Locus Associated with Metabolic and Renal Disorder Markers
-  		authors: Miles C. Benton,Rodney A. Lea,Donia Macartney-Coxson,Michelle Hanna,David A. Eccles,Melanie A. Carless,Geoffrey K. Chambers,Claire Bellis,Harald H. Goring,Joanne E. Curran,Jacquie L. Harper,Gregory Gibson,John Blangero,Lyn R. Griffiths 
-  		year: 2015
-  		where: PLOS Genetics
-  		url: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005593
+      type: Thanks and Acknowledgement
+      title: A Phenomic Scan of the Norfolk Island Genetic Isolate Identifies a Major Pleiotropic Effect Locus Associated with Metabolic and Renal Disorder Markers
+      authors: Miles C. Benton,Rodney A. Lea,Donia Macartney-Coxson,Michelle Hanna,David A. Eccles,Melanie A. Carless,Geoffrey K. Chambers,Claire Bellis,Harald H. Goring,Joanne E. Curran,Jacquie L. Harper,Gregory Gibson,John Blangero,Lyn R. Griffiths 
+      year: 2015
+      where: PLOS Genetics
+      url: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005593
     id: pubA3
-  		type: Thanks and Acknowledgement
-  		title: Serum bilirubin concentration is modified by UGT1A1 Haplotypes and influences risk of type-2 diabetes in the Norfolk Island Genetic Isolate.
-  		authors: Benton, M.C., Lea, R.A., Macartney, D.P., Bellis, C., Curran, J.E., Hanna, M., Eccles, D., Chambers, G.K., Blangero, J., & Griffiths, L.R.
-  		year: 2015
-  		where: BMC Genetics
-  		url: https://bmcgenomdata.biomedcentral.com/articles/10.1186/s12863-015-0291-z
+      type: Thanks and Acknowledgement
+      title: Serum bilirubin concentration is modified by UGT1A1 Haplotypes and influences risk of type-2 diabetes in the Norfolk Island Genetic Isolate.
+      authors: Benton, M.C., Lea, R.A., Macartney, D.P., Bellis, C., Curran, J.E., Hanna, M., Eccles, D., Chambers, G.K., Blangero, J., & Griffiths, L.R.
+      year: 2015
+      where: BMC Genetics
+      url: https://bmcgenomdata.biomedcentral.com/articles/10.1186/s12863-015-0291-z
     id: pubA4
-  		type: Thanks and Acknowledgement
-  		title: Identifying Envirogenomic Signatures for Predicting the Clinical Outcomes of Crohns Disease
-  		authors: Nasir, Bushra Farah (Thesis)
-  		year: 2013
-  		where:
-  		url: https://research-repository.griffith.edu.au/bitstream/handle/10072/366228/Nasir_2013_02Thesis.pdf?sequence=1
+      type: Thanks and Acknowledgement
+      title: Identifying Envirogenomic Signatures for Predicting the Clinical Outcomes of Crohns Disease
+      authors: Nasir, Bushra Farah (Thesis)
+      year: 2013
+      where:
+      url: https://research-repository.griffith.edu.au/bitstream/handle/10072/366228/Nasir_2013_02Thesis.pdf?sequence=1
   Tags: [Science, Technical Skills, All]
 
 - id: GP2
@@ -40,19 +40,17 @@
   Desc: Bioinformatics focused on genomics, using a variety of technologies such as R, Bash, SQL and Python to analyse, visualize, document data as well as in depth technical support for researchers.
   Examples:
     id: pubA5
-    	type: Thanks and Acknowledgement
-    	title: Disease-specific, neurosphere-derived cells as models for brain disorders
-    	authors: Nicholas Matigian, Greger Abrahamsen, Ratneswary Sutharsan, Anthony L. Cook, Alejandra M. Vitale, Amanda Nouwens, Bernadette Bellette, Jiyuan An, Matthew Anderson, Anthony G. Beckhouse, Maikel Bennebroek, Rowena Cecil, Alistair M. Chalk, Julie Cochrane, Yongjun Fan, François Féron, Richard McCurdy, John J. McGrath, Wayne Murrell, Chris Perry, Jyothy Raju, Sugandha Ravishankar, Peter A. Silburn, Greg T. Sutherland, Stephen Mahler, George D. Mellick, Stephen A. Wood, Carolyn M. Sue, Christine A. Wells, Alan Mackay-Sim
-    	year: 2010
-    	where: Disease Models and Mechanisms
-    	url: https://journals.biologists.com/dmm/article/3/11-12/785/20225/Disease-specific-neurosphere-derived-cells-as
+      type: Thanks and Acknowledgement
+      title: Disease-specific, neurosphere-derived cells as models for brain disorders
+      authors: Nicholas Matigian, Greger Abrahamsen, Ratneswary Sutharsan, Anthony L. Cook, Alejandra M. Vitale, Amanda Nouwens, Bernadette Bellette, Jiyuan An, Matthew Anderson, Anthony G. Beckhouse, Maikel Bennebroek, Rowena Cecil, Alistair M. Chalk, Julie Cochrane, Yongjun Fan, François Féron, Richard McCurdy, John J. McGrath, Wayne Murrell, Chris Perry, Jyothy Raju, Sugandha Ravishankar, Peter A. Silburn, Greg T. Sutherland, Stephen Mahler, George D. Mellick, Stephen A. Wood, Carolyn M. Sue, Christine A. Wells, Alan Mackay-Sim
+      year: 2010
+      where: Disease Models and Mechanisms
+      url: https://journals.biologists.com/dmm/article/3/11-12/785/20225/Disease-specific-neurosphere-derived-cells-as
     id: pubA6
-    	type: Thanks and Acknowledgement
-    	title: A Cross-Study Transcriptional Analysis of Parkinsons Disease
-    	authors: Greg T. Sutherland ,Nicholas A. Matigian ,Alistair M. Chalk,Matthew J. Anderson,Peter A. Silburn,Alan Mackay-Sim,Christine A. Wells,George D. Mellick 
-    	year: 2009
-    	where: PLOS ONE
-    	url: https://doi.org/10.1371/journal.pone.0004955
+      type: Thanks and Acknowledgement
+      title: A Cross-Study Transcriptional Analysis of Parkinsons Disease
+      authors: Greg T. Sutherland ,Nicholas A. Matigian ,Alistair M. Chalk,Matthew J. Anderson,Peter A. Silburn,Alan Mackay-Sim,Christine A. Wells,George D. Mellick 
+      year: 2009
+      where: PLOS ONE
+      url: https://doi.org/10.1371/journal.pone.0004955
   Tags: [Science, Technical Skills, All]
-  
-  

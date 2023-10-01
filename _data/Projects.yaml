@@ -66,7 +66,7 @@
   Outcome: Successful <a href="https://prosecutionproject.griffith.edu.au/">platform built, used until upgrade and rebuild in 2019</a>
   MyRole: ["Developed PHP and Javascript code for Wordpress customizations"]
   Tags: [Technical Skills]
-  TechLang: [PHP (Yii, Wordpress), Javascript, Linux(RHEL)]
+  TechLang: [PHP (Yii & Wordpress), Javascript, Linux(RHEL)]
 
 - id: Pj8
   ProjName: 1000 Voices
@@ -76,5 +76,5 @@
   Outcome: Platform was built and was used until funded project ended.
   MyRole: ["Working with PHP and Wordpress, developed a multimedia blog that included a wide range of accessibility customizations to provide ease of use for the audience"]
   Tags: [Technical Skills]
-  TechLang: [PHP (Yii, Wordpress), Javascript, Linux(RHEL)]
+  TechLang: [PHP (Yii & Wordpress), Javascript, Linux(RHEL)]
   

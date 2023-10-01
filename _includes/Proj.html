@@ -29,8 +29,12 @@
   {% for SubRole in t.MyRole %}
             - {{ SubRole }}<br>
   {% endfor %}
-</div>
-<button class="techLang">Python</button>
+<br>
+<br>
+  {% for tl in t.TechLang %}
+  <button class="techLang">{{ tl }}</button>
+  {% endfor %}
+  </div>
 <br>
 <br>
 {% endfor %}

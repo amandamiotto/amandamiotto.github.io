@@ -39,6 +39,7 @@ body {
 }
 .techLang {
   border: none;
+  background-color: {{ site.colour2sdbr }};
   color: {{ site.textColouroverCol2 }};
   padding: 15px 32px;
   text-align: center;

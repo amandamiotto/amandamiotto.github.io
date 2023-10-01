@@ -37,7 +37,17 @@ body {
 .bi{
   fill: {{ site.colour4Misc }};
 }
-
+.techLang {
+  border: none;
+  color: {{ site.textColouroverCol2 }};
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 toggle-checkbox {
   background-color: {{ site.colour4Misc }};
   color: {{ site.colour5Misc }};

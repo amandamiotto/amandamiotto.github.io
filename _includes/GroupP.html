@@ -15,7 +15,7 @@
 <br>
 <tbody>    
 {% for p in t.Examples %}
-    <tr class="{{ t.Tags | join:" " }}" >
+    <tr class="{{ p.Tags | join:" " }}" >
     <td><a href="{{ p.url }}">{{ p.title }}</a></td>
     <td></td>
     <td style="vertical-align: top;">{{ p.authors }}<br></td>

@@ -2,13 +2,14 @@
 
 
 {% assign alltags = "," | split: "," %}
-
-{% for tg in site.data.Qual %}
+{% for allyml in site.data %}
+{% for tg in allyml %}
     {% for individTags in tg.Tags %}
         {% if individTags != "All" %}
             {% assign alltags = alltags | push:individTags %}
         {% endif %}
     {% endfor %}
+{% endfor %}
 {% endfor %}
 
 {% assign alltags = alltags | sort | uniq %}

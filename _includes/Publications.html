@@ -3,12 +3,12 @@
 <table style="width: 100%;text-align: left;">
 <tbody>    
 {% for p in site.data.Publications %}
-    <tr class="{{ t.Tags | join:" " }}" >
+    <tr class="{{ p.Tags | join:" " }}" >
     <td><a href="{{ p.url }}">{{ p.title }}</a></td>
     <td></td>
     <td style="vertical-align: top;">{{ p.authors }}<br></td>
     <td></td>
-    <td style="vertical-align: top;">{{ p.year }} - {{ p.where }}</td>
+    <td style="vertical-align: top;">{{ p.year }}</td>
   </tr>
 {% endfor %}
    </tbody>

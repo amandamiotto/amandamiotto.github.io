@@ -1,0 +1,19 @@
+<h2>Academic Publications</h2>
+<br>
+<table style="width: 100%;text-align: left;">
+<tbody>    
+{% for p in site.data.Publications %}
+    <tr class="{{ t.Tags | join:" " }}" >
+    <td><a href="{{ p.url }}">{{ p.title }}</a></td>
+    <td></td>
+    <td style="vertical-align: top;">{{ p.authors }}<br></td>
+    <td></td>
+    <td style="vertical-align: top;">{{ p.year }} - {{ p.where }}</td>
+  </tr>
+{% endfor %}
+   </tbody>
+  </table>
+</div>
+<br>
+<br><br>
+{% endfor %}

@@ -46,7 +46,7 @@
   Outcome: While internal portal worked as intended, project was cancelled due to technical differences between universities. Later, this need was met with <a href="https://docs.sylabs.io/guides/3.5/user-guide/introduction.html">Singularity</a> which we opted for.
   MyRole: ['Software Development of portal, using Python, PHP, HTML on a Linux server','Engagement with researchers to understand usage scenarios','Highlighted issues that arose during project and resolution where possible']
   Tags: [Technical Skills, Soft Skills]
-  TechLang: [Python, Git, Linux(RHEL), HPC scheduling systems (PBS)]
+  TechLang: [Python, Git, Linux(RHEL), HPC scheduling systems (PBS), MySQL]
 
 - id: Pj6
   ProjName: Casper Portal
@@ -56,7 +56,7 @@
   Outcome: Successful platform built, used until rebuild in 2023
   MyRole: ["Coded the scientific workflow that searches a chemical via its 3D structure"]
   Tags: [Technical Skills, Science]
-  TechLang: [PHP (Yii), Javascript, Linux(RHEL)]
+  TechLang: [PHP (Yii), Javascript, Linux(RHEL), MySQL]
   
 - id: Pj7
   ProjName: The Prosecution Project
@@ -66,7 +66,7 @@
   Outcome: Successful <a href="https://prosecutionproject.griffith.edu.au/">platform built, used until upgrade and rebuild in 2019</a>
   MyRole: ["Developed PHP and Javascript code for Wordpress customizations"]
   Tags: [Technical Skills]
-  TechLang: [PHP (Yii & Wordpress), Javascript, Linux(RHEL)]
+  TechLang: [PHP (Yii & Wordpress), Javascript, Linux(RHEL), MySQL]
 
 - id: Pj8
   ProjName: 1000 Voices
@@ -76,5 +76,5 @@
   Outcome: Platform was built and was used until funded project ended.
   MyRole: ["Working with PHP and Wordpress, developed a multimedia blog that included a wide range of accessibility customizations to provide ease of use for the audience"]
   Tags: [Technical Skills]
-  TechLang: [PHP (Yii & Wordpress), Javascript, Linux(RHEL)]
+  TechLang: [PHP (Yii & Wordpress), Javascript, Linux(RHEL), MySQL]
   

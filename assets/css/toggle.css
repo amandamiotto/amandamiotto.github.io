@@ -21,7 +21,7 @@
 }
 .toggle-switch:before {
   display: block;
-  background: linear-gradient(to bottom, #fff 0%, {{ site.colour4Misc }} 100%);
+  background: linear-gradient(to bottom, #fff 0%, #eee 100%);
   border-radius: 50%;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
   width: 24px;
@@ -36,7 +36,7 @@
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
 }
 .toggle-checkbox:checked + .toggle-switch {
-  background: #56c080;
+  background: {{ site.colour4Misc }};
 }
 .toggle-checkbox:checked + .toggle-switch:before {
   left: 30px;

@@ -2,15 +2,31 @@
 
 
 {% assign alltags = "," | split: "," %}
-{% for allyml in site.data %}
-{% for tg in allyml %}
+{% for tg in site.data.Qual %}
     {% for individTags in tg.Tags %}
         {% if individTags != "All" %}
             {% assign alltags = alltags | push:individTags %}
         {% endif %}
     {% endfor %}
 {% endfor %}
+
+{% for tg in site.data.Projects %}
+    {% for individTags in tg.Tags %}
+        {% if individTags != "All" %}
+            {% assign alltags = alltags | push:individTags %}
+        {% endif %}
+    {% endfor %}
 {% endfor %}
+
+{% for tg in site.data.EmpHist %}
+    {% for individTags in tg.Tags %}
+        {% if individTags != "All" %}
+            {% assign alltags = alltags | push:individTags %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+
 
 {% assign alltags = alltags | sort | uniq %}
 

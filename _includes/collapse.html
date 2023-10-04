@@ -5,10 +5,21 @@
 // style="font-weight:800"
   // style="color:#403e3e"
   // to select not class document.querySelector("tr:not([class])")
- 
+
+/*
+function Highlighttags(hittag,alltags) {
+Put all blank/unshaded (maybe use hideAll)
+Loop through alltags
+  Get status of that tags
+  if tag_toggle is on 
+    Highlight/bold all elements with that tag
+*/
+
+  
 var selectedtopics = [];  
   
 function hideAll() {
+  // removes all filters
   var TablesNames = document.querySelectorAll(element='table'); 
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
     for (var row=0;row < TablesNames[Tabindex].rows.length;row++){
@@ -40,10 +51,13 @@ function hideTableLine(divname) {
         }
   }
 }  
+
+
   
   
   
 function shadeAllElse(){
+  // Delete this? It relies on the ALL tag, which I might remove
   var allEls = document.getElementsByClassName(['All']);
   for(var el=0; el < allEls.length; el++){
         allEls[el].style="color:#403e3e";

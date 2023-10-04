@@ -1,14 +1,20 @@
 - lang: Python
   context: Data handling, Training Researchers, Image analysis and Web development
+  
+- lang: R
+  context: Data handling, Training Researchers, Image analysis and Web development
 
+- lang: SQL
+  context: Designing databases, writing schemas etc. Comfortable in MySQL, PostgreSQL, SQLite.
+
+- lang: Linux/Bash Scripting
+  context: General CLI skills on Ubuntu, RHEL, Centos; Training Researchers
+  
 - lang: PHP
   context: Web frameworks such as Yii and Wordpress
 
 - lang: CSS
   context: Web frameworks, this CV
-
-- lang: Linux/Bash Scripting
-  context: General CLI skills on Ubuntu, RHEL, Centos; Training Researchers
 
 - skill: Git and Github/Gitlab/Bitbucket
   context: General programming use, 3D printable models, Training Researchers, Github pages 
@@ -17,7 +23,7 @@
   context: Platforms include PBS, Torque, SLURM, Singularity - Comfortable with general use and debugging, Training Researchers
 
 - skill: Cloud Compute
-  context: General use of Openstack (via <a href="https://ardc.edu.au/services/ardc-nectar-research-cloud/">Nectar</a>) including troubleshooting client issues on Nectar, basic experience with Azure blob storage
+  context: General use of Openstack (via <a href="https://ardc.edu.au/services/ardc-nectar-research-cloud/">Nectar</a>) including troubleshooting client issues on Nectar, basic experience with Azure blob storage and AWS clusters
 
 - skill: Microsoft 365
   context: On top of normal usage, experience with Microsoft Power Automate, Sharepoint and PowerBI

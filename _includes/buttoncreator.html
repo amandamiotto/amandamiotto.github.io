@@ -34,7 +34,7 @@
 <left>
 {% for each in alltags %}
     <label class="toggle">
-    <input id='tog_{{ each }}' name='TopicToggle' class="toggle-checkbox" type="checkbox" value='True' onchange='hideTableLine("{{ each }}")'>
+    <input id='tog_{{ each }}' name='TopicToggle' class="toggle-checkbox" type="checkbox" value='True' onchange='hideTableLine("{{ each }}");Highlighttags("{{ each }}","{{ alltags }}"')>
     <div class="toggle-switch"></div>
     <span class="toggle-label">{{ each }}</span>
     </label>

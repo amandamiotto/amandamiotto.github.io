@@ -32,9 +32,17 @@
 
 <p>Filter by skill subset: </p><centre>
 <left>
+
+<script>
+  let js_array =[];
+  {% for item in alltags %}
+     alltagsarray.push({{item}});
+  {% endfor %}
+</script>
+    
 {% for each in alltags %}
     <label class="toggle">
-    <input id='tog_{{ each }}' name='TopicToggle' class="toggle-checkbox" type="checkbox" value='True' onchange='hideTableLine("{{ each }}");Highlighttags("{{ each }}","{{ alltags }}");'>
+    <input id='tog_{{ each }}' name='TopicToggle' class="toggle-checkbox" type="checkbox" value='True' onchange='hideTableLine("{{ each }}");Highlighttags("{{ each }}",alltagsarray);'>
     <div class="toggle-switch"></div>
     <span class="toggle-label">{{ each }}</span>
     </label>

@@ -3,20 +3,14 @@
 <script>
   
 // style="font-weight:800"
-  // style="color:#403e3e"
 
 
 function Highlighttags(hittag,alltags) {
   // to reset everything to nothing
-  //var TablesNames = document.querySelectorAll(element='table'); 
-  var TablesNames = document.body.getElementsByTagName("*");
+  var TablesNames = document.querySelectorAll("[style*='font-weight: 800']")
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
-    /*for (var row=0;row < TablesNames[Tabindex].rows.length;row++){
-      //element.style.removeProperty("height")
-      TablesNames[Tabindex].rows[row].style.removeProperty("font-weight");
-    }*/
     TablesNames[Tabindex].style.removeProperty("font-weight");
-  }
+  };
   // now to bold the correct bits
   for (i=0; i<alltags.length; i++){
      elename="tog_".concat(alltags[i]);
@@ -35,14 +29,10 @@ function Highlighttags(hittag,alltags) {
   
 function hideAll() {
   // removes all filters
-  //var TablesNames = document.querySelectorAll(element='table'); 
   var TablesNames = document.querySelectorAll("[style*='font-weight: 800']")
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
-  //  for (var row=0;row < TablesNames[Tabindex].rows.length;row++){
-  //    TablesNames[Tabindex].rows[row].style.removeProperty("font-weight");
-  //  }
     TablesNames[Tabindex].style.removeProperty("font-weight");
-  }
+  };
   const togswitch = Array.from(document.getElementsByClassName("toggle-checkbox"));
   togswitch.forEach(ts => {
     ts.checked=false;

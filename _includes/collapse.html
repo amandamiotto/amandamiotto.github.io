@@ -9,8 +9,9 @@
 
 function Highlighttags(hittag,alltags) {
   for (i=0; i<alltags.length; i++){
-     elename="tog_".join(alltags[i]);
+     elename="tog_".concat(alltags[i]);
      console.log(elename);
+     console.log(document.getElementsById(elename));
   };
 //Put all blank/unshaded (maybe use hideAll)
 //Loop through alltags

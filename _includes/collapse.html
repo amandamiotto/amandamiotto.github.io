@@ -8,17 +8,18 @@
 
 
 function Highlighttags(hittag,alltags) {
+  hideAll();
   for (i=0; i<alltags.length; i++){
      elename="tog_".concat(alltags[i]);
-     console.log(elename);
-     console.log(document.getElementById(elename));
-     console.log(document.getElementById(elename).checked);
+     if (document.getElementById(elename).checked){
+         console.log(elename);
+         var className = document.getElementsByClassName(elename);
+         for(var index=0;index < className.length;index++){
+            var item=className[index];
+            item.style="font-weight: 800;";
+            };      
+      };
   };
-//Put all blank/unshaded (maybe use hideAll)
-//Loop through alltags
-//  Get status of that tags
-//  if tag_toggle is on 
-//    Highlight/bold all elements with that tag
 };
 
   

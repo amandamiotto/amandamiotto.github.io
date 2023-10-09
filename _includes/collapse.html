@@ -13,7 +13,9 @@ function Highlighttags(hittag,alltags) {
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
     for (var row=0;row < TablesNames[Tabindex].rows.length;row++){
       //TablesNames[Tabindex].rows[row].style.display = "none";
-      TablesNames[Tabindex].rows[row].style = null;
+      //TablesNames[Tabindex].rows[row].style = null;
+      //element.style.removeProperty("height")
+      TablesNames[Tabindex].rows[row].style.removeProperty("font-weight");
     }
   }
   // now to bold the correct bits
@@ -30,15 +32,16 @@ function Highlighttags(hittag,alltags) {
 };
 
   
-var selectedtopics = [];  
+
   
 function hideAll() {
   // removes all filters
-  var TablesNames = document.querySelectorAll(element='table'); 
+  var TablesNames = document.querySelectorAll(); 
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
     for (var row=0;row < TablesNames[Tabindex].rows.length;row++){
       //TablesNames[Tabindex].rows[row].style.display = "none";
-      TablesNames[Tabindex].rows[row].style = null;
+      //TablesNames[Tabindex].rows[row].style = null;
+      TablesNames[Tabindex].rows[row].style.removeProperty("font-weight");
     }
   }
   const togswitch = Array.from(document.getElementsByClassName("toggle-checkbox"));
@@ -47,36 +50,8 @@ function hideAll() {
   });
 selectedtopics = [];
   
-} 
-    
+};
 
-function hideTableLine(divname) {
-  shadeAllElse();
-  if (selectedtopics.includes(divname)){
-    selectedtopics.pop(divname);  
-  }else{
-    selectedtopics.push(divname);  
-  }
-  for(eachtopic of selectedtopics){
-    var className = document.getElementsByClassName(eachtopic);
-    for(var index=0;index < className.length;index++){
-        var item=className[index];
-        item.style="font-weight: 800;";
-        }
-  }
-}  
-
-
-  
-  
-  
-function shadeAllElse(){
-  // Delete this? It relies on the ALL tag, which I might remove
-  var allEls = document.getElementsByClassName(['All']);
-  for(var el=0; el < allEls.length; el++){
-        allEls[el].style="color:#403e3e";
-    }
-}
   
 
   

@@ -8,7 +8,15 @@
 
 
 function Highlighttags(hittag,alltags) {
-  hideAll();
+  // to reset everything to nothing
+  var TablesNames = document.querySelectorAll(element='table'); 
+  for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
+    for (var row=0;row < TablesNames[Tabindex].rows.length;row++){
+      //TablesNames[Tabindex].rows[row].style.display = "none";
+      TablesNames[Tabindex].rows[row].style = null;
+    }
+  }
+  // now to bold the correct bits
   for (i=0; i<alltags.length; i++){
      elename="tog_".concat(alltags[i]);
      if (document.getElementById(elename).checked){

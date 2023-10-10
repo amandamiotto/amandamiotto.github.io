@@ -1,3 +1,131 @@
-<h2>Changes I've made/Ideas I had (need better title)</h2>
+<h2>Strategic design and implementation</h2>
+
+During my career, I have proposed, advocated and lead changes to improve our university and the eResearch field.
+
+ - .
+
+<div class="" id="Strat1">
+  <table style="width: 100%;">
+      <tr style="text-align: left; ">
+      <td style="vertical-align: top;">
+        <h4>Hacky Hour</h4>
+      </td>
+    <td style="text-align: right;" >
+  2015-ongoing
+  </td></tr>
+  </table>
+  <br>
+  A meetup/helpdesk for researchers starting in the data science field.
+  
+  <b>Description:</b>
+  <br>
+  This initiative was set up to compliment the release of 'Intro to Programming for Researchers' classes. During my work in Bioinformatics, I realised there was no real support for researchers to learn how to deal with large amounts of data, or needing to learn data science. This was reflected in groups of researchers reaching out and sharing the same experiences. I established numerous workshops to meet these needs, and started the "Hacky Hours" to support researchers outside of these workshops. We became the place researchers came to ask about machine learning, high performance compute, large data storage, what programming language to start with and help with debugging. This initiative was modelled on UniMelb's Hacky Hour, but altered to suit our local needs.
+  <br><br>
+  <b> Project Outcome:</b>
+  <br>
+  Hundreds have attended since implementation, with 
+  We also became a casual meeting place to find others across the university doing similar research.
+  Other universities
+
+  Papers/thesis acknowledgements
+  <b>Acknowledged Contributions:</b>
+    <br>
+    <table style="width: 100%;text-align: left;">
+    <br>
+    <tbody>    
+      <tr class="" >
+        <td><a href="https://research-repository.griffith.edu.au/handle/10072/422984">The Feeding Ecology of Southern Hemisphere Humpback Whales (Megaptera novaeangliae) in a Changing Antarctic Ecosystem</a></td>
+        <td></td>
+        <td style="vertical-align: top;">Jasmin Gross<br></td>
+        <td></td>
+        <td style="vertical-align: top;">2021- Thesis</td>
+      </tr>
+       <tr >
+        <td><a href="https://research-repository.griffith.edu.au/bitstream/handle/10072/389679/Bentley,%20Steven_Final%20Thesis_redacted.pdf?sequence=4">Finding New Molecular Targets for Parkinson's Disease through Gene Hunting in Queensland Families with Inherited Parkinsonism</a></td>
+        <td></td>
+        <td style="vertical-align: top;">Bentley, Steven R<br></td>
+        <td></td>
+        <td style="vertical-align: top;">2019 - Thesis</td>
+      </tr>
+      <tr class="" >
+        <td><a href="https://academic.oup.com/jcb/article/38/2/166/4857216?login=false">De novo SNP discovery and strong genetic structuring between upstream and downstream populations of Paratya australiensis Kemp, 1917</a></td>
+        <td></td>
+        <td style="vertical-align: top;">Sharmeen Rahman, Daniel Schmidt, Jane Hughes<br></td>
+        <td></td>
+        <td style="vertical-align: top;">2018 - Journal of Crustacean Biology</td>
+      </tr>
+      <tr class="" >
+        <td><a href="https://research-repository.griffith.edu.au/bitstream/handle/10072/381063/e%20Souza%20Reis%2cVanessa_Final%20Thesis_redacted.pdf?sequence=1&isAllowed=y">Integrated conservation planning for river-wetland mosaics</a></td>
+        <td></td>
+        <td style="vertical-align: top;">e Souza Reis, Vanessa<br></td>
+        <td></td>
+        <td style="vertical-align: top;">2018 Thesis</td>
+      </tr>
+      <tr class="" >
+        <td>The Effects of Consumption and Exercise Stereotypes on Evaluations: How do People Shape Up in the Eyes of Their Beholders?</td>
+        <td></td>
+        <td style="vertical-align: top;">Lori Ellen Leach<br></td>
+        <td></td>
+        <td style="vertical-align: top;">2014 - Thesis</td>
+      </tr>
+      </tbody>
+   </table>
+  
+  <br><br>
+  <b>My Role in Project:</b>
+  <br>
+            - Creating initial proposal<br>
+            - Implementation from start until 2022<br>
+            - Trobleshooting code errors and open source scripts<br>
+            - Guiding researchers to the most relevant resources<br>
+            - Connecting researchers with other resources across the university<br>
+            - Sharing knowledge with other universities<br>
+            - Using Feedback to lead changes, to suit our growing needs<br>
+<br>
+  <button class="techLang">Python</button>
+  <button class="techLang">Linux (multiple flavours)</button>
+  <button class="techLang">High Performance Compute</button>
+  <button class="techLang">Cloud Compute (Open Stack, Google Cloud, Azure)</button>
+  <button class="techLang">Matlab</button>
+  <button class="techLang">C (basic knowledge)</button>
+  </div>
+<br>
+<br>
 
 
+
+<div class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
+  <table style="width: 100%;">
+      <tr style="text-align: left; ">
+      <td style="vertical-align: top;">
+        <h4>{{ t.ProjName }}</h4>
+      </td>
+    <td style="text-align: right;" >
+    {% if t.Group %}
+      {{ t.Group }} - 
+    {% endif %}
+  {{ t.Year }}
+  </td></tr>
+  </table>
+  <br>
+  
+  <b>Project Description:</b>
+  <br>
+  {{ t.ProjDesc }}
+  <br><br>
+  <b> Project Outcome:</b>
+  <br>
+  {{ t.Outcome }}
+  <br><br>
+  <b>My Role in Project:</b>
+  <br>
+  {% for SubRole in t.MyRole %}
+            - {{ SubRole }}<br>
+  {% endfor %}
+<br>
+  {% for tl in t.TechLang %}
+  <button class="techLang">{{ tl }} </button>
+  {% endfor %}
+  </div>
+<br>
+<br>

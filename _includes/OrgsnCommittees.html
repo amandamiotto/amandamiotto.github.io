@@ -1,18 +1,31 @@
 <h2>Committees</h2>
 
 <br><br>
-In addition to many internal committees, I've been part of the following committees.
+In addition to many internal committees, I've been part of the following external committees.
+<br><br>
 
+<table style="width: 100%;text-align: left;">
+<thead>
+  <tr style="text-align:left; vertical-align: top;">
+    <th style="width:30%">Committee</th>
+    <th style="width:5%">  </th>
+    <th style="width:10%">Year</th>
+    <th style="width:5">  </th>
+    <th style="width:50%">Description</th>
+  </tr>
+</thead>
+<br>
+<tbody>    
 {% for t in site.data.committee %}
-<div class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
-  <h4>{{ t.title }}</h4>
-  <div style="text-align: left; vertical-align: top;" >
-  <b>{{ t.time }}</b>
-  <br>
-  </div>
-  {{ t.description }}
-  <br>
-</div>
-<br>
-<br>
+    <tr class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
+    <td><b>{{ t.title }}</b></td>
+    <td></td>
+    <td style="vertical-align: top;">{{ t.time }}</td>
+    <td></td>
+    <td style="vertical-align: top;">{{ t.description }}</td>
+  </tr>
 {% endfor %}
+   </tbody>
+  </table>
+<br>
+<br>

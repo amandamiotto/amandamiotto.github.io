@@ -1,0 +1,18 @@
+<h2>Committees</h2>
+
+<br><br>
+In addition to many internal committees, I've been part of the following committees.
+
+{% for t in site.data.committee %}
+<div class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
+  <h4>{{ t.title }}</h4>
+  <div style="text-align: left; vertical-align: top;" >
+  <b>{{ t.time }}</b>
+  <br>
+  </div>
+  {{ t.description }}
+  <br>
+</div>
+<br>
+<br>
+{% endfor %}

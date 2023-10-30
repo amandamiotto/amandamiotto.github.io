@@ -8,13 +8,21 @@
 function Highlighttags(hittag,alltags) {
   // to reset everything to nothing
   var TablesNames = document.querySelectorAll("[style*='font-weight: 800']")
+  TablesNames.concat(document.querySelectorAll("[style*='font-weight: lighter']"))
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
     TablesNames[Tabindex].style.removeProperty("font-weight");
   };
   // now to bold the correct bits
   for (i=0; i<alltags.length; i++){
      elename="tog_".concat(alltags[i]);
-     if (document.getElementById(elename).checked){
+    if (document.getElementById(elename).unchecked){
+         var className = document.getElementsByClassName(alltags[i]);
+         for(var index=0;index < className.length;index++){
+            var item=className[index];
+            item.style="font-weight: lighter;";
+            };      
+    };    
+    else if (document.getElementById(elename).checked){
          var className = document.getElementsByClassName(alltags[i]);
          for(var index=0;index < className.length;index++){
             var item=className[index];
@@ -30,6 +38,7 @@ function Highlighttags(hittag,alltags) {
 function hideAll() {
   // removes all filters
   var TablesNames = document.querySelectorAll("[style*='font-weight: 800']")
+  TablesNames.concat(document.querySelectorAll("[style*='font-weight: lighter']"))
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
     TablesNames[Tabindex].style.removeProperty("font-weight");
   };

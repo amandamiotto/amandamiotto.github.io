@@ -1,15 +1,11 @@
 <h2>Technical Skills</h2>
 <br>
-<b>Languages</b>
+<div id="techskills"><b>Languages</b></div>
 <br>
 <table style="width: 100%;text-align: left;">
   <ul>
   {% for t in site.data.TechSkills %}
     {% if t.lang %}
-  <!--  <tr class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
-      <td><li>{{ t.lang }} </li></td>
-      <td>{{ t.context }}</td> 
-    </tr>-->
       <li>{{ t.lang }} ({{ t.context }}) </li>
     {% endif %}
   {% endfor %}
@@ -21,10 +17,6 @@
 <ul>
 {% for t in site.data.TechSkills %}
     {% if t.skill %}
-  <!--  <tr class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
-      <td><li>{{ t.lang }} </li></td>
-      <td>{{ t.context }}</td> 
-    </tr>-->
       <li>{{ t.skill }} ({{ t.context }}) </li>
     {% endif %}
   {% endfor %}  

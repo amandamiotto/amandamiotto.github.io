@@ -7,8 +7,7 @@
 
 function Highlighttags(hittag,alltags) {
   // to reset everything to nothing
-  var TablesNames = document.querySelectorAll("[style*='font-weight: 800']")
-  TablesNames.concat(document.querySelectorAll("[style*='font-weight: lighter']"))
+  var TablesNames = document.querySelectorAll("[style*='font-weight: 800'],[style*='font-weight: lighter']");
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
     TablesNames[Tabindex].style.removeProperty("font-weight");
   };
@@ -37,8 +36,7 @@ function Highlighttags(hittag,alltags) {
   
 function hideAll() {
   // removes all filters
-  var TablesNames = document.querySelectorAll("[style*='font-weight: 800']")
-  TablesNames.concat(document.querySelectorAll("[style*='font-weight: lighter']"))
+  var TablesNames = document.querySelectorAll("[style*='font-weight: 800'],[style*='font-weight: lighter']");
   for(var Tabindex=0;Tabindex < TablesNames.length;Tabindex++){
     TablesNames[Tabindex].style.removeProperty("font-weight");
   };

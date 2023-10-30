@@ -14,7 +14,7 @@ function Highlighttags(hittag,alltags) {
   // now to bold the correct bits
   for (i=0; i<alltags.length; i++){
      elename="tog_".concat(alltags[i]);
-    if (document.getElementById(elename).unchecked){
+    if (document.getElementById(elename).checked == false){
          var className = document.getElementsByClassName(alltags[i]);
          for(var index=0;index < className.length;index++){
             var item=className[index];

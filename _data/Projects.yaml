@@ -68,6 +68,16 @@
   Tags: [Technical Skills]
   TechLang: [PHP (Yii & Wordpress), Javascript, Linux(RHEL), MySQL]
 
+- id: Pj9
+  ProjName: Griffith Agribusiness
+  Group: Griffith Asia Institute
+  Year: 2014-2016
+  ProjDesc: A platform to share information and receive data from clients in Asia with varying digital literacy.
+  Outcome: A platform was built with static information, calendar, a dropbox functionality and blogs.
+  MyRole: ["Gathered requirements","Proposed Architecture","Developed PHP and Javascript code for Wordpress customizations","Client liaison for alterations and updates"]
+  Tags: [Technical Skills]
+  TechLang: [PHP (Yii & Wordpress), Javascript, Linux(RHEL), MySQL]
+
 - id: Pj8
   ProjName: 1000 Voices
   Group: Research Centre for Clinical and Community Practice

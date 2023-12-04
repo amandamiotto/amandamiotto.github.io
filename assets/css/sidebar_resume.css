@@ -92,5 +92,6 @@ hr {
   }
 .content {
   order: 2;
+  overflow-y: auto;
   }
 }

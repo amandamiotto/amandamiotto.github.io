@@ -6,4 +6,3 @@ This collection of skills happened for three reasons:
 3. I've found concepts/ideas/technology that has interested me and there was an opportunity to benefit a client.
 
 I also may implement this as a part 2 of https://amandamiotto.github.io/ResumeLesson/ in the future.
-

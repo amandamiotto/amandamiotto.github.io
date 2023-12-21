@@ -5,4 +5,4 @@ This collection of skills happened for three reasons:
 2. Over the years, researchers have approached me with unique problems or opportunities and I've learnt these skills to solve/implement them
 3. I've found concepts/ideas/technology that has interested me and there was an opportunity to benefit a client.
 
-I also may implement this as a part 2 of https://amandamiotto.github.io/ResumeLesson/ in the future.
+I also may implement this as a part two of https://amandamiotto.github.io/ResumeLesson/ in the future.

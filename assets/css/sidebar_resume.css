@@ -82,9 +82,7 @@ hr {
 }
 
 @media screen and (max-width:415px){
-  body {
-    font-size: 60px;
-  }
+
   .flex-container {
     flex-direction: column;
     flex-wrap: wrap;
@@ -94,13 +92,7 @@ hr {
   order: 1;
   flex: 2;
   }
-.content {
-  order: 2;
-  flex: 3;
-  overflow-y: auto;
-  background-color: {{ site.colour2bg }};
-  color: {{ site.textColouroverCol2 }};
-  }
+
 
 }
 

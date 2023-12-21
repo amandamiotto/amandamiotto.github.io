@@ -98,7 +98,10 @@ hr {
   order: 2;
   flex: 3;
   overflow-y: auto;
+  background-color: {{ site.colour2bg }};
+  color: {{ site.textColouroverCol2 }};
   }
-};
+
+}
 
 

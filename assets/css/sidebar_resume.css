@@ -25,7 +25,7 @@ body {
   padding: 30px;
 
 }
-.sidenavOuter {
+.sidenav {
   order: 2;
   flex: 1;
   background-color: {{ site.colour2sdbr }};
@@ -33,6 +33,13 @@ body {
   justify-content: center;
   text-align: center;
   padding: 20px; 
+}
+.sidenavOuter {
+  background-color: {{ site.colour2sdbr }};
+  color: {{ site.textColouroverCol2 }};
+  justify-content: center;
+  text-align: center;
+  padding: 20px;  
 }
 .bi{
   fill: {{ site.colour4Misc }};

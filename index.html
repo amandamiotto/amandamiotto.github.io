@@ -4,6 +4,7 @@ title: Home
 datatable: true
 ---
 <div class="flex-container">
+   <div class="sidenavOuter">
    
  <div class="sidenav">
    {% include sidebarexample.html %}
@@ -29,5 +30,5 @@ datatable: true
 {% assign Tblclass= Tblclass | sort | uniq | join:" " %}
 
 {% include mainsection.html %}
-
+</div>
 </div>

@@ -25,7 +25,7 @@ body {
   padding: 30px;
 
 }
-.sidenav {
+.sidenavOuter {
   order: 2;
   flex: 1;
   background-color: {{ site.colour2sdbr }};

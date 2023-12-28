@@ -82,8 +82,7 @@ hr {
 
 @media screen and (max-width:415px){
 body {
-  width: 100%;
-  min-height: auto;
+  width: 100vw;
 }
   
 .flex-container {

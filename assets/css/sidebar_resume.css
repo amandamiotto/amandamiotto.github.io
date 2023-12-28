@@ -74,7 +74,7 @@ button {
   display: inline-block;
 }
 hr {
-  width:70%;
+  width:90%;
   text-align:center;
   border-color: {{ site.colour5Misc }};
   background-color: {{ site.colour5Misc }};
@@ -93,6 +93,7 @@ body {
 .sidenav {
   order: 1;
   flex: 1;
+  width:100vw;
 
 }
 .content {

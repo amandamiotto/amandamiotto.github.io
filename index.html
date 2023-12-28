@@ -14,21 +14,17 @@ datatable: true
    <center>
    <button onclick='hideAll()'>Remove filters</button></center>
 
-</div>
+   </div>
    <div class="content">
+      {% include collapse.html %}
+      {% include analytics.html %}
 
-
-{% include collapse.html %}
-{% include analytics.html %}
-
-
-
-{% for t in site.data.Qual %}
-   {% assign Tblclass= Tblclass | push: t.Tags %}
-{% endfor %}
-
-{% assign Tblclass= Tblclass | sort | uniq | join:" " %}
-
-{% include mainsection.html %}
-</div>
+      {% for t in site.data.Qual %}
+         {% assign Tblclass= Tblclass | push: t.Tags %}
+      {% endfor %}
+      
+      {% assign Tblclass= Tblclass | sort | uniq | join:" " %}
+      
+      {% include mainsection.html %}
+   </div>
 </div>

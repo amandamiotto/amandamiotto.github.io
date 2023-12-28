@@ -23,7 +23,6 @@ body {
   background-color: {{ site.colour1bg }};
   color: {{ site.textColouroverCol1 }};
   padding: 30px;
-
 }
 .sidenav {
   order: 2;
@@ -87,7 +86,7 @@ body {
   min-height: auto;
 }
   
-  .flex-container {
+.flex-container {
     flex-direction: column;
     flex-wrap: wrap;
   }
@@ -97,7 +96,10 @@ body {
   flex: 2;
   width: 100vw;
 }
-
+.content {
+  order: 2;
+  flex: 2;
+}
 }
 
 

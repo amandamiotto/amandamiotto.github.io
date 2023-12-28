@@ -83,6 +83,7 @@ hr {
 @media screen and (max-width:415px){
 body {
   width: 100vw;
+  background-color: {{ site.colour2sdbr }};
 }
   
 .flex-container {

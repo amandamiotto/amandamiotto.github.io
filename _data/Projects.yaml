@@ -5,7 +5,7 @@
   ProjDesc: As part of a National Research Data Management Framework project by ARDC, we conducted an university-wide scan of all academics and the culture around research data management.
   Outcome: Report on our current state of Research Data Management Culture, highlighting trends and evidence based potential actions to lead to improvements
   MyRole: ['Took part in national committee to build the <a href="https://ardc.edu.au/wp-content/uploads/2022/09/03-Culture-Change.pdf">framework draft</a> in the space of Culture', 'Coordinating with all research support groups for interactive input, feedback and findings throughout the project','Building a framework to cover aims, values and experiences of both the researchers individually and the institution as a whole to highlight requirements and gaps','Creating survey and interview questions, conducting and analysing results','Authoring the <a href="https://research-storage.griffith.edu.au/owncloud/index.php/s/lrflcGTCknC3a7x">final report and recommendations for publication</a> for actions']
-  Tags: [Business Analysis, Communications, Soft Skills]
+  Tags: [Technical and Data, Strategic, Communications ,Project Skills]
   TechLang: [Microsoft Power Automate, PowerBI, Sharepoint]
 
 
@@ -16,7 +16,7 @@
   ProjDesc:  Our Research Education team were manually sending recordings upon request, and were losing a lot of time to this work. I saw the opportunity to support them using a low-tech solution.
   Outcome: I set up a Sharepoint site with appropriate permissions and structure, so that staff at any technical level could upload using a folder on their desktop. This recording site is now used heavily, and saves the team in man hours.
   MyRole: ['Gathered updated requirements','Applied Critical and Creative Thinking models','Established a solution','Built training models aimed for all tech levels']
-  Tags: [Business Analysis, Technical Skills]
+  Tags: [Technical and Data]
   TechLang: [Sharepoint]
 
 - id: Pj2
@@ -26,7 +26,7 @@
   ProjDesc:  A replacement was needed for our Microscopy archival service as the previous system was out of date and no longer met requirements.
   Outcome: An archival system for microscopy images was replaced, and an analytical suite was included, leveraging internal compute hardware.
   MyRole: ['Gathered updated requirements','Conducted Market Scan','Facilitated procurement','Wrote Solution Architecture and underwent SA board approval','Worked with Cybersecurity to ensure system met with standards','Facilitated vendor access for installation and upgrades','Wrote beginner level documentation','Worked with research groups to onboard and clear roadbumps for individual labs','Programmatically exported cherrypicked images from previous system using Python, SQL and Bash']
-  Tags: [Business Analysis, Science, Technical Skills]
+  Tags: [Technical and Data, Project Skills]
   TechLang: [Python, Git, Linux (RHEL), PostgreSQL]
 
 
@@ -37,7 +37,7 @@
   ProjDesc: CA needed to aquire a full automated system to run their laboratory equipment and manage physical samples of compounds from clients. While they had a system in place, the system was outdated and no longer met requirements. Additionally, CA were buying new lab equipment that needed installation and integration into these systems.
   Outcome: A vendor solution was sourced. Hardware was installed into lab.
   MyRole: ['Mapped processes, gathered requirements and conducted market scan','Applied Critical Thinking Models', 'Assisted with Procurement as technical expertise','Facilitated lab hardware installation and integration into local back up and SQL systems','Mapped physical network integrations and liased with network team to install']
-  Tags: [Business Analysis, Science, Technical Skills]
+  Tags: [Project Skills, Technical and Data]
   TechLang: [Linux, MySQL]
 
 - id: Pj4
@@ -47,7 +47,7 @@
   ProjDesc: Built a platform to foster international collaboration in the field of mechanical circulatory support by developing open source 3D printable heart pumps with testing data. 
   Outcome:  Platform was built on Atlassian Bitbucket and Confluence systems, with <a href="https://onlinelibrary.wiley.com/doi/10.1111/aor.13361">publication of an invited editorial</a>
   MyRole: ["Collected Requirements and designed a solution using Git and Bitbucket",'Applied Critical and Creative Thinking models',"Facilitated discussions with Intellectual Property Specialist on appropriate licencing for 3D printed objects and associated data", "Worked with client and Atlassian to apply and be approved for their Open Source Cloud subscription","Organized and taught Intro to Git workshop for users","Worked with Research Lead to run <a href='https://medium.com/read-write-participate/artificial-hearts-mechanical-circulatory-support-and-open-source-355410b7c3bb'>project in Mozilla 2018 Global Sprint</a>","Submitted project for <a href='https://www.healthhack.com.au/health-hack-stories'>HealthHack 2018</a>","Technical lead for Industry Affiliates Program students for two cohorts"]
-  Tags: [Business Analysis, Science, Technical Skills, Communications, Teaching, Community Work, Soft Skills]
+  Tags: [Technical and Data, Communications ,Project Skills, Academic Research]
   TechLang: [Python, Git, Linux, Atlassian Cloud]
   
 - id: Pj5
@@ -57,7 +57,7 @@
   ProjDesc: Creation of a user-facing web portal to submit jobs to High Performance Computing systems, both internal and leveraging cloud infrastructure. 
   Outcome: While internal portal worked as intended, project was cancelled due to technical differences between universities. Later, this need was met with <a href="https://docs.sylabs.io/guides/3.5/user-guide/introduction.html">Singularity</a> which we opted for.
   MyRole: ['Software Development of portal, using Python, PHP, HTML on a Linux server','Engagement with researchers to understand usage scenarios','Highlighted issues that arose during project and resolution where possible']
-  Tags: [Technical Skills, Soft Skills]
+  Tags: [Technical and Data, Project Skills]
   TechLang: [Python, Git, Linux(RHEL), HPC scheduling systems (PBS), MySQL]
 
 - id: Pj6
@@ -67,7 +67,7 @@
   ProjDesc: Search engine for researchers to browse or search the ‘Open’ Compound Collections via a web portal. 
   Outcome: Successful platform built, used until rebuild in 2023
   MyRole: ["Coded the scientific workflow that searches a chemical via its 3D structure"]
-  Tags: [Technical Skills, Science]
+  Tags: [Technical and Data, Academic Research]
   TechLang: [PHP (Yii), Javascript, Linux(RHEL), MySQL]
   
 - id: Pj7
@@ -77,7 +77,7 @@
   ProjDesc: The digitization of historic court cases to assist in discovery and searching. Provided imaging and transcription tools to accentuate details in photos for handwriting analysis.
   Outcome: Successful <a href="https://prosecutionproject.griffith.edu.au/">platform built, used until upgrade and rebuild in 2019</a>
   MyRole: ["Developed PHP and Javascript code for Wordpress customizations"]
-  Tags: [Technical Skills]
+  Tags: [Technical and Data]
   TechLang: [PHP (Yii & Wordpress), Javascript, Linux(RHEL), MySQL]
 
 - id: Pj9
@@ -87,7 +87,7 @@
   ProjDesc: A platform to share information and receive data from clients in Asia with varying digital literacy.
   Outcome: A platform was built with static information, calendar, a dropbox functionality and blogs.
   MyRole: ["Gathered requirements",'Applied Critical and Creative Thinking models',"Proposed Architecture","Developed PHP and Javascript code for Wordpress customizations","Client liaison for alterations and updates"]
-  Tags: [Technical Skills]
+  Tags: [Technical and Data, Project Skills]
   TechLang: [PHP (Yii & Wordpress), Javascript, Linux(RHEL), MySQL]
 
 - id: Pj8
@@ -97,6 +97,6 @@
   ProjDesc: The 1000 Voices project aims to collect, display, and analyse 1000+ life stories from people with disabilities from around the world.
   Outcome: Platform was built and was used until funded project ended.
   MyRole: ["Working with PHP and Wordpress, developed a multimedia blog that included a wide range of accessibility customizations to provide ease of use for the audience"]
-  Tags: [Technical Skills]
+  Tags: [Technical and Data]
   TechLang: [PHP (Yii & Wordpress), Javascript, Linux(RHEL), MySQL]
   

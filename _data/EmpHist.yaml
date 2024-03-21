@@ -14,7 +14,7 @@
     <li>Guiding researchers on data sensitivity, reproducible research and data management</li>
     <li>Mentoring and assisting my replacement in the previous QCIF role</li>
     </ul>
-  Tags: [Technical and Data, Strategic, Communications ,Project Skills, Academic, Engagement and Relationship Building]
+  Tags: [Technical and Data, Strategic, Communications ,Project Skills, Academic Research, Engagement and Relationship Building]
 
 - id: EH2
   Institute: Griffith University
@@ -47,7 +47,7 @@
     <li>Writing, teaching and improving <a href="#WorkshopAnchor">multiple data science courses</a></li>
     <li><a href="#Strat1">Running 'Hacky Hours'</a> at Griffith university (mentoring and helping researchers with their data science code), assisting others to build Hacky Hours at their own institutes</li>
     <li>Organing and at times leading the <a href="#Strat2">local Research Bazaar conference </a>. </li></ul>
-  Tags: [Technical and Data, Communications ,Project Skills, Academic, Engagement and Relationship Building]
+  Tags: [Technical and Data, Communications ,Project Skills, Academic Research, Engagement and Relationship Building]
 
 - id: EH5
   Institute: Griffith University
@@ -78,6 +78,6 @@
   Role: Bioinformatician
   Responsibilties: |+
     This role included using R, SQL and Linux systems to code analysis tools for DNA research on Parkinson and Stem Cells. From writing scripts to implementing test versions of open source software, building databases and data cleaning, I worked across the whole data analysis pipeline.<br>
-  Tags: [Technical and Data, Academic]
+  Tags: [Technical and Data, Academic Research]
 
 

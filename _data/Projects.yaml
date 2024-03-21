@@ -7,7 +7,18 @@
   MyRole: ['Took part in national committee to build the <a href="https://ardc.edu.au/wp-content/uploads/2022/09/03-Culture-Change.pdf">framework draft</a> in the space of Culture', 'Coordinating with all research support groups for interactive input, feedback and findings throughout the project','Building a framework to cover aims, values and experiences of both the researchers individually and the institution as a whole to highlight requirements and gaps','Creating survey and interview questions, conducting and analysing results','Authoring the <a href="https://research-storage.griffith.edu.au/owncloud/index.php/s/lrflcGTCknC3a7x">final report and recommendations for publication</a> for actions']
   Tags: [Business Analysis, Communications, Soft Skills]
   TechLang: [Microsoft Power Automate, PowerBI, Sharepoint]
-  
+
+
+- id: Pj9
+  ProjName: Research Education and Development Recording portal
+  Year: 2022
+  Group: Griffith Uni
+  ProjDesc:  Our Research Education team were manually sending recordings upon request, and were losing a lot of time to this work. I saw the opportunity to support them using a low-tech solution.
+  Outcome: I set up a Sharepoint site with appropriate permissions and structure, so that staff at any technical level could upload using a folder on their desktop. This recording site is now used heavily, and saves the team in man hours.
+  MyRole: ['Gathered updated requirements','Applied Critical and Creative Thinking models','Established a solution','Built training models aimed for all tech levels']
+  Tags: [Business Analysis, Technical Skills]
+  TechLang: [Sharepoint]
+
 - id: Pj2
   ProjName: Microscopy Replacement Project
   Year: 2018-2020
@@ -18,13 +29,14 @@
   Tags: [Business Analysis, Science, Technical Skills]
   TechLang: [Python, Git, Linux (RHEL), PostgreSQL]
 
+
 - id: Pj3
   ProjName: Compounds Australia  - CASMaP Project
   Group: <a href="https://www.griffith.edu.au/griffith-sciences/compounds-australia">Compounds Australia (CA), Griffith Institute for Drug Discovery (GRIDD)</a>
   Year: 2017-2020
   ProjDesc: CA needed to aquire a full automated system to run their laboratory equipment and manage physical samples of compounds from clients. While they had a system in place, the system was outdated and no longer met requirements. Additionally, CA were buying new lab equipment that needed installation and integration into these systems.
   Outcome: A vendor solution was sourced. Hardware was installed into lab.
-  MyRole: ['Mapped processes, gathered requirements and conducted market scan', 'Assisted with Procurement as technical expertise','Facilitated lab hardware installation and integration into local back up and SQL systems','Mapped physical network integrations and liased with network team to install']
+  MyRole: ['Mapped processes, gathered requirements and conducted market scan','Applied Critical Thinking Models', 'Assisted with Procurement as technical expertise','Facilitated lab hardware installation and integration into local back up and SQL systems','Mapped physical network integrations and liased with network team to install']
   Tags: [Business Analysis, Science, Technical Skills]
   TechLang: [Linux, MySQL]
 
@@ -34,7 +46,7 @@
   Year: 2017-2018
   ProjDesc: Built a platform to foster international collaboration in the field of mechanical circulatory support by developing open source 3D printable heart pumps with testing data. 
   Outcome:  Platform was built on Atlassian Bitbucket and Confluence systems, with <a href="https://onlinelibrary.wiley.com/doi/10.1111/aor.13361">publication of an invited editorial</a>
-  MyRole: ["Collected Requirements and designed a solution using Git and Bitbucket","Facilitated discussions with Intellectual Property Specialist on appropriate licencing for 3D printed objects and associated data", "Worked with client and Atlassian to apply and be approved for their Open Source Cloud subscription","Organized and taught Intro to Git workshop for users","Worked with Research Lead to run <a href='https://medium.com/read-write-participate/artificial-hearts-mechanical-circulatory-support-and-open-source-355410b7c3bb'>project in Mozilla 2018 Global Sprint</a>","Submitted project for <a href='https://www.healthhack.com.au/health-hack-stories'>HealthHack 2018</a>","Technical lead for Industry Affiliates Program students for two cohorts"]
+  MyRole: ["Collected Requirements and designed a solution using Git and Bitbucket",'Applied Critical and Creative Thinking models',"Facilitated discussions with Intellectual Property Specialist on appropriate licencing for 3D printed objects and associated data", "Worked with client and Atlassian to apply and be approved for their Open Source Cloud subscription","Organized and taught Intro to Git workshop for users","Worked with Research Lead to run <a href='https://medium.com/read-write-participate/artificial-hearts-mechanical-circulatory-support-and-open-source-355410b7c3bb'>project in Mozilla 2018 Global Sprint</a>","Submitted project for <a href='https://www.healthhack.com.au/health-hack-stories'>HealthHack 2018</a>","Technical lead for Industry Affiliates Program students for two cohorts"]
   Tags: [Business Analysis, Science, Technical Skills, Communications, Teaching, Community Work, Soft Skills]
   TechLang: [Python, Git, Linux, Atlassian Cloud]
   
@@ -74,7 +86,7 @@
   Year: 2014-2016
   ProjDesc: A platform to share information and receive data from clients in Asia with varying digital literacy.
   Outcome: A platform was built with static information, calendar, a dropbox functionality and blogs.
-  MyRole: ["Gathered requirements","Proposed Architecture","Developed PHP and Javascript code for Wordpress customizations","Client liaison for alterations and updates"]
+  MyRole: ["Gathered requirements",'Applied Critical and Creative Thinking models',"Proposed Architecture","Developed PHP and Javascript code for Wordpress customizations","Client liaison for alterations and updates"]
   Tags: [Technical Skills]
   TechLang: [PHP (Yii & Wordpress), Javascript, Linux(RHEL), MySQL]
 

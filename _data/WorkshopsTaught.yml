@@ -3,32 +3,32 @@
   Desc: Focusing on working with data, teaching people who have never coded before
   URL: http://swcarpentry.github.io/python-novice-gapminder
   WherenWhen: Across Griffith University, all Queensland Universities, Research Bazaar Conference and many other locations from 2016, online and in person across 40+ workshops.
-  Tags: [Communication]
+  Tags: [Technical and Data, Communications]
 
 - id: WT2
   WorkshopName: Introduction to R
   Desc: Focusing on working with data, teaching people who have never coded before
   URL: http://swcarpentry.github.io/r-novice-gapminder
   WherenWhen: Across Griffith University, all Queensland Universities, Research Bazaar Conference, EcoScience Precient and many other locations from 2016, online and in person across 40+ workshops.
-  Tags: [Communication]
+  Tags: [Technical and Data, Communications]
 
 - id: WT3
   WorkshopName: Introduction to the Unix Shell
   Desc: Teaching people who have never coded before or seen a command line
   URL: http://swcarpentry.github.io/shell-novice
   WherenWhen: Across Griffith University, all Queensland Universities, Research Bazaar Conference and many other locations from 2016, online and in person across 10+ workshops.
-  Tags: [Communication]
+  Tags: [Technical and Data, Communications]
 
 - id: WT4
   WorkshopName: Introduction to Git and Version Control
   Desc: Teaching people who have never coded before or used Git
   URL: http://swcarpentry.github.io/git-novice
   WherenWhen: Across Griffith University, all Queensland Universities, Research Bazaar Conference, Prince Charles Hospital and many other locations from 2016, online and in person across 10+ workshops.
-  Tags: [Communication]
+  Tags: [Technical and Data, Communications]
 
 - id: WT5
   WorkshopName: Data Management
   Desc: A practical guide on how to manage research data at Griffith University.
   URL: 
   WherenWhen: Across Griffith University from 2016.
-  Tags: [Communication]
+  Tags: [Communications, Technical and Data]

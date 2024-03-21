@@ -31,7 +31,7 @@
       year: 2013
       where:
       url: https://research-repository.griffith.edu.au/bitstream/handle/10072/366228/Nasir_2013_02Thesis.pdf?sequence=1
-  Tags: [Science, Technical Skills, All]
+  Tags: [Technical and Data, Academic]
 
 - id: GP2
   Institute: National Centre for Adult Stem Cell Research- Wells Lab ( Now based at UniMelb )
@@ -52,4 +52,4 @@
       year: 2009
       where: PLOS ONE
       url: https://doi.org/10.1371/journal.pone.0004955
-  Tags: [Science, Technical Skills, All]
+  Tags: [Technical and Data, Academic]

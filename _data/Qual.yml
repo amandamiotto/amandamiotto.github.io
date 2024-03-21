@@ -5,7 +5,7 @@
   desc: To learn how to teach beginner level data science courses 
   url: https://carpentries.org/become-instructor/
   Completed: 2015
-  Tags: [Qualifications,Teaching,Community Work, Communications,All]
+  Tags: [Technical and Data, Communications]
   
 - id: Ql2
   name: High Performance Computing (HPC) training for Researchers
@@ -13,14 +13,14 @@
   url: https://pawsey.org.au/supercomputing/training/
   institute: Pawsey Institute
   Completed: 2017
-  Tags: [Qualifications,Technical Skills,All]
+  Tags: [Technical and Data]
 
 - id: Ql3
   name: Agile Business Analysis (AgileBA®) Foundation Course 
   url: https://www.lumifywork.com/en-au/courses/agile-business-analysis-agileba-foundation/
   institute: DDLS (now Lumify)
   Completed: 2018
-  Tags: [Qualifications,Business Analysis,All]
+  Tags: [Project Skills]
 
 - id: Ql4
   name: Top Rope Rock Climbing
@@ -28,7 +28,7 @@
   desc: Certification for Rec Top Rope Rock Climbing
   url: http://www.paci.com.au/Downloads/D-PACIRecTop-rope.pdf
   Completed: 2018
-  Tags: [Qualifications,All] 
+  Tags: [] 
 
 - id: Ql5
   name: Managing at Griffith
@@ -36,7 +36,7 @@
   url: https://www.credly.com/org/griffith-university/badge/managing-at-griffith
   institute: Griffith University
   Completed: 2019
-  Tags: [Qualifications,Soft Skills,All]
+  Tags: [Communications]
   
 - id: Ql6
   name: Leading in the Digital Age
@@ -44,7 +44,7 @@
   url: https://mbs.edu/news/melbourne-business-school-launches-first-online-program-on-digital-disruption
   institute: Melbourne Business School
   Completed: 2019
-  Tags: [Qualifications,Soft Skills, All]
+  Tags: [Strategic, Communications, Engagement and Relationship Building]
 
 - id: Ql7
   name: Board Readiness Program
@@ -52,4 +52,4 @@
   url: https://wit.org.au/careers/board-readiness/
   institute: Women in Tech
   Completed: 2019
-  Tags: [Qualifications,Soft Skills, Business Analysis, Communications, All]
+  Tags: [Strategic, Engagement and Relationship Building, Communications]

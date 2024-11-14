@@ -1,3 +1,10 @@
+- id: WW0
+  WorkshopName: 7 Steps towards Reproducible Research
+  Desc: Leading on from previous work, this course was a collaboration between the UK Reproducibility Network and Griffith University. This train-the-trainer and self led workshop focused on non-technical ways that business continuity, knowledge trust and retention could be built into everyday processes. 
+  URL: https://amandamiotto.github.io/ReproducibleResearch/
+  WherenWhen: Taught across the whole UK with +80 trainers at various institutions, as well as +20 trainers in Australia. 
+  Tags: [Communications, Academic Research]
+
 - id: WW1
   WorkshopName: Data Storytelling
   Desc: A practical workshop focusing on "How to convey the impact of your research to the world". We talk about building blocks of knowledge and expert bias, using visualisations to highlight points and how to get your audience to "feel" the impact of your project. This workshop has been debuted at the THETA conference, and multiple other universities have since used our workshop material.

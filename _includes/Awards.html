@@ -1,0 +1,27 @@
+<h2>Awards</h2>
+
+<table style="width: 100%;text-align: left;">
+<thead>
+  <tr style="text-align:left; vertical-align: top;">
+    <th style="width:30%">Award</th>
+    <th style="width:5%">  </th>
+    <th style="width:50%">Organisation</th>
+    <th style="width:5">  </th>
+    <th style="width:10%">Date</th>
+  </tr>
+</thead>
+<br>
+<tbody>    
+{% for t in site.data.committee %}
+    <tr class="{{ t.Tags | join:" " }}" id="{{ t.id }}">
+    <td>{{ t.title }}</td>
+    <td></td>
+    <td style="vertical-align: top;">{{ t.description }}</td>
+    <td></td>
+    <td style="vertical-align: top;">{{ t.time }}</td>
+  </tr>
+{% endfor %}
+   </tbody>
+  </table>
+<br>
+<br>

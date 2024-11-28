@@ -1,42 +1,19 @@
 
-- id: Ql1
-  name: Instructor Certification
-  institute: The Carpentries
-  desc: To learn how to teach beginner level data science courses 
-  url: https://carpentries.org/become-instructor/
-  Completed: 2015
-  Tags: [Technical and Data, Communications]
-  
-- id: Ql2
-  name: High Performance Computing (HPC) training for Researchers
-  desc: Learn how to utilize a High Performance Compute Cluster, including using containers on a cluster for more reproducible work
-  url: https://pawsey.org.au/supercomputing/training/
-  institute: Pawsey Institute
-  Completed: 2017
+- id: Ql8
+  name: Introduction to Artificial Intelligence
+  desc: This Microskill is an introduction on how machines learn from data and explore various use cases and applications of AI.
+  url: https://training.tafensw.edu.au/course/view.php?id=299
+  institute: TAFE NSW
+  Completed: 2024
   Tags: [Technical and Data]
 
-- id: Ql3
-  name: Agile Business Analysis (AgileBA®) Foundation Course 
-  url: https://www.lumifywork.com/en-au/courses/agile-business-analysis-agileba-foundation/
-  institute: DDLS (now Lumify)
-  Completed: 2018
-  Tags: [Project Skills]
-
-- id: Ql4
-  name: Top Rope Rock Climbing
-  institute: Professional Association of Climbing Instructors
-  desc: Certification for Rec Top Rope Rock Climbing
-  url: http://www.paci.com.au/Downloads/D-PACIRecTop-rope.pdf
-  Completed: 2018
-  Tags: [] 
-
-- id: Ql5
-  name: Managing at Griffith
-  desc: Topics include Management & Leadership, Managing High Performance teams, Managing Change, Managing Difficult Situations & Managing the Team Environment. 
-  url: https://www.credly.com/org/griffith-university/badge/managing-at-griffith
-  institute: Griffith University
+- id: Ql7
+  name: Board Readiness Program
+  desc: Designed for female leaders from STEM disciplines to develop the skills, confidence and connections to take the next step towards taking your seat at the Board table.
+  url: https://wit.org.au/careers/board-readiness/
+  institute: Women in Tech
   Completed: 2019
-  Tags: [Communications]
+  Tags: [Strategic, Engagement and Relationship Building, Communications]
   
 - id: Ql6
   name: Leading in the Digital Age
@@ -46,19 +23,37 @@
   Completed: 2019
   Tags: [Strategic, Communications, Engagement and Relationship Building]
 
-- id: Ql7
-  name: Board Readiness Program
-  desc: Designed for female leaders from STEM disciplines to develop the skills, confidence and connections to take the next step towards taking your seat at the Board table.
-  url: https://wit.org.au/careers/board-readiness/
-  institute: Women in Tech
+
+- id: Ql5
+  name: Managing at Griffith
+  desc: Topics include Management & Leadership, Managing High Performance teams, Managing Change, Managing Difficult Situations & Managing the Team Environment. 
+  url: https://www.credly.com/org/griffith-university/badge/managing-at-griffith
+  institute: Griffith University
   Completed: 2019
-  Tags: [Strategic, Engagement and Relationship Building, Communications]
+  Tags: [Communications]
 
+- id: Ql3
+  name: Agile Business Analysis (AgileBA®) Foundation Course 
+  url: https://www.lumifywork.com/en-au/courses/agile-business-analysis-agileba-foundation/
+  institute: DDLS (now Lumify)
+  Completed: 2018
+  Tags: [Project Skills]
 
-- id: Ql8
-  name: Introduction to Artificial Intelligence
-  desc: This Microskill is an introduction on how machines learn from data and explore various use cases and applications of AI.
-  url: https://training.tafensw.edu.au/course/view.php?id=299
-  institute: TAFE NSW
-  Completed: 2024
+  
+- id: Ql2
+  name: High Performance Computing (HPC) training for Researchers
+  desc: Learn how to utilize a High Performance Compute Cluster, including using containers on a cluster for more reproducible work
+  url: https://pawsey.org.au/supercomputing/training/
+  institute: Pawsey Institute
+  Completed: 2017
   Tags: [Technical and Data]
+
+- id: Ql1
+  name: Instructor Certification
+  institute: The Carpentries
+  desc: To learn how to teach beginner level data science courses 
+  url: https://carpentries.org/become-instructor/
+  Completed: 2015
+  Tags: [Technical and Data, Communications]
+
+

@@ -1,4 +1,13 @@
 
+- id: Ql9
+  name: Agile Project Management Professional Certificate
+  desc: Project Management in both Scrum and Kanban formats leveraging Jira
+  url: https://www.linkedin.com/learning/certificates/1b5c801b9e266f7106636e1a6750aaedb08bbef457b75479322670a492a8e25e?u=82871586
+  institute: Atlassian
+  Completed: 2024
+  Tags: [Technical and Data]
+
+
 - id: Ql8
   name: Introduction to Artificial Intelligence
   desc: This Microskill is an introduction on how machines learn from data and explore various use cases and applications of AI.
